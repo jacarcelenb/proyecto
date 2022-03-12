@@ -314,7 +314,7 @@
 									<div class="mg-saerch-room">
 										<div class="mg-book-now mt80">
 												<div class="row">
-													<div class="col-md-4">
+													<div class="col-md-3">
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Bolivia</span> </h2>
 														<p> <strong>LIFE FORCE Bolivia</strong> ASAMBLEA NACIONAL DE BOLIVIA le está invitando a una reunión de Zoom programada. </p>
 														<p>Tema: Reunión pública de Zoom de la ASAMBLEA NACIONAL DE BOLIVIA</p>
@@ -335,15 +335,20 @@
 														<p>Unirse a la reunión Zoom <a href="https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09">
 https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09</a></p>
 													</div>
-													<div class="col-md-4">
+													<div class="col-md-3">
 														<h2 class="mg-bn-title">Inscripción  <span class="mg-bn-big">Formulario de Inscripción a nuevos Miembros</span></h2>
 														<p> <strong>LIFE FORCE</strong> En este formulario puede inscribirse en Life Forcé Bolivia, para poder ser miembro de este y participar en este plan de Restauración Mundial.</p>
 														<a href="inscripcion.php" class="btn btn-main">Inscripción</a>
 													</div>
-													<div class="col-md-4">
+													<div class="col-md-3">
 														<h2 class="mg-bn-title">Quejas  <span class="mg-bn-big">Formulario de Quejas y Sugerencias</span></h2>
 														<p> <strong>LIFE FORCE</strong> En este formulario puede ingresar alguna queja o sugerencia en Life Forcé Bolivia.</p>
 														<a href="quejas.php" class="btn btn-main">Formulario</a>
+													</div>
+
+													<div class="col-md-3">
+														<h2 class="mg-bn-title">Login</h2>
+														<a href="inciarsesion.php" class="btn btn-main">Iniciar Sesion</a>
 													</div>
 												</div>
 										</div>

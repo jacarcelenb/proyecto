@@ -1108,6 +1108,23 @@ ul.styled-list.list-star li:before {
   line-height: 28px;
   color: #fff;
 }
+
+.mg-book-now .mg-bn-title1 {
+  font-family: "Playfair Display", serif;
+  color: #e7b315;
+  font-size: 30px;
+  line-height: 43px;
+  margin: 0;
+  padding: 20px 0;
+  box-shadow: 3px 0 #e7b315;
+}
+.mg-book-now .mg-bn-title1 .mg-bn-big {
+  display: block;
+  font-size: 17px;
+  line-height: 28px;
+  color: #fff;
+}
+
 .mg-book-now .focus .form-control {
   color: #fff !important;
   border-color: #e7b315 !important;
