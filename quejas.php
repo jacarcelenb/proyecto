@@ -1,3 +1,5 @@
+<?php include("database.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head> 
@@ -121,48 +123,60 @@
 					<div class="col-md-7">
 						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
 						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->
-						<form class="clearfix" method="POST"  action="formcontacto.php" >
+						<form class="clearfix" method="POST"  action="database/crearqueja.php" >
 							
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre completo</label>
-								<input type="text" class="form-control" id="full-name" name="Nombre Completo">
+								<input type="text" class="form-control" id="full-name" name="nombrecompleto">
 							</div>
 							
 							
 							<div class="mg-contact-form-input">
-								<label for="subject">Es parte de Life Force Bolivia?</label>
-								<select id="disabledSelect" class="form-control"  NAME="Es parte Life Corce Bolivia?">
-					                <option VALUE="SI">SI</option>
-									<option VALUE="NO">NO</option>
+								<label for="subject">Es miembro?</label>
+								<select id="disabledSelect" class="form-control"  name="miembro">
+					                <option value="SI">SI</option>
+									<option value="NO">NO</option>
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="subject">Departamento o Provinsia/Region en que Reside?</label>
-								<input type="text" class="form-control" id="subject" name="Departamento">
+								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
+								<input type="text" class="form-control" id="subject" name="departamento">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto?</label>
-								<select id="disabledSelect" class="form-control"  NAME="Asunto">
-					                <option VALUE="Queja">Queja</option>
-									<option VALUE="Sugerencia">Sugerencia</option>
+								<select id="disabledSelect" class="form-control"  name="asunto">
+					                <option value="Queja">Queja</option>
+									<option value="Sugerencia">Sugerencia</option>
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5" name="Mensaje"></textarea>
+								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
 
 							<div class="mg-contact-form-input">
-								<label for="subject">A leido? <input type="checkbox" class="form-control" id="full-name"  name="SI A leido ">Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
+								<label for="subject">A leido? <input type="checkbox" class="form-control" id="full-name"  name="leido">Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
 							</div>
-							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
+							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
 					</div>
                     
 				</div>
 				</form>
-			</div>
+				 <!-- MESSAGES -->
+
+				 <?php if (isset($_SESSION['message'])) { ?>
+      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
+        <?= $_SESSION['message']?>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
 		</div>
+			</div>
+
+			
 <BR><BR>        
 <!--    FIN CONTENIDO     -->
 		<footer class="mg-footer">
