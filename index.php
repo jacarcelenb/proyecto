@@ -39,12 +39,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li ><a href="index.php">Inicio</a>
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li ><a href="iniciarsesion.php">Iniciar Sesion</a></li>
-								</ul>
-						</li> 
+							<li ><a href="index.php">Inicio</a></li> 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 								<ul class="dropdown-menu">
