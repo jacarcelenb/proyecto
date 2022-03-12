@@ -19,15 +19,6 @@
 		<link href="css/freepik.hotels.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 
-
-
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="js/html5shiv.min.js"></script>
-		<script src="js/respond.min.js"></script>
-		<![endif]-->
 		<script src="js/modernizr.custom.min.js"></script>
 	</head>
 	<body>
@@ -175,7 +166,6 @@
 <!--servicios -->
 		<div class="mg-rooms-cols">
 			<div class="container">
-            
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title">

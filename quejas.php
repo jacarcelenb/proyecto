@@ -115,15 +115,20 @@
 				</div>
 			</div>
 		</div>
-<!--    INICIO CONTENIDO     -->		<div class="mg-page">
+<div class="mg-page">
 			<div class="container">
 				<div class="row">
-					<form class="form-horizontal" method="post" action="quejasform.php">
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
+
+	
 						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
+
+					
+
+										
 						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->
-						<form class="clearfix" method="POST"  action="database/crearqueja.php" >
+						<form  method="POST"  action="crearqueja.php" >
 							
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre completo</label>
@@ -133,7 +138,7 @@
 							
 							<div class="mg-contact-form-input">
 								<label for="subject">Es miembro?</label>
-								<select id="disabledSelect" class="form-control"  name="miembro">
+								<select  class="form-control"  name="miembro">
 					                <option value="SI">SI</option>
 									<option value="NO">NO</option>
     					        </select>
@@ -144,7 +149,7 @@
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto?</label>
-								<select id="disabledSelect" class="form-control"  name="asunto">
+								<select  class="form-control"  name="asunto">
 					                <option value="Queja">Queja</option>
 									<option value="Sugerencia">Sugerencia</option>
     					        </select>
@@ -158,21 +163,21 @@
 								<label for="subject">A leido? <input type="checkbox" class="form-control" id="full-name"  name="leido">Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
 							</div>
 							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
+						
+			
 						</form>
+
+						<?php if (isset($_SESSION['message'])) { 
+							print("<h3>Queja registrada exitosamente</h3>"); ?>
+     
+                      <?php session_unset(); } ?>
 					</div>
+		
                     
 				</div>
-				</form>
-				 <!-- MESSAGES -->
-
-				 <?php if (isset($_SESSION['message'])) { ?>
-      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
-        <?= $_SESSION['message']?>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <?php session_unset(); } ?>
+		
+				
+		
 		</div>
 			</div>
 

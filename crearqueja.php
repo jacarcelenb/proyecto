@@ -1,6 +1,6 @@
 <?php
 
-include('database.php');
+include("database.php");
 
 if (isset($_POST['guardar_queja'])) {
   $nombre = $_POST['nombrecompleto'];
@@ -8,7 +8,12 @@ if (isset($_POST['guardar_queja'])) {
   $departamento = $_POST['departamento'];
   $asunto = $_POST['asunto'];
   $mensaje = $_POST['mensaje'];
-
+if ($miembro=="SI") {
+  $miembro = true;
+} else {
+  $miembro = false;
+  
+}
   $query = "INSERT INTO queja(nombres, esmiembro , departamento , asunto , mensaje) VALUES ('$nombre'
   , '$miembro' ,'$departamento' ,'$asunto' ,'$mensaje')";
   $result = mysqli_query($conn, $query);
@@ -19,7 +24,8 @@ if (isset($_POST['guardar_queja'])) {
 
   $_SESSION['message'] = 'Queja registrada exitosamente';
   $_SESSION['message_type'] = 'success';
-  header('Location: index.php');
+  
+   header("Location: quejas.php");
 
 }
 
