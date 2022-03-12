@@ -43,44 +43,44 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="historia.php">Nosotros</a></li>
-									<li ><a href="independencia.php">Independencia</a></li>
-									<li ><a href="misionvision.php">Mision/Vision</a></li>
-                                    <li ><a href="directiva.php">Asamblea</a></li>
-									<li ><a href="acercade.php">Acerca de</a></li>
-									<li ><a href="gobierno.php">Gobierno</a></li>
+									<li ><a href="pages/historia.php">Nosotros</a></li>
+									<li ><a href="pages/independencia.php">Independencia</a></li>
+									<li ><a href="pages/misionvision.php">Mision/Vision</a></li>
+                                    <li ><a href="pages/directiva.php">Asamblea</a></li>
+									<li ><a href="pages/acercade.php">Acerca de</a></li>
+									<li ><a href="pages/gobierno.php">Gobierno</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="proyectos.php?tipo_noticia=Proyectos">Proyectos</a></li>
-									<li ><a href="proyectosNuevos.php?tipo_noticia=Nuevos Proyectos">Ingresar Nuevos Proyectos</a></li>
+									<li ><a href="pages/proyectos.php?tipo_noticia=Proyectos">Proyectos</a></li>
+									<li ><a href="pages/proyectosNuevos.php?tipo_noticia=Nuevos Proyectos">Ingresar Nuevos Proyectos</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restauración<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="salud.php">Cuidado de la Salud</a></li>
-									<li ><a href="educacion.php">Educación</a></li>
-                                    <li ><a href="comunicacion.php">Medios de Comunicación</a></li>
-									<li ><a href="finanza.php">Sistema Financiero</a></li>
-									<li ><a href="web.php">Plataforma Web</a></li>
-									<li ><a href="gia.php">GIA</a></li>
-									<li ><a href="alimentos.php">Alimentos</a></li>
-									<li ><a href="asambleas.php">Asambleas</a></li>
+									<li ><a href="pages/salud.php">Cuidado de la Salud</a></li>
+									<li ><a href="pages/educacion.php">Educación</a></li>
+                                    <li ><a href="pages/comunicacion.php">Medios de Comunicación</a></li>
+									<li ><a href="pages/finanza.php">Sistema Financiero</a></li>
+									<li ><a href="pages/web.php">Plataforma Web</a></li>
+									<li ><a href="pages/gia.php">GIA</a></li>
+									<li ><a href="pages/alimentos.php">Alimentos</a></li>
+									<li ><a href="pages/asambleas.php">Asambleas</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="noticias.php?tipo_noticia=Noticias">Noticias</a></li>
-									<li ><a href="noticiasAc.php">Actividades</a></li>
-                                    <li ><a href="noticiasBlog.php">Blogs</a></li>
+									<li ><a href="pages/noticias.php?tipo_noticia=Noticias">Noticias</a></li>
+									<li ><a href="pages/noticiasAc.php">Actividades</a></li>
+                                    <li ><a href="pages/noticiasBlog.php">Blogs</a></li>
 								</ul>
 							</li>
-						   <li ><a href="videos.php">Videos</a></li>
-						<li ><a href="galeria.php?tipo_fotos=Galeria">Galeria</a></li>
+						   <li ><a href="pages/videos.php">Videos</a></li>
+						<li ><a href="pages/galeria.php?tipo_fotos=Galeria">Galeria</a></li>
                            <li ><a href="pages/contacto.php">Contacto</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -181,7 +181,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>La Agencia de Inteligencia Global fue controlada anteriormente por diferentes entidades y desde entonces ha sido depurada y reestructurada para operar como la Agencia de Aplicación del Repositorio Global. </p>
-								<a href="gia.php" class="btn btn-main">Mas información</a>
+								<a href="pages/gia.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -193,7 +193,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>La Asamblea cumple la función de Organizar y velar por el cumplimiento de los mandatos de Life Force en los respectivos países.</p>
-								<a href="asambleas.php" class="btn btn-main">Mas información</a>
+								<a href="pages/asambleas.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -206,7 +206,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>	Atención médica diseñada para enseñar a las personas cómo mantener una salud óptima.</p>
-								<a href="salud.php" class="btn btn-main">Mas información</a>
+								<a href="pages/salud.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -218,7 +218,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>Nosotros, como seres humanos en este planeta, tenemos la responsabilidad de formar la próxima generación.</p>
-								<a href="educacion.php" class="btn btn-main">Mas información</a>
+								<a href="pages/educacion.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -230,7 +230,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>United Network News (noticias de la Red Unida) es la nueva corriente principal y la única verdad en los medios.</p>
-								<a href="comunicacion.php" class="btn btn-main">Mas información</a>
+								<a href="pages/comunicacion.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -242,7 +242,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>El sistema finaciero global ha sido monopolizado y manipulado por menos del 1% de la poblacion durante mucho tiempo.</p>
-								<a href="finanza.php" class="btn btn-main">Mas información</a>
+								<a href="pages/finanza.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -254,7 +254,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>Esta comunidad está formada por emprendedores que participan en debates inteligentes, proponen soluciones viables.</p>
-								<a href="web.php" class="btn btn-main">Mas información</a>
+								<a href="pages/web.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -267,7 +267,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>Desarrollar y fortalecer una cadena alimentaria sostenible. Establecer y apoyar una relación sólida con Agricultores.</p>
-								<a href="alimentos.php" class="btn btn-main">Mas información</a>
+								<a href="pages/alimentos.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -338,17 +338,17 @@ https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09</a></
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Inscripción  <span class="mg-bn-big">Formulario de Inscripción a nuevos Miembros</span></h2>
 														<p> <strong>LIFE FORCE</strong> En este formulario puede inscribirse en Life Forcé Bolivia, para poder ser miembro de este y participar en este plan de Restauración Mundial.</p>
-														<a href="inscripcion.php" class="btn btn-main">Inscripción</a>
+														<a href="pages/inscripcion.php" class="btn btn-main">Inscripción</a>
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Quejas  <span class="mg-bn-big">Formulario de Quejas y Sugerencias</span></h2>
 														<p> <strong>LIFE FORCE</strong> En este formulario puede ingresar alguna queja o sugerencia en Life Forcé Bolivia.</p>
-														<a href="quejas.php" class="btn btn-main">Formulario</a>
+														<a href="pages/quejas.php" class="btn btn-main">Formulario</a>
 													</div>
 
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Login</h2>
-														<a href="sesion.php" class="btn btn-main">Iniciar Sesion</a>
+														<a href="pages/sesion.php" class="btn btn-main">Iniciar Sesion</a>
 													</div>
 												</div>
 										</div>
@@ -396,7 +396,7 @@ En el Ayllu Sikuya, donde se encuentra las comunidades beneficiarias la producci
 																</ul>
 															</div>
 														</div>
-														<a href="proyectosDetalles.php?cod_noticia=242&titulo_noticia=CRIANZA DE GANADO CAPRINO DE LA RAZA (Anglo Nubian) EN DISTRITO AYLLU SIKUYA,  MUNICIPIO DE LLALLAGUA" class="btn btn-main">Mas información</a>
+														<a href="pages/proyectosDetalles.php?cod_noticia=242&titulo_noticia=CRIANZA DE GANADO CAPRINO DE LA RAZA (Anglo Nubian) EN DISTRITO AYLLU SIKUYA,  MUNICIPIO DE LLALLAGUA" class="btn btn-main">Mas información</a>
 														
 													</div>
 												</div>
@@ -424,7 +424,7 @@ En el Ayllu Sikuya, donde se encuentra las comunidades beneficiarias la producci
 																</ul>
 															</div>
 														</div>
-														<a href="proyectosDetalles.php?cod_noticia=243&titulo_noticia=Construcción Muro Perimetral Unidad Educativa Machaya Grande" class="btn btn-main">Mas información</a>
+														<a href="pages/proyectosDetalles.php?cod_noticia=243&titulo_noticia=Construcción Muro Perimetral Unidad Educativa Machaya Grande" class="btn btn-main">Mas información</a>
 														
 													</div>
 												</div>
@@ -454,7 +454,7 @@ Mejorar las condiciones de vida con la implementación de del proyecto, que.....
 																</ul>
 															</div>
 														</div>
-														<a href="proyectosDetalles.php?cod_noticia=244&titulo_noticia=Construcción Piscina Arbolitos Ayllu  Sikuya" class="btn btn-main">Mas información</a>
+														<a href="pages/proyectosDetalles.php?cod_noticia=244&titulo_noticia=Construcción Piscina Arbolitos Ayllu  Sikuya" class="btn btn-main">Mas información</a>
 														
 													</div>
 												</div>
@@ -602,7 +602,7 @@ Mejorar las condiciones de vida con la implementación de del proyecto, que.....
 							<div class="widget">
 								<h2 class="mg-widget-title">Suscribete</h2>
 								<p>Suscribete a nuestro formulario de contacto para que te mandemos novedades.</p>
-								<form class="clearfix" method="POST"  action="formcontacto.php" >
+								<form class="clearfix" method="POST"  action="pages/formcontacto.php" >
 									<p>
 										<input type="email" class="form-control" placeholder="Ingresa tu Correo">
 									</p>
