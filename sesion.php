@@ -74,7 +74,7 @@
 			<div class="container">
 				<div class="row">
 					<!----<form class="form-horizontal" method="POST" action="productosInsertando.php" enctype="multipart/form-data">--->
-					<form class="form-horizontal" method="POST" action="inscripcionform.php" enctype="multipart/form-data">
+					<form class="form-horizontal" method="POST" action="admin.php">
 						
 					<div class="col-md-2"></div>
 					<div class="col-md-7">

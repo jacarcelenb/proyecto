@@ -348,7 +348,7 @@ https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09</a></
 
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Login</h2>
-														<a href="inciarsesion.php" class="btn btn-main">Iniciar Sesion</a>
+														<a href="sesion.php" class="btn btn-main">Iniciar Sesion</a>
 													</div>
 												</div>
 										</div>

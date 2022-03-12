@@ -63,6 +63,10 @@
                         <li ><a href="#">Proyectos</a>
                     
                         </li> 
+
+                        <li ><a href="index.php">Cerrar Sesion</a>
+                    
+                        </li> 
 							
                           
 						</ul>
@@ -71,22 +75,19 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-
-
-<BR><BR>        
-<!--    FIN CONTENIDO     -->
-		<footer class="mg-footer">
-		
-			<div class="mg-copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<p>&copy; 2021 Diseño y Desarrollo de Sistemas Web. <a href="http://www.tunari.com"><strong>Lic. Mariela Gomez O.</strong></a></p>
-						</div>
+        <div class="mg-page-title parallax">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Administrador</h2>
+						<p></p>
 					</div>
 				</div>
 			</div>
-		</footer>
+		</div>
+
+
+<!--Colocar el footer-->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
