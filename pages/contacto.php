@@ -8,18 +8,18 @@
 		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/font-awesome.min.css" rel="stylesheet">
 
-		<link href="css/owl.carousel.css" rel="stylesheet">
-		<link href="css/owl.theme.css" rel="stylesheet">
-		<link href="css/owl.transitions.css" rel="stylesheet">
-		<link href="css/cs-select.css" rel="stylesheet">
-		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
-		<link href="css/freepik.hotels.css" rel="stylesheet">
-		<link href="css/nivo-lightbox.css" rel="stylesheet">
-		<link href="css/nivo-lightbox-theme.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+		<link href="../css/owl.carousel.css" rel="stylesheet">
+		<link href="../css/owl.theme.css" rel="stylesheet">
+		<link href="../css/owl.transitions.css" rel="stylesheet">
+		<link href="../css/cs-select.css" rel="stylesheet">
+		<link href="../css/bootstrap-datepicker3.min.css" rel="stylesheet">
+		<link href="../css/freepik.hotels.css" rel="stylesheet">
+		<link href="../css/nivo-lightbox.css" rel="stylesheet">
+		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
+		<link href="../css/style.css" rel="stylesheet">
 
 
 
@@ -31,7 +31,7 @@
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
 
-		<script src="js/modernizr.custom.min.js"></script>
+		<script src="../js/modernizr.custom.min.js"></script>
 	</head>
 	<body>
 		<div class="preloader"></div>
@@ -46,7 +46,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="images/logo3.png" alt="logo"></a>
+						<a class="navbar-brand" href="#"><img src="../images/logo3.png" alt="logo"></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -243,20 +243,20 @@
 		</footer>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
+		<script src="../js/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jssor.slider.mini.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/selectFx.js"></script>
-		<script src="js/bootstrap-datepicker.min.js"></script>
-		<script src="js/starrr.min.js"></script>
-		<script src="js/nivo-lightbox.min.js"></script>
-		<script src="js/jquery.shuffle.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jssor.slider.mini.js"></script>
+		<script src="../js/classie.js"></script>
+		<script src="../js/selectFx.js"></script>
+		<script src="../js/bootstrap-datepicker.min.js"></script>
+		<script src="../js/starrr.min.js"></script>
+		<script src="../js/nivo-lightbox.min.js"></script>
+		<script src="../js/jquery.shuffle.min.js"></script>
 		<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="js/gmaps.min.js"></script>
-		<script src="js/jquery.parallax-1.1.3.js"></script>
-		<script src="js/script.js"></script>
+		<script src="../js/gmaps.min.js"></script>
+		<script src="../js/jquery.parallax-1.1.3.js"></script>
+		<script src="../js/script.js"></script>
 	</body>
 </html>
