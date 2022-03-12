@@ -53,7 +53,12 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li ><a href="index.php">Inicio</a></li> 
+							<li ><a href="index.php">Inicio</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li ><a href="iniciarsesion.php">Iniciar Sesion</a></li>
+								</ul>
+						</li> 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -65,15 +70,13 @@
 									<li ><a href="gobierno.php">Gobierno</a></li>
 								</ul>
 							</li>
-                            
-							<li class="dropdown">
+                            <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li ><a href="proyectos.php?tipo_noticia=Proyectos">Proyectos</a></li>
 									<li ><a href="proyectosNuevos.php?tipo_noticia=Nuevos Proyectos">Ingresar Nuevos Proyectos</a></li>
 								</ul>
 							</li>
-							
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restauración<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -163,14 +166,17 @@
 								<label for="subject">A leido? <input type="checkbox" class="form-control" id="full-name"  name="leido">Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
 							</div>
 							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
-						
-			
-						</form>
 
-						<?php if (isset($_SESSION['message'])) { 
-							print("<h3>Queja registrada exitosamente</h3>"); ?>
-     
-                      <?php session_unset(); } ?>
+							<?php if (isset($_SESSION['message'])) { 
+
+                           print("<h1>Queja registrada exitosamente</h1>"); ?>
+
+                          <?php session_unset(); } ?>
+				
+						</form>
+		
+					
+				
 					</div>
 		
                     

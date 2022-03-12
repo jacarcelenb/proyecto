@@ -57,7 +57,12 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li ><a href="index.php">Inicio</a></li> 
+							<li ><a href="index.php">Inicio</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li ><a href="iniciarsesion.php">Iniciar Sesion</a></li>
+								</ul>
+						</li> 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -69,15 +74,13 @@
 									<li ><a href="gobierno.php">Gobierno</a></li>
 								</ul>
 							</li>
-                            
-							<li class="dropdown">
+                            <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li ><a href="proyectos.php?tipo_noticia=Proyectos">Proyectos</a></li>
 									<li ><a href="proyectosNuevos.php?tipo_noticia=Nuevos Proyectos">Ingresar Nuevos Proyectos</a></li>
 								</ul>
 							</li>
-							
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restauración<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -95,8 +98,8 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li ><a href="noticias.php?tipo_noticia=Noticias">Noticias</a></li>
-									<li ><a href="noticias.php?tipo_noticia=Actividades">Actividades</a></li>
-                                    <li ><a href="noticias.php?tipo_noticia=Blogs">Blogs</a></li>
+									<li ><a href="noticiasAc.php">Actividades</a></li>
+                                    <li ><a href="noticiasBlog.php">Blogs</a></li>
 								</ul>
 							</li>
 						   <li ><a href="videos.php">Videos</a></li>
@@ -108,7 +111,6 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-
 		<div class="mg-page-title parallax">
 			<div class="container">
 				<div class="row">
