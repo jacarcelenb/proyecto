@@ -1,6 +1,43 @@
-<?php include('../dbcontroller/database.php');
-?>
+<?php
+include("database.php");
 
+$nombre = '';
+$miembro = false;
+$departamento = '';
+$asunto = '';
+$mensaje = '';
+$title = '';
+$description= '';
+
+if  (isset($_GET['id'])) {
+  $id = $_GET['id'];
+  $query = "SELECT * FROM queja WHERE id=$id";
+  $result = mysqli_query($conn, $query);
+  if (mysqli_num_rows($result) == 1) {
+    $row = mysqli_fetch_array($result);
+    $nombre = $row['nombrecompleto'];
+    $miembro = $row['miembro'];
+    $departamento = $row['departamento'];
+    $asunto = $row['asunto'];
+    $mensaje = $row['mensaje'];
+  }
+}
+
+if (isset($_POST['update'])) {
+  $id = $_GET['id'];
+  $nombre = $_POST['nombrecompleto'];
+  $miembro = $_POST['miembro'];
+  $departamento = $_POST['departamento'];
+  $asunto = $_POST['asunto'];
+  $mensaje = $_POST['mensaje'];
+
+  $query = "UPDATE queja set nombres = '$nombre', esmiembro = '$miembro' ,
+  departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
+  mysqli_query($conn, $query);
+  header('Location: ../pages/listarquejas.php');
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -85,50 +122,51 @@
 				</div>
 			</div>
 		</div>
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card card-body">
+      <form action="../dbcontroller/editarqueja.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
-        <div class="container">
-      <table class="table table-dark">
-        <thead> 
-          <tr>
-            <th>Nombres</th>
-            <th>Es miembro</th>
-            <th>Departamento</th>
-            <th>Asunto</th>
-            <th>Mensaje</th>
-            <th> </th>
-          </tr>
-        </thead>
-        <tbody>
-
-          <?php
-          $query = "SELECT * FROM queja";
-          $result_quejas = mysqli_query($conn, $query);    
-
-          while($row = mysqli_fetch_assoc($result_quejas)) { ?>
-          <tr>
-            <td><?php echo $row['nombres']; ?></td>
-            <td><?php echo $row['esmiembro']; ?></td>
-            <td><?php echo $row['departamento']; ?></td>
-            <td><?php echo $row['asunto']; ?></td>
-            <td><?php echo $row['mensaje']; ?></td>
-            <td>
-              <a href="../dbcontroller/editarqueja.php?id=<?php echo $row['id']?>" class="btn btn-warning">
-                <i class="fa fa-address-book">Editar</i>
-              </a>
-              <a href="../dbcontroller/eliminarqueja.php?id=<?php echo $row['id']?>" class="btn btn-danger">
-                <i class="fa fa-trash-alt">Eliminar</i>
-              </a>
-            </td>
-            <i class="fa fa-address-book" aria-hidden="true"></i>
-            
-          </tr>
-          <?php } ?>
-        </tbody>
-      </table>
+      <div class="mg-contact-form-input">
+								<label for="full-name">Nombre completo</label>
+								<input type="text" class="form-control" id="full-name" name="nombrecompleto"
+                                value="<?php echo $nombre; ?>">
+							</div>
+							
+							
+							<div class="mg-contact-form-input">
+								<label for="subject">Es miembro?</label>
+								<select  class="form-control"  name="miembro" 
+                                value="<?php echo $miembro; ?>">
+					                <option value="SI">SI</option>
+									<option value="NO">NO</option>
+    					        </select>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
+								<input type="text" class="form-control" id="subject" name="departamento"
+                                value="<?php echo $departamento; ?>">
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="subject">Asunto?</label>
+								<select  class="form-control"  name="asunto" 
+                                value="<?php echo $asunto; ?>">
+					                <option value="Queja">Queja</option>
+									<option value="Sugerencia">Sugerencia</option>
+    					        </select>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="subject">Mensaje</label>
+								<textarea class="form-control" id="subject" rows="5" name="mensaje"
+                                value="<?php echo $mensaje; ?>"></textarea>
+							</div>
+        <button class="btn-success" name="update">
+          Update
+</button>
+      </form>
+      </div>
     </div>
   </div>
-
-
-<!--Colocar el footer-->
-
+</div>
 <?php include('../html_components/footer.php'); ?>
