@@ -45,6 +45,10 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
+						<li ><a href="admin.php">Menu</a>
+	
+						</li> 
+
                         <li ><a href="../pages/listarinscripciones.php">Inscripciones</a>
 	
 						</li> 

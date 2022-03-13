@@ -14,29 +14,33 @@
 			<div class="container">
 				<div class="row">
 					<!----<form class="form-horizontal" method="POST" action="productosInsertando.php" enctype="multipart/form-data">--->
-					<form class="form-horizontal" method="POST" action="admin.php">
 						
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
 						<h2 class="mg-sec-left-title" >Iniciar Sesion</h2>
 				
-						<form  method="POST"  action="admin.php" >
+						<form  method="POST"  action="../dbcontroller/login.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Usuario</label>
-								<input type="text" class="form-control" id="full-name" name="usuario" >
+								<input type="text" class="form-control" id="full-name" name="usuario" required>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Contraseña</label>
-								<input type="text" class="form-control" id="full-name" name="contraseña" >
+								<input type="password" class="form-control" id="full-name" name="contraseña" required >
 							</div>
 							
-							<input type="submit" class="btn btn-dark-main pull-right" value="Iniciar Sesion">
+							<input type="submit" class="btn btn-dark-main pull-right" value="Iniciar Sesion" name="login">
 						</form>
 					</div>
                     
 				</div>
-				</form>
+			
 			</div>
+			<?php if (isset($_SESSION['message']) && $_SESSION['message']=='Ingreso fallido') { 
+			print("Error");
+						 ?>
+								
+						<?php session_unset(); } ?>
 		</div>
 <BR><BR>        
 <!--    FIN CONTENIDO     -->

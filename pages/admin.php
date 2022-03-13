@@ -46,7 +46,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="images/logo3.png" alt="logo"></a>
+						<a class="navbar-brand" href="#"><img src="../images/logo3.png" alt="logo"></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,11 +56,11 @@
 								
 						</li> 
 
-                        <li ><a href="#">Inscripciones</a>
+                        <li ><a href="listarinscripciones.php">Inscripciones</a>
 	
 						</li> 
 
-                        <li ><a href="#">Proyectos</a>
+                        <li ><a href="listarproyectos.php">Proyectos</a>
                     
                         </li> 
 
@@ -80,13 +80,35 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2>Administrador</h2>
-						<p></p>
+
 					</div>
 				</div>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
+		<div>
+		<?php 
+		 include('../dbcontroller/login.php');
+		if ($ingreso) { 
+		include("../html_components/loginexitoso.php") ?>
+							
+						<?php session_unset(); } ?>
+		<center>
+						<a href="#"><img src="../images/admin2.png" alt="" class="img-responsive"></a>
+		</center>
+		</div>
 
+		<br>
+		<br>
+		<br>
+	
 <!--Colocar el footer-->
+<br>
 
 <?php include('../html_components/footer.php'); ?>
