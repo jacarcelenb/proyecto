@@ -93,12 +93,6 @@
 		<br>
 
 		<div>
-		<?php 
-		 include('../dbcontroller/login.php');
-		if ($ingreso) { 
-		include("../html_components/loginexitoso.php") ?>
-							
-						<?php session_unset(); } ?>
 		<center>
 						<a href="#"><img src="../images/admin2.png" alt="" class="img-responsive"></a>
 		</center>

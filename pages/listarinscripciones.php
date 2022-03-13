@@ -79,13 +79,6 @@
 			</div>
 		</div>
 <div class="container">
-
-
-		<?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_eliminarinscrip.php") ?>
-							
-						<?php session_unset(); } ?>
-      
 	<div>
       <table class="table table-hover">
         <thead> 
@@ -113,7 +106,6 @@
           <tr>
             <td><?php echo $row['nombre']; ?></td>
             <td><?php echo $row['apellido']; ?></td>
-            <td><?php echo $row['correo']; ?></td>
             <td><?php echo $row['tipomiembro']; ?></td>
             <td><?php echo $row['direccion']; ?></td>
             <td><?php echo $row['telefono']; ?></td>

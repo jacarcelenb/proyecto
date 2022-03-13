@@ -79,12 +79,6 @@
 			</div>
 		</div>
 <div class="container">
-
-
-		<?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_eliminarqueja.php") ?>
-							
-						<?php session_unset(); } ?>
       
 	<div>
       <table class="table table-hover">

@@ -84,7 +84,7 @@
 								
 								<label for="subject"><input type="checkbox" class="form-control" id="full-name">Políticas de incorporación de miembros a la asamblea nacional de Bolivia. <a href="POLITICAS DE INCORPORACION DE MIEMBROS A LA ASAMBLEA NACIONAL DE BOLVIA.pdf" target="_blank"><strong> español</strong></a>/ <a href="POLITICAS DE INCORPORACION DE MIEMBROS A LA ASAMBLEA NACIONAL DE BOLVIA INGLES.pdf" target="_blank"><strong>ingles</strong></a></label>
 							</div>
-							<input type="submit" class="btn btn-dark-main pull-right" value="guardar_inscripcion">
+							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar" name="guardar_inscripcion">
 						</form>
 					</div>
                     

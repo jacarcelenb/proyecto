@@ -45,14 +45,11 @@ if (isset($_POST['update'])) {
   $departamento = $_POST['departamento'];
   $provincia = $_POST['provincia'];
 
-  $query = "UPDATE inscripciones set nombres = '$nombre', esmiembro = '$miembro' ,
-  departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
-  mysqli_query($conn, $query);
-
   $query = "UPDATE `inscripciones` SET nombre ='$nombre', apellido ='$apellido',correo ='$correo',tipomiembro ='$tipomiembro'
   ,direccion ='$direccion', telefono ='$telefono', profesion='$profesion',oficio='$oficio'
   , departamento='$departamento', provincia='$provincia' WHERE  id=$id";
 
+mysqli_query($conn, $query);
   
   $_SESSION['message'] = 'Insrcipcion actualizada exitosamente';
 
@@ -151,14 +148,7 @@ if (isset($_POST['update'])) {
   <div class="row">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
-	  <h2>Editar Quejas </h2>
-
-	  
-	  <?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_editarinscrip.php") ?>
-							
-						<?php session_unset(); } ?>
-
+	  <h2>Editar Inscripciones </h2>
 
       <form action="../dbcontroller/editarinscripcion.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
