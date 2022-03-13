@@ -25,11 +25,12 @@
 
 										
 						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->
-						<form  method="POST"  action="crearqueja.php" >
+						<form  method="POST"  action="../dbcontroller/crearqueja.php" >
 							
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre completo</label>
-								<input type="text" class="form-control" id="full-name" name="nombrecompleto">
+								<input type="text" class="form-control" id="full-name" name="nombrecompleto"
+								required>
 							</div>
 							
 							
@@ -42,7 +43,8 @@
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
-								<input type="text" class="form-control" id="subject" name="departamento">
+								<input type="text" class="form-control" id="subject" name="departamento" 
+								required>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto?</label>
@@ -53,11 +55,14 @@
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
+								<textarea class="form-control" id="subject" rows="5" name="mensaje"
+								required></textarea>
 							</div>
 
 							<div class="mg-contact-form-input">
-								<label for="subject">A leido? <input type="checkbox" class="form-control" id="full-name"  name="leido">Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
+								<label for="subject">A leido? 
+									<input type="checkbox" class="form-control" id="full-name"  name="leido"
+									required >Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
 							</div>
 							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
 

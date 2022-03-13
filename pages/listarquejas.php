@@ -107,7 +107,11 @@
           while($row = mysqli_fetch_assoc($result_quejas)) { ?>
           <tr>
             <td><?php echo $row['nombres']; ?></td>
-            <td><?php echo $row['esmiembro']; ?></td>
+            <td><?php if ( $row['esmiembro'] == true) {
+                echo "SI";
+            } else {
+                echo "NO";
+            } ?></td>
             <td><?php echo $row['departamento']; ?></td>
             <td><?php echo $row['asunto']; ?></td>
             <td><?php echo $row['mensaje']; ?></td>

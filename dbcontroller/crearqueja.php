@@ -25,7 +25,7 @@ if ($miembro=="SI") {
   $_SESSION['message'] = 'Queja registrada exitosamente';
   $_SESSION['message_type'] = 'success';
   
-   header("Location: quejas.php");
+   header("Location: ../pages/quejas.php");
 
 }
 
