@@ -96,11 +96,11 @@ if (isset($_POST['update'])) {
 						<li ><a href="../pages/listarquejas.php">Quejas</a>
 					    </li> 
 
-                        <li ><a href="#">Inscripciones</a>
+                        <li ><a href="../pages/listarinscripciones.php">Inscripciones</a>
 	
 						</li> 
 
-                        <li ><a href="#">Proyectos</a>
+                        <li ><a href="../pages/listarproyectos.php">Proyectos</a>
                     
                         </li> 
 

@@ -21,7 +21,10 @@
 	
 						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
 
-					
+						<?php if (isset($_SESSION['message'])) { 
+							include("../html_components/ms_crearqueja.php") ?>
+							
+						<?php session_unset(); } ?>
 
 										
 						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->
@@ -66,13 +69,11 @@
 							</div>
 							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
 
-							<?php if (isset($_SESSION['message'])) { 
-
-                           print("<h1>Queja registrada exitosamente</h1>"); ?>
-
-                          <?php session_unset(); } ?>
 				
 						</form>
+
+						
+					
 		
 					
 				
