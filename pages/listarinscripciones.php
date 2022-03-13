@@ -49,7 +49,7 @@
 	
 						</li> 
 
-                        <li ><a href="../pages/listarinscripciones.php">Inscripciones</a>
+                        <li ><a href="../pages/listarquejas.php">Quejas</a>
 	
 						</li> 
 
@@ -82,7 +82,7 @@
 
 
 		<?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_eliminarqueja.php") ?>
+							include("../html_components/ms_eliminarinscrip.php") ?>
 							
 						<?php session_unset(); } ?>
       
@@ -92,34 +92,40 @@
           <tr>
             <th>Nombre</th>
             <th>Apellido</th>
+            <th>Correo</th>
+            <th>Miembro</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Profesion</th>
+            <th>Oficio</th>
             <th>Departamento</th>
-            <th>Asunto</th>
-            <th>Mensaje</th>
+            <th>Provincia</th>
             <th> </th>
           </tr>
         </thead>
         <tbody>
 
           <?php
-          $query = "SELECT * FROM queja";
+          $query = "SELECT * FROM inscripciones";
           $result_quejas = mysqli_query($conn, $query);    
 
           while($row = mysqli_fetch_assoc($result_quejas)) { ?>
           <tr>
-            <td><?php echo $row['nombres']; ?></td>
-            <td><?php if ( $row['esmiembro'] == true) {
-                echo "SI";
-            } else {
-                echo "NO";
-            } ?></td>
+            <td><?php echo $row['nombre']; ?></td>
+            <td><?php echo $row['apellido']; ?></td>
+            <td><?php echo $row['correo']; ?></td>
+            <td><?php echo $row['tipomiembro']; ?></td>
+            <td><?php echo $row['direccion']; ?></td>
+            <td><?php echo $row['telefono']; ?></td>
+            <td><?php echo $row['profesion']; ?></td>
+            <td><?php echo $row['oficio']; ?></td>
             <td><?php echo $row['departamento']; ?></td>
-            <td><?php echo $row['asunto']; ?></td>
-            <td><?php echo $row['mensaje']; ?></td>
+            <td><?php echo $row['provincia']; ?></td>
             <td>
-              <a href="../dbcontroller/editarqueja.php?id=<?php echo $row['id']?>" class="btn btn-warning">
+              <a href="../dbcontroller/editarinscripcion.php?id=<?php echo $row['id']?>" class="btn btn-warning">
                 <i class="fa fa-address-book">Editar</i>
               </a>
-              <a href="../dbcontroller/eliminarqueja.php?id=<?php echo $row['id']?>" class="btn btn-danger">
+              <a href="../dbcontroller/eliminarinscripcion.php?id=<?php echo $row['id']?>" class="btn btn-danger">
                 <i class="fa fa-trash-alt">Eliminar</i>
               </a>
             </td>

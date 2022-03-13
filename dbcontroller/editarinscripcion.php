@@ -1,42 +1,62 @@
 <?php
 include("database.php");
 
-$nombre = '';
-$miembro = false;
-$departamento = '';
-$asunto = '';
-$mensaje = '';
+$nombre = "";
+$apellido = "";
+$correo = "";
+$tipomiembro = "";
+$direccion = "";
+$telefono = "";
+$profesion = "";
+$oficio = "";
+$departamento = "";
+$provincia = "";
 
 if  (isset($_GET['id'])) {
   $id = $_GET['id'];
-  $query = "SELECT * FROM queja WHERE id=$id";
+  $query = "SELECT * FROM inscripciones WHERE id=$id";
   $result = mysqli_query($conn, $query);
   if (mysqli_num_rows($result) == 1) {
     $row = mysqli_fetch_array($result);
-    $nombre = $row['nombres'];
-    $miembro = $row['esmiembro'];
-    $departamento = $row['departamento'];
-    $asunto = $row['asunto'];
-    $mensaje = $row['mensaje'];
+	$nombre = $row['nombre'];
+	$apellido = $row['apellido'];
+	$correo = $row['correo'];
+	$tipomiembro = $row['tipomiembro'];
+	$direccion =$row['direccion'];
+	$telefono = $row['telefono'];
+	$profesion = $row['profesion'];
+	$oficio = $row['oficio'];
+	$departamento = $row['departamento'];
+	$provincia = $row['provincia'];
+
   }
 }
 
 if (isset($_POST['update'])) {
   $id = $_GET['id'];
-  $nombre = $_POST['nombrecompleto'];
-  $miembro = $_POST['miembro'];
+  $nombre = $_POST['nombre'];
+  $apellido = $_POST['apellido'];
+  $correo = $_POST['correo'];
+  $tipomiembro = $_POST['tipomiembro'];
+  $direccion = $_POST['direccion'];
+  $telefono = $_POST['telefono'];
+  $profesion = $_POST['profesion'];
+  $oficio = $_POST['oficio'];
   $departamento = $_POST['departamento'];
-  $asunto = $_POST['asunto'];
-  $mensaje = $_POST['mensaje'];
+  $provincia = $_POST['provincia'];
 
-  $query = "UPDATE queja set nombres = '$nombre', esmiembro = '$miembro' ,
+  $query = "UPDATE inscripciones set nombres = '$nombre', esmiembro = '$miembro' ,
   departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
   mysqli_query($conn, $query);
 
-  
-  $_SESSION['message'] = 'Queja actualizada exitosamente';
+  $query = "UPDATE `inscripciones` SET nombre ='$nombre', apellido ='$apellido',correo ='$correo',tipomiembro ='$tipomiembro'
+  ,direccion ='$direccion', telefono ='$telefono', profesion='$profesion',oficio='$oficio'
+  , departamento='$departamento', provincia='$provincia' WHERE  id=$id";
 
-  header('Location: ../pages/listarquejas.php');
+  
+  $_SESSION['message'] = 'Insrcipcion actualizada exitosamente';
+
+  header('Location: ../pages/listarinscripciones.php');
 }
 
 ?>
@@ -121,7 +141,7 @@ if (isset($_POST['update'])) {
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Quejas</h2>
+						<h2>Inscripciones</h2>
 						<p></p>
 					</div>
 				</div>
@@ -135,93 +155,95 @@ if (isset($_POST['update'])) {
 
 	  
 	  <?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_editarqueja.php") ?>
+							include("../html_components/ms_editarinscrip.php") ?>
 							
 						<?php session_unset(); } ?>
 
 
-      <form action="../dbcontroller/editarqueja.php?id=<?php echo $_GET['id']; ?>" method="POST">
+      <form action="../dbcontroller/editarinscripcion.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
       <div class="mg-contact-form-input">
-								<label for="full-name">Nombre completo</label>
-								<input type="text" class="form-control" id="full-name" name="nombrecompleto"
-                                value="<?php echo $nombre; ?>" required>
-							</div>
-							
-							
-							<div class="mg-contact-form-input">
-								<label for="subject">Es miembro?</label>
-								<select  class="form-control"  name="miembro" 
-                                required>
-					                <option value="<?php
-								if ($miembro==true) {
-									echo true;
-								} else {
-									echo $miembro;
-								} ?>"><?php
-								if ($miembro==true) {
-									echo "SI";
-								} else {
-									echo "NO";
-								} ?></option>
-									<option value="<?php
-								if ($miembro==true) {
-									echo false;
-								} else {
-									echo $miembro;
-								} ?>"><?php
-								if ($miembro==true) {
-									echo "NO";
-								} else {
-									echo "SI";
-								} ?></option>
-    					        </select>
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
-								<input type="text" class="form-control" id="subject" name="departamento"
-                                value="<?php echo $departamento; ?>" required>
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="subject">Asunto?</label>
-								<select  class="form-control"  name="asunto" 
+								<label for="full-name">Nombre</label>
+								<input type="text" class="form-control" id="full-name" name="nombre" 
+								value="<?php echo $nombre; ?>"
 								required>
-					                <option  value="<?php 
-								if ($asunto=="Queja") {
-									echo $asunto;
-								} else {
-									echo "Sugerencia";
-								}
-								
-								 ?>"><?php 
-								 if ($asunto=="Queja") {
-									 echo $asunto;
-								 } else {
-									 echo "Sugerencia";
-								 }
-								 
-								  ?></option>
-									<option value="<?php 
-								if ($asunto=="Queja") {
-									echo "Sugerencia";
-								} else {
-									echo "Queja";
-								}
-								
-								 ?>"><?php 
-								 if ($asunto=="Queja") {
-									 echo "Sugerencia";
-								 } else {
-									 echo "Queja";
-								 }
-								 
-								  ?></option>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="full-name">Apellido</label>
+								<input type="text" class="form-control" id="full-name" name="apellido" 
+								value="<?php echo $apellido; ?>"
+								required>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="email">E-mail</label>
+								<input type="text" class="form-control" id="email" name="correo" 
+								value="<?php echo $correo; ?>"
+								required >
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="email">Quiere ser?</label>
+								<select id="disabledSelect" class="form-control"  NAME="tipomiembro" required>
+					                <option value="<?php 
+									if ($tipomiembro=="Miembro") {
+										echo "Miembro";
+									} else {
+										echo "Voluntario";
+									} ?>"><?php 
+									if ($tipomiembro=="Miembro") {
+										echo "Miembro";
+									} else {
+										echo "Voluntario";
+									} ?></option>
+									<option  value="<?php 
+									if ($tipomiembro=="Miembro") {
+										echo "Voluntario";
+									} else {
+										echo "Miembro";
+									} ?>"><?php 
+									if ($tipomiembro=="Miembro") {
+										echo "Voluntario";
+									} else {
+										echo "Miembro";
+									} ?></option>
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5" name="mensaje"
-								required><?php echo $mensaje; ?></textarea>
+								<label for="full-name">Dirección</label>
+								<input type="text" class="form-control" id="full-name" name="direccion" 
+								value="<?php echo $direccion; ?>"
+								required>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="full-name">Numero de Teléfono o Celular</label>
+								<input type="text" class="form-control" id="full-name" name="telefono"
+								value="<?php echo $telefono; ?>"
+								required>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="full-name">Profesión</label>
+								<input type="text" class="form-control" id="full-name" name="profesion" 
+								value="<?php echo $profesion; ?>"
+								required>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="full-name">Oficio</label>
+								<input type="text" class="form-control" id="full-name" name="oficio" 
+								value="<?php echo $oficio; ?>"
+								required>
+							</div>
+							
+							<div class="mg-contact-form-input">
+								<label for="subject">Departamento en que Reside?</label>
+								<input type="text" class="form-control" id="full-name" name="departamento" 
+								value="<?php echo $departamento; ?>"
+								required>
+							
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="subject">Provincia o Comunidad en que Reside?</label>
+								<input type="text" class="form-control" id="subject" name="provincia" 
+								value="<?php echo $provincia; ?>"
+								required>
 							</div>
         <button class="btn btn-dark-main pull-right" name="update">
           Editar
