@@ -15,8 +15,8 @@ if  (isset($_GET['id'])) {
   $result = mysqli_query($conn, $query);
   if (mysqli_num_rows($result) == 1) {
     $row = mysqli_fetch_array($result);
-    $nombre = $row['nombrecompleto'];
-    $miembro = $row['miembro'];
+    $nombre = $row['nombres'];
+    $miembro = $row['esmiembro'];
     $departamento = $row['departamento'];
     $asunto = $row['asunto'];
     $mensaje = $row['mensaje'];
@@ -93,6 +93,9 @@ if (isset($_POST['update'])) {
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
+						<li ><a href="../pages/listarquejas.php">Quejas</a>
+					    </li> 
+
                         <li ><a href="#">Inscripciones</a>
 	
 						</li> 
@@ -126,6 +129,7 @@ if (isset($_POST['update'])) {
   <div class="row">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
+	  <h2>Editar Quejas </h2>
       <form action="../dbcontroller/editarqueja.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
       <div class="mg-contact-form-input">
@@ -161,12 +165,13 @@ if (isset($_POST['update'])) {
 								<textarea class="form-control" id="subject" rows="5" name="mensaje"
                                 value="<?php echo $mensaje; ?>"></textarea>
 							</div>
-        <button class="btn-success" name="update">
-          Update
+        <button class="btn btn-dark-main pull-right" name="update">
+          Editar
 </button>
       </form>
       </div>
     </div>
   </div>
 </div>
+<br>
 <?php include('../html_components/footer.php'); ?>
