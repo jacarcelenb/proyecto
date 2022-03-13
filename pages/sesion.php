@@ -3,6 +3,7 @@
 include("../dbcontroller/database.php");
 
 $ingreso = false;
+$loginfallido = false;
 
 if (isset($_POST['login'])) {
   $usuario = $_POST['usuario'];
@@ -22,11 +23,9 @@ if (isset($_POST['login'])) {
   $_SESSION['message'] = 'Ingreso fallido';
 
   if ($ingreso) {
-   
-
     header("Location: ../pages/admin.php");
   }else{
-    header("Location: ../pages/sesion.php");
+	  $loginfallido= true;
   }
   
   
@@ -57,6 +56,11 @@ if (isset($_POST['login'])) {
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
 						<h2 class="mg-sec-left-title" >Iniciar Sesion</h2>
+						<br>
+		
+			<?php if ($loginfallido==true) {
+				include('../html_components/loginfallido.php');
+			 } ?>
 				
 						<form  method="POST"  action="../pages/sesion.php" >
 							<div class="mg-contact-form-input">
@@ -75,11 +79,8 @@ if (isset($_POST['login'])) {
 				</div>
 			
 			</div>
-			<?php if ($ingreso==false) {
-				include('../html_components/loginfallido.php')
-						 ?>
-								
-						<?php session_unset(); } ?>
+			
+			
 		</div>
 <BR><BR>        
 <!--    FIN CONTENIDO     -->
