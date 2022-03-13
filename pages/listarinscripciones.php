@@ -1,5 +1,5 @@
-<?php include('../html_components/header.php'); ?>
-
+<?php include('../dbcontroller/database.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head> 

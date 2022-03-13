@@ -14,6 +14,14 @@
 		</div>
 <div class="mg-page">
 			<div class="container">
+			<?php if (isset($_SESSION['message'])) { ?>
+      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
+        <?= $_SESSION['message']?>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
@@ -21,10 +29,6 @@
 	
 						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
 
-						<?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_crearqueja.php") ?>
-							
-						<?php session_unset(); } ?>
 
 										
 						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->

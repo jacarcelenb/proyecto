@@ -12,6 +12,7 @@ if(isset($_GET['id'])) {
 
     
   $_SESSION['message'] = 'Queja eliminada exitosamente';
+  $_SESSION['message_type'] = 'danger';
 
   header('Location: ../pages/listarquejas.php');
 }

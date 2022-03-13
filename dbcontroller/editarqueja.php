@@ -35,6 +35,7 @@ if (isset($_POST['update'])) {
 
   
   $_SESSION['message'] = 'Queja actualizada exitosamente';
+  $_SESSION['message_type'] = 'warning';
 
   header('Location: ../pages/listarquejas.php');
 }
