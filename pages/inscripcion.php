@@ -1,3 +1,4 @@
+<?php include('../dbcontroller/database.php'); ?>
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
