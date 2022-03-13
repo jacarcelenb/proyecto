@@ -1,3 +1,42 @@
+<?php
+
+include("../dbcontroller/database.php");
+
+$ingreso = false;
+
+if (isset($_POST['login'])) {
+  $usuario = $_POST['usuario'];
+  $contraseña = $_POST['contraseña'];
+ 
+  $query = "SELECT * FROM usuario";
+  $result_quejas = mysqli_query($conn, $query);    
+
+  while($row = mysqli_fetch_assoc($result_quejas)) {
+     
+      if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña) {
+         $ingreso = true;
+      } 
+      
+  }
+
+  $_SESSION['message'] = 'Ingreso fallido';
+
+  if ($ingreso) {
+   
+
+    header("Location: ../pages/admin.php");
+  }else{
+    header("Location: ../pages/sesion.php");
+  }
+  
+  
+
+}
+
+?>
+
+
+
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
@@ -19,7 +58,7 @@
 					<div class="col-md-7">
 						<h2 class="mg-sec-left-title" >Iniciar Sesion</h2>
 				
-						<form  method="POST"  action="../dbcontroller/login.php" >
+						<form  method="POST"  action="../pages/sesion.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Usuario</label>
 								<input type="text" class="form-control" id="full-name" name="usuario" required>
@@ -36,8 +75,8 @@
 				</div>
 			
 			</div>
-			<?php if (isset($_SESSION['message']) && $_SESSION['message']=='Ingreso fallido') { 
-			print("Error");
+			<?php if ($ingreso==false) {
+				include('../html_components/loginfallido.php')
 						 ?>
 								
 						<?php session_unset(); } ?>
