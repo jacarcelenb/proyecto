@@ -6,8 +6,6 @@ $miembro = false;
 $departamento = '';
 $asunto = '';
 $mensaje = '';
-$title = '';
-$description= '';
 
 if  (isset($_GET['id'])) {
   $id = $_GET['id'];
@@ -34,6 +32,10 @@ if (isset($_POST['update'])) {
   $query = "UPDATE queja set nombres = '$nombre', esmiembro = '$miembro' ,
   departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
   mysqli_query($conn, $query);
+
+  
+  $_SESSION['message'] = 'Queja actualizada exitosamente';
+
   header('Location: ../pages/listarquejas.php');
 }
 
@@ -130,40 +132,96 @@ if (isset($_POST['update'])) {
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
 	  <h2>Editar Quejas </h2>
+
+	  
+	  <?php if (isset($_SESSION['message'])) { 
+							include("../html_components/ms_editarqueja.php") ?>
+							
+						<?php session_unset(); } ?>
+
+
       <form action="../dbcontroller/editarqueja.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
       <div class="mg-contact-form-input">
 								<label for="full-name">Nombre completo</label>
 								<input type="text" class="form-control" id="full-name" name="nombrecompleto"
-                                value="<?php echo $nombre; ?>">
+                                value="<?php echo $nombre; ?>" required>
 							</div>
 							
 							
 							<div class="mg-contact-form-input">
 								<label for="subject">Es miembro?</label>
 								<select  class="form-control"  name="miembro" 
-                                value="<?php echo $miembro; ?>">
-					                <option value="SI">SI</option>
-									<option value="NO">NO</option>
+                                required>
+					                <option value="<?php
+								if ($miembro==true) {
+									echo true;
+								} else {
+									echo $miembro;
+								} ?>"><?php
+								if ($miembro==true) {
+									echo "SI";
+								} else {
+									echo "NO";
+								} ?></option>
+									<option value="<?php
+								if ($miembro==true) {
+									echo false;
+								} else {
+									echo $miembro;
+								} ?>"><?php
+								if ($miembro==true) {
+									echo "NO";
+								} else {
+									echo "SI";
+								} ?></option>
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
 								<input type="text" class="form-control" id="subject" name="departamento"
-                                value="<?php echo $departamento; ?>">
+                                value="<?php echo $departamento; ?>" required>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto?</label>
 								<select  class="form-control"  name="asunto" 
-                                value="<?php echo $asunto; ?>">
-					                <option value="Queja">Queja</option>
-									<option value="Sugerencia">Sugerencia</option>
+								required>
+					                <option  value="<?php 
+								if ($asunto=="Queja") {
+									echo $asunto;
+								} else {
+									echo "Sugerencia";
+								}
+								
+								 ?>"><?php 
+								 if ($asunto=="Queja") {
+									 echo $asunto;
+								 } else {
+									 echo "Sugerencia";
+								 }
+								 
+								  ?></option>
+									<option value="<?php 
+								if ($asunto=="Queja") {
+									echo "Sugerencia";
+								} else {
+									echo "Queja";
+								}
+								
+								 ?>"><?php 
+								 if ($asunto=="Queja") {
+									 echo "Sugerencia";
+								 } else {
+									 echo "Queja";
+								 }
+								 
+								  ?></option>
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="subject" rows="5" name="mensaje"
-                                value="<?php echo $mensaje; ?>"></textarea>
+								required><?php echo $mensaje; ?></textarea>
 							</div>
         <button class="btn btn-dark-main pull-right" name="update">
           Editar

@@ -24,17 +24,6 @@
 		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
 		<link href="../css/style.css" rel="stylesheet">
        
-
-
-
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="js/html5shiv.min.js"></script>
-		<script src="js/respond.min.js"></script>
-		<![endif]-->
-
 		<script src="../js/modernizr.custom.min.js"></script>
 	</head>
 	<body>
@@ -85,9 +74,16 @@
 				</div>
 			</div>
 		</div>
+<div class="container">
 
-        <div class="container">
-      <table class="table table-dark">
+
+		<?php if (isset($_SESSION['message'])) { 
+							include("../html_components/ms_eliminarqueja.php") ?>
+							
+						<?php session_unset(); } ?>
+      
+	<div>
+      <table class="table table-hover">
         <thead> 
           <tr>
             <th>Nombres</th>
@@ -129,9 +125,9 @@
           <?php } ?>
         </tbody>
       </table>
-    </div>
+  
   </div>
-
+  </div>
 
 <!--Colocar el footer-->
 

@@ -10,6 +10,9 @@ if(isset($_GET['id'])) {
     die("Query Failed.");
   }
 
+    
+  $_SESSION['message'] = 'Queja eliminada exitosamente';
+
   header('Location: ../pages/listarquejas.php');
 }
 
