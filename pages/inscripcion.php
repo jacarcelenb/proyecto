@@ -20,10 +20,14 @@
 						<h2 class="mg-sec-left-title" >Formulario de inscripcion</h2>
 
 						
-						<?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_crearinscrip.php") ?>
-							
-						<?php session_unset(); } ?>
+						<?php if (isset($_SESSION['message'])) { ?>
+      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
+        <?= $_SESSION['message']?>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
 					
 						<form  method="POST"  action="../dbcontroller/crearinscripcion.php" >
 							<div class="mg-contact-form-input">

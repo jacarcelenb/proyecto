@@ -24,7 +24,7 @@ if (isset($_POST['guardar_inscripcion'])) {
     die("Query Failed.");
   }
 
-  $_SESSION['message'] = 'Inscripcione registrada exitosamente';
+  $_SESSION['message'] = 'Inscripcion registrada exitosamente';
   $_SESSION['message_type'] = 'success';
   
    header("Location: ../pages/inscripcion.php");

@@ -49,9 +49,10 @@ if (isset($_POST['update'])) {
   ,direccion ='$direccion', telefono ='$telefono', profesion='$profesion',oficio='$oficio'
   , departamento='$departamento', provincia='$provincia' WHERE  id=$id";
 
-mysqli_query($conn, $query);
+   mysqli_query($conn, $query);
   
-  $_SESSION['message'] = 'Insrcipcion actualizada exitosamente';
+  $_SESSION['message'] = 'Inscripcion actualizada exitosamente';
+  $_SESSION['message_type'] = 'warning';
 
   header('Location: ../pages/listarinscripciones.php');
 }

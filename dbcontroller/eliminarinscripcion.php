@@ -12,6 +12,7 @@ if(isset($_GET['id'])) {
 
     
   $_SESSION['message'] = 'Inscripcion eliminada exitosamente';
+  $_SESSION['message_type'] = 'danger';
 
   header('Location: ../pages/listarinscripciones.php');
 }
