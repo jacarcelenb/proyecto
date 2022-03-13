@@ -134,13 +134,6 @@ if (isset($_POST['update'])) {
       <div class="card card-body">
 	  <h2>Editar Quejas </h2>
 
-	  
-	  <?php if (isset($_SESSION['message'])) { 
-							include("../html_components/ms_editarqueja.php") ?>
-							
-						<?php session_unset(); } ?>
-
-
       <form action="../dbcontroller/editarqueja.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
       <div class="mg-contact-form-input">

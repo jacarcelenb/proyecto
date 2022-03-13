@@ -14,7 +14,15 @@
 		</div>
 <div class="mg-page">
 			<div class="container">
-			<?php if (isset($_SESSION['message'])) { ?>
+	
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-7">
+
+	
+						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
+
+						<?php if (isset($_SESSION['message'])) { ?>
       <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
 	  <strong> <?= $_SESSION['message']?> </strong> 
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -22,12 +30,6 @@
         </button>
       </div>
       <?php session_unset(); } ?>
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-7">
-
-	
-						<h2 class="mg-sec-left-title" >Formulario de Quejas o Sugerencias</h2>
 
 
 										
@@ -66,11 +68,6 @@
 								required></textarea>
 							</div>
 
-							<div class="mg-contact-form-input">
-								<label for="subject">A leido? 
-									<input type="checkbox" class="form-control" id="full-name"  name="leido"
-									required >Políticas de Quejas. <a href="POLITICAS DE QUEJAS.pdf" target="_blank"><strong>VER</strong></a></label><BR>
-							</div>
 							<input type="submit" name="guardar_queja"class="btn btn-dark-main pull-right" value="Enviar">
 
 				

@@ -20,7 +20,8 @@ if (isset($_POST['login'])) {
       
   }
 
-  $_SESSION['message'] = 'Ingreso fallido';
+  $_SESSION['message'] = 'Ingreso exitoso';
+  $_SESSION['message_type'] = 'success';
 
   if ($ingreso) {
     header("Location: ../pages/admin.php");
