@@ -1,5 +1,4 @@
 <?php
-$enviado = false;
 $destino = "carcelenjorge17@gmail.com";
 $nombre =$_POST["nombre"];
 $correo = $_POST["correo"];
@@ -7,7 +6,7 @@ $mensaje =$_POST["mensaje"];
 $asunto = $_POST["asunto"];
 
 $contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
-$enviado = mail($destino,"Contacto",$contenido);
+mail($destino,"Contacto",$contenido);
 
 ?>
 
@@ -23,15 +22,6 @@ $enviado = mail($destino,"Contacto",$contenido);
 				</div>
 			</div>
 		</div>
-
-		<?php if ($enviado) { ?>
-      <div class="alert alert-info alert-dismissible fade show" role="alert">
-	  <strong>Respuesta enviada correctamente </strong> 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <?php session_unset(); }?>
 
 		<div class="mg-page">
 			<div class="container">
