@@ -54,8 +54,8 @@
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="pages/proyectos.php?tipo_noticia=Proyectos">Proyectos</a></li>
-									<li ><a href="pages/proyectosNuevos.php?tipo_noticia=Nuevos Proyectos">Ingresar Nuevos Proyectos</a></li>
+									<li ><a href="pages/proyectos.php">Proyectos</a></li>
+									<li ><a href="pages/proyectosNuevos.php">Ingresar Nuevos Proyectos</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
