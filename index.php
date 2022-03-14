@@ -1,5 +1,5 @@
  
-<?php include('../dbcontroller/database.php');
+<?php include('dbcontroller/database.php');
 ?>
  
  <!DOCTYPE html>
@@ -107,7 +107,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item beactive">
-					<img src="images/banner.jpg" alt="...">
+					<img src="images/funda6.png" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Prueba de paternidad en ausencia del padre </h2>
@@ -116,7 +116,7 @@
 				</div>
 				
 				<div class="item">
-					<img src="images/10.jpg" alt="...">
+					<img src="images/funda5.jpg" alt="..." >
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/7.jpg" alt="...">
+					<img src="images/funda8.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/8.jpg" alt="...">
+					<img src="images/funda2.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -140,7 +140,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/15.jpg" alt="...">
+					<img src="images/funda3.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Prueba de paternidad en ausencia del padre </h2>
@@ -191,7 +191,7 @@
 					</div>
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/asamblea.png" alt="img11" class="img-responsive">
+							<img src="images/funda9.jpg" alt="img11" class="img-responsive" witdh="750" height="500">
 							<figcaption>
 								<h2>Asamblea</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
@@ -377,7 +377,12 @@
             <div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-5">
-														<a href="#"><img src="<?php echo $row['ruta_foto1']; ?>" alt="" class="img-responsive"></a>
+														<a href="#"><img src="<?php 
+														$reemplazar ="";
+														$buscar="../";
+														$picture= $row['ruta_foto1'];
+														$foto = str_replace($buscar,$reemplazar, $picture);
+														echo $foto; ?>" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#"><?php echo $row['titulo']; ?></a> <span><?php echo date("Y-m-d"); ?></span></h3>
@@ -396,7 +401,7 @@
 																</ul>
 															</div>
 														</div>
-														<a href="../pages/proyectosDetalles.php?id=<?php echo $row['id']?>" class="btn btn-main">Mas información</a>
+														<a href="pages/proyectosDetalles.php?id=<?php echo $row['id']?>" class="btn btn-main">Mas información</a>
 														
 													</div>
 												</div>
