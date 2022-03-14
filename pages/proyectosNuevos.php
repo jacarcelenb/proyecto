@@ -52,7 +52,7 @@
 							
 							<div class="form-group">
                                 <label>Tipo de Proyecto </label>
-								<SELECT name="departamento" required>
+								<SELECT name="tipoproyecto" required>
 	      							<OPTION value="Individual">Individual</OPTION>
 									<OPTION value="Comunal">Comunal </OPTION>
 									<OPTION value="Empresarial">Empresarial </OPTION>
