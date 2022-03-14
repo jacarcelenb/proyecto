@@ -62,7 +62,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2021 Diseño y Desarrollo de Sistemas Web.</p>
+							<p>&copy; 2022 Diseño y Desarrollo de Sistemas Web.</p>
 						</div>
 					</div>
 				</div>
