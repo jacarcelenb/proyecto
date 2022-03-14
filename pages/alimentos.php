@@ -23,14 +23,14 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>LIFE FORCE es una organización que tiene como...</p>
+											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
 										</div>
 									</li>
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Bolivia...</p>
+											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
 										</div>
 									</li>
 									<li>
@@ -65,7 +65,7 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de Life Force Food es alimentar...</p>
+											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, es...</p>
 										</div>
 									</li>
 									<li>
@@ -89,16 +89,7 @@
 									<h2 class="mg-post-title">Alimentación</h2>
 								</header>
 								<div>
-									<p><strong>El objetivo de Life Force Food es alimentar a la gente.</strong> </p>
-
-									<p>Desarrollar y fortalecer una cadena alimentaria sostenible.  Establecer y apoyar una relación  sólida con Agricultores, Productores, Ganaderos y Procesadores, en el suministro  de alimentos orgánicos nutritivos y frescos a las familias de  las comunidades. Apoyar la transición de la remediación del  suelo y las prácticas de cultivo para la producción de  alimentos orgánicos.</p>
-						
-									<p>Todos los productos deben tener, Certificación Orgánica.</p>
-						
-									<p>No se permiten aerosoles, antibióticos, productos químicos,  etc. Campo libre a menos que sea certificado como  orgánico no es aceptable.</p>
-						
-									<p>Tenga en cuenta: si su suelo y cultivo NO son ORGÁNICOS  en este momento, y usted, como productor, se  compromete con la conversión de 3 años a productos  orgánicos, tenemos un plan para ayudarlo.</p>
-						
+									<p><strong>El objetivo de ASAMBLEA IMBABURA RENACIENTE,</strong> </p>
 								</div>
 							</article>
 						</main>

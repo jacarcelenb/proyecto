@@ -24,12 +24,12 @@
 									
 								</header> 
 								<div align="justify">
-									<p>Las Asambleas Departamentales y Comunales, están compuesta por miembros de Life Force, que viven en las regiones.</p>
+									<p>Las Asambleas Departamentales y Comunales, están compuesta por miembros de la ASAMBLEA IMBABURA RENACIENTE, , que viven en las regiones.</p>
 									
-									<p>Esta asamblea se reporta con la Asamblea Nacional, los miembros que componemos dependeremos de los rubros que requiera la región para llevar una eficiente labor en cada área.</p>
+									<p>En esta fundación , los miembros que componemos dependeremos de los rubros que requiera la región para llevar una eficiente labor en cada área.</p>
 								</div>
 								<p>
-									<a href="mailto:lifeforce.bolivia@gmail.com">lifeforce.bolivia@gmail.com</a>
+									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com   ">asamblea_imbaburarenacientee@hotmail.com   </a>
 								</p>
 								<!-----<a href="#"><img src="images/mesaDirectiva2.jpg" alt="" class="img-responsive"></a>-------->
 								
@@ -53,7 +53,7 @@
 								<div align="justify">
 									<p><li>El Comité Juridico es el responsable de investigar asuntos relacionados con las leyes del sistema judicial </li></p>
 						
-									<p><li>No se espera  que los miembros sean abogados en ejercicio, mientras que cualquier contribución debe tener como objetivo ayudar a la Asamblea deNacional de Bolivia asesorando e informando a nosotros, el pueblo de Bolivia, de nuestros derechos y acciones tentativas a considerar si dichos derechos se ven amenazados y cuando.</li></p>
+									<p><li>No se espera  que los miembros sean abogados en ejercicio, mientras que cualquier contribución debe tener como objetivo ayudar a la Asamblea deNacional de Ecuador asesorando e informando a nosotros, el pueblo de Ecuador, de nuestros derechos y acciones tentativas a considerar si dichos derechos se ven amenazados y cuando.</li></p>
 								</div>
 								<!-------------------------------------------------------------------------->
 								<header>
@@ -62,7 +62,7 @@
 								<div align="justify">
 									<p><li>Este Comité  esta diseñado para trabajar con las comunidades locales y globales para garantizar la plena restauración , mantenimiento y monitoreo de la salud de la tierra, incluida la vida totalmente natural en ella. </li></p>
 						
-									<p><li>El Comité para la conservación de la naturaleza y la gestión del paisaje e responsable de la protección y preservación de la naturaleza, los habitas naturales y la vida silvestre de Bolivia.</li></p>
+									<p><li>El Comité para la conservación de la naturaleza y la gestión del paisaje e responsable de la protección y preservación de la naturaleza, los habitas naturales y la vida silvestre de Ecuador.</li></p>
 								</div>
 								<!-------------------------------------------------------------------------->
 								<header>
@@ -78,11 +78,11 @@
 									<h3 class="mg-post-title">Servicios Familiares </h3>
 								</header> 
 								<div align="justify">
-									<p><li>El Comité para el Bienestar de la Familia, es responsable de desarrollar y supervisar programas que atienden las necesidades de las familias en Bolivia. </li></p>
+									<p><li>El Comité para el Bienestar de la Familia, es responsable de desarrollar y supervisar programas que atienden las necesidades de las familias en Ecuador. </li></p>
 						
 									<p><li> Concientes de que cada familia es excepcional, por lo tanto, todos los programas deben ser lo suficientemente beneficiosos como para servir al publico en general, pero aun así tener la flexibilidad para abordar la singularidad de cada familia. </li></p>
 						
-									<p><li>Proporcionar servicios integrales a las familias trabajando con los comités apropiados dentro de la Asamblea Nacional de Bolivia., incluidos, entre otros, Salud, y el bienestar, la promoción de la educación y la evaluación de las necesidades. </li></p>
+									<p><li>Proporcionar servicios integrales a las familias trabajando con los comités apropiados dentro de la Asamblea Nacional de Ecuador., incluidos, entre otros, Salud, y el bienestar, la promoción de la educación y la evaluación de las necesidades. </li></p>
 								</div>
 								<!-------------------------------------------------------------------------->
 								<header>
@@ -98,9 +98,9 @@
 									<h3 class="mg-post-title">Comunicación y Prensa </h3>
 								</header> 
 								<div align="justify">
-									<p><li>Este comité tiene por objetivo mantener al tanto de los avances de moda en todas las tecnologías con el objetivos con utilizarlas para servir al pueblo e Bolivia de manera mas eficientes a travez de sus respectivas asambleas comunitarias.  </li></p>
+									<p><li>Este comité tiene por objetivo mantener al tanto de los avances de moda en todas las tecnologías con el objetivos con utilizarlas para servir al pueblo e Ecuador de manera mas eficientes a travez de sus respectivas asambleas comunitarias.  </li></p>
 						
-									<p><li>El Comité de Comunicaciones es responsable de proporcionar y supervisar el marco técnico, la directrices y los procedimientos subyacentes a los servicios ofrecidos por la Asamblea Nacional de Bolivia.</li></p>
+									<p><li>El Comité de Comunicaciones es responsable de proporcionar y supervisar el marco técnico, la directrices y los procedimientos subyacentes a los servicios ofrecidos por la Asamblea Nacional de Ecuador.</li></p>
 								</div>
 								<!-------------------------------------------------------------------------->
 								<header>
@@ -120,7 +120,7 @@
 								<div align="justify">
 									<p><li>Este comité tiene el mandato de promover la accesibilidad, la circulación asequible y segura de personas, bienes y servicios a través de la construcción y el mantenimiento de la infraestructura vial. </li></p>
 						
-									<p><li>Obras publicas que son una conminación de activos físicos,practicas de gestión , políticas y personal necesario para proporcionar y mantener estructuras servicios esenciales para el bienestar y la calidad de la vida  aceptable para todos los ciudadanos de Bolivia. </li></p>
+									<p><li>Obras publicas que son una conminación de activos físicos,practicas de gestión , políticas y personal necesario para proporcionar y mantener estructuras servicios esenciales para el bienestar y la calidad de la vida  aceptable para todos los ciudadanos de Ecuador. </li></p>
 								</div>
 								<!-------------------------------------------------------------------------->
 								<header>
@@ -171,21 +171,21 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date">&#9679; </div>
 											<h3><a href="historia.php">Nosotros</a></h3>
-											<p>LIFE FORCE es una organización que tiene como...</p>
+											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
 										</div>
 									</li>
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date">&#9679; </div>
 											<h3><a href="misionvision.php">Misión </a></h3>
-											<p>Restaurar El Estado Plurinacional De Bolivia...</p>
+											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
 										</div>
 									</li>
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date">&#9679; </div>
 											<h3><a href="misionvision.php">Visión</a></h3>
-											<p>Integrar Al Proyecto Life Force, A Toda La Comunidad...</p>
+											<p>Integrar Al Proyecto ASAMBLEA IMBABURA RENACIENTE, , A Toda La Comunidad...</p>
 										</div>
 									</li>
 									<li>

@@ -20,7 +20,7 @@
 								<div role="tabpanel" class="tab-pane fade in active" id="select-room">
 									
 									<div class="mg-available-rooms">
-										<h2 class="mg-sec-left-title">Nuestros Noticias</h2>
+										<h2 class="mg-sec-left-title">Nuestras Noticias</h2>
 										<div class="mg-avl-rooms">
 																					
 										</div>

@@ -22,14 +22,14 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>LIFE FORCE es una organización que tiene como...</p>
+											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
 										</div>
 									</li>
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Bolivia...</p>
+											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
 										</div>
 									</li>
 									<li>
@@ -64,7 +64,7 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de Life Force Food es alimentar...</p>
+											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
 										</div>
 									</li>
 									<li>
@@ -98,7 +98,7 @@
 				
 				<p>Fomentamos la formación de páginas comerciales para Empresas Éticas en cualquier etapa de desarrollo, Grupos Comunitarios, Asambleas, Equipos de Desarrollo de Proyectos y Think Tanks para colaborar, empoderar y expandir las posibilidades, oportunidades,  comprensión e impacto de todos en el G- RED DE FUERZA.  </p>
 				
-				<p>Somos la nueva plataforma para los miembros de Life Force Global, un movimiento dedicado a la restauración del planeta, las personas y la energía vital que nos conecta a todos. Estamos emocionados de tenerte aquí y dedicarnos a tu éxito.
+				<p>Somos la nueva plataforma para los miembros de ASAMBLEA IMBABURA RENACIENTE,  Global, un movimiento dedicado a la restauración del planeta, las personas y la energía vital que nos conecta a todos. Estamos emocionados de tenerte aquí y dedicarnos a tu éxito.
 				</p>
 						
 				<p>Estamos con la gente y G-FORCE es un llamado a la acción para el gigante dentro de ti. Vamos a cambiar el mundo. Juntos.

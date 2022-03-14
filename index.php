@@ -196,7 +196,7 @@
 								<h2>Asamblea</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
-								<p>La Asamblea cumple la función de Organizar y velar por el cumplimiento de los mandatos de Life Force en los respectivos países.</p>
+								<p>La Asamblea cumple la función de Organizar y velar por el cumplimiento de los mandatos de ASAMBLEA IMBABURA RENACIENTE,  en los respectivos países.</p>
 								<a href="pages/asambleas.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
@@ -297,7 +297,7 @@
 				<div class="row">
 					<div class="col-md-7" align="justify">
 						<h2 class="mg-sec-left-title">Acerca de Nosotros </h2>
-						<p> <strong>LIFE FORCE</strong> 
+						<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> 
 						Apoyamos proyectos que busquen el desarrollo integral de los ciudadanos Imbabureños, especialmente sectores vulnerables y excluidos de los procesos económicos y sociales, respetando el medio ambiente. </p>
 					</div>
 					<div class="col-md-5">
@@ -328,20 +328,20 @@
 										<div class="mg-book-now mt80">
 												<div class="row">
 													<div class="col-md-3">
-														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Bolivia</span> </h2>
-														<p> <strong>LIFE FORCE</strong> ASAMBLEA IMBABURA RENACIENTE le está invitando a una reunión o evento . </p>
+														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Ecuador</span> </h2>
+														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA IMBABURA RENACIENTE le está invitando a una reunión o evento . </p>
 														<br>
 														<p>Horario de eventos o reuniones: primer sábado de cada mes </p>
 									
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Inscripción  <span class="mg-bn-big">Formulario de Inscripción a nuevos Miembros</span></h2>
-														<p> <strong>LIFE FORCE</strong> En este formulario puede inscribirse , para poder ser miembro de este y participar.</p>
+														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede inscribirse , para poder ser miembro de este y participar.</p>
 														<a href="pages/inscripcion.php" class="btn btn-main">Inscripción</a>
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Quejas  <span class="mg-bn-big">Formulario de Quejas y Sugerencias</span></h2>
-														<p> <strong>LIFE FORCE</strong> En este formulario puede ingresar alguna queja o sugerencia.</p>
+														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede ingresar alguna queja o sugerencia.</p>
 														<a href="pages/quejas.php" class="btn btn-main">Formulario</a>
 													</div>
 

@@ -22,14 +22,14 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>LIFE FORCE es una organización que tiene como...</p>
+											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
 										</div>
 									</li>
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Bolivia...</p>
+											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
 										</div>
 									</li>
 									<li>
@@ -64,7 +64,7 @@
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
 											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de Life Force Food es alimentar...</p>
+											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
 										</div>
 									</li>
 									<li>
@@ -91,11 +91,7 @@
 									
 
 								<p><strong>Nosotros, como seres humanos en este planeta,</strong>  tenemos la responsabilidad de formar la próxima  generación. Este es un proceso que comienza en casa y  que debe reflejarse en el aula.</p>
-						
-								<p>Life Force está creando modelos adaptables que  involucran a los niños en todos los niveles de desarrollo  mientras desarrollan habilidades, brindan dirección y  apoyo fomentan las cualidades naturales innatas y  únicas de cada niño.</p>
-						
-								<p>Life Force, fomentara la creación de Institutos Tecnológicos, para que la juventud y tengan la posibilidad de ir a Universidades tecnológicas de otros países para aprender y retornar a sus lugares de origen y traspasar los conocimientos adquiridos en beneficio de las Comunidades.</p>
-						
+					
 								</div>
 							</article>
 						</main>
