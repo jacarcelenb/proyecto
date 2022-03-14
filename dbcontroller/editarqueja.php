@@ -29,6 +29,13 @@ if (isset($_POST['update'])) {
   $asunto = $_POST['asunto'];
   $mensaje = $_POST['mensaje'];
 
+  if ($miembro=="SI") {
+	$miembro = 1;
+  } else {
+	$miembro = 0;
+	
+  }
+
   $query = "UPDATE queja set nombres = '$nombre', esmiembro = '$miembro' ,
   departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
   mysqli_query($conn, $query);

@@ -9,9 +9,9 @@ if (isset($_POST['guardar_queja'])) {
   $asunto = $_POST['asunto'];
   $mensaje = $_POST['mensaje'];
 if ($miembro=="SI") {
-  $miembro = true;
+  $miembro = 1;
 } else {
-  $miembro = false;
+  $miembro = 0;
   
 }
   $query = "INSERT INTO queja(nombres, esmiembro , departamento , asunto , mensaje) VALUES ('$nombre'
