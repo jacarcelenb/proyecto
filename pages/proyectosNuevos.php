@@ -32,7 +32,7 @@
 							
 							<div class="form-group">
                                 <label>Departamento </label>
-								<SELECT nombre="departamento" required>
+								<SELECT name="departamento" required>
 	      							<OPTION SELECTED VALUE="Cochabamba">Cochabamba
 	        						<OPTION VALUE="La Paz">La Paz
 	          						<OPTION VALUE="Santa Cruz">Santa Cruz
