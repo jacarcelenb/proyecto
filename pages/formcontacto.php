@@ -1,3 +1,19 @@
+<?php
+$enviado = false;
+$destino = "asamblea_imbaburarenacientee@hotmail.com";
+$nombre =$_POST["nombre"];
+$correo = $_POST["correo"];
+$mensaje =$_POST["mensaje"];
+$asunto = $_POST["asunto"];
+
+$contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
+$enviado = mail($destino,"Contacto",$contenido);
+
+header("Location: formcontacto.php")
+
+
+?>
+
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
@@ -10,35 +26,38 @@
 				</div>
 			</div>
 		</div>
-<!--    INICIO CONTENIDO     --><center>
-<h2><font face=verdana color=#000000>Gracias</h2>
-<font face=verdana size=2 color=#000000>Gracias por llenar nuestro formulario</font><br>
-<font face=verdana size=2 color=#000000></font>
-</center>
-</body>
-</html>
+
+		<?php if ($enviado) { ?>
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+	  <strong>Respuesta enviada correctamente </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
+
 		<div class="mg-page">
 			<div class="container">
 				<div class="row">
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form class="clearfix" method="POST"  action="formcontacto.php" >
+						<form  method="POST"  action="formcontacto.php" >
 							<div class="mg-contact-form-input">
-								<label for="full-name">Su Nombre</label>
-								<input type="text" class="form-control" id="full-name">
+								<label for="full-name">Nombre</label>
+								<input type="text" class="form-control" id="full-name" name="nombre">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">E-mail</label>
-								<input type="text" class="form-control" id="email">
+								<input type="text" class="form-control" id="email" name="correo">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto</label>
-								<input type="text" class="form-control" id="subject">
+								<input type="text" class="form-control" id="asunto" name="asunto">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5"></textarea>
+								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
 							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
