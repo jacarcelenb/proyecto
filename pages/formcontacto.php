@@ -9,9 +9,6 @@ $asunto = $_POST["asunto"];
 $contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
 $enviado = mail($destino,"Contacto",$contenido);
 
-header("Location: formcontacto.php")
-
-
 ?>
 
 <?php include('../html_components/header.php'); ?>
