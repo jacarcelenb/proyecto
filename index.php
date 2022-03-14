@@ -86,7 +86,7 @@
 							</li>
 						   <li ><a href="pages/videos.php">Videos</a></li>
 						<li ><a href="pages/galeria.php">Galeria</a></li>
-                           <li ><a href="pages/contacto.php">Contacto</a></li>
+                          
 						</ul>
 					</div><!-- /.navbar-collapse -->
 					
