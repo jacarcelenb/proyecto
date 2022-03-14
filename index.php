@@ -1,3 +1,7 @@
+ 
+<?php include('../dbcontroller/database.php');
+?>
+ 
  <!DOCTYPE html>
 <html lang="en">
 	<head> 
@@ -325,23 +329,7 @@
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Bolivia</span> </h2>
 														<p> <strong>LIFE FORCE Bolivia</strong> ASAMBLEA NACIONAL DE BOLIVIA le está invitando a una reunión de Zoom programada. </p>
-														<p>Tema: Reunión pública de Zoom de la ASAMBLEA NACIONAL DE BOLIVIA</p>
-														4 de enero 2022 ya realizada<BR>
-														14 de enero 2022 ya realizada <BR>
-														27 de enero 2022 a horas 07:30 p. m. La Paz <BR>
-														3 de febrero 2022 a horas 07:30  p. m.<BR>
-														10 de febrero 2022 a horas 07:30  p. m.<BR>
-														17 de febrero 2022 a horas 07:30  p. m. <BR>
-														24 de febrero 2022 a horas 07:30 p. m.<BR>
-														3 de marzo 2022 a horas 07:30  p. m.<BR>
-														10 de marzo 2022 a horas 07:30  p. m.<BR>
-														17 de marzo 2022 a horas 07:30  p. m.<BR>
-														24 de marzo 2022 a horas 07:30  p. m.<BR>
-														31 de marzo 2022 a horas 07:30  p. m.<BR>
-														<p></p>
-														<p>Reunion por Zoom ID de reunión: 819 9824 9898   <BR>Código de acceso: 758761</p>
-														<p>Unirse a la reunión Zoom <a href="https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09">
-https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09</a></p>
+									
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Inscripción  <span class="mg-bn-big">Formulario de Inscripción a nuevos Miembros</span></h2>
@@ -381,98 +369,45 @@ https://us02web.zoom.us/j/81998249898?pwd=R3BtVkVjQUZ6bHBYcDdhd2JwWWZuQT09</a></
 										<h2 class="mg-sec-left-title">Nuestros Proyectos</h2>
 										<div class="mg-avl-rooms">
 										 
-										   <div class="mg-avl-room">
+										<?php
+          $query = "SELECT * FROM proyectos";
+          $result_proyectos = mysqli_query($conn, $query);    
+
+          while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
+            <div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-5">
-														<a href="#"><img src="" alt="" class="img-responsive"></a>
+														<a href="#"><img src="<?php echo $row['ruta_foto1']; ?>" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
-														<h3 class="mg-avl-room-title"><a href="#">CRIANZA DE GANADO CAPRINO DE LA RAZA (Anglo Nubian) EN DISTRITO AYLLU SIKUYA,  MUNICIPIO DE LLALLAGUA</a> <span>2021-10-09</span></h3>
-														<p>Según, los datos del Instituto Nacional de Estadística (INE), la región del Norte Potosí, esta considerada como una de las zonas más pobres de Bolivia. El Ayllu Sikuya pertenece a esta zona.   
-En el Ayllu Sikuya, donde se encuentra las comunidades beneficiarias la producción ganadera y agrí......</p>
+														<h3 class="mg-avl-room-title"><a href="#"><?php echo $row['titulo']; ?></a> <span><?php echo date("Y-m-d"); ?></span></h3>
+														<p> <?php echo $row['contenido']; ?></p>
 														<div class="row mg-room-fecilities">
 															<div class="col-sm-4">
 																<ul>
-																	<li> &#9830; Potosi </li>
+																	<li>  &#9830; <?php echo $row['departamento']; ?> </li>
 																	
 																</ul>
 															</div>
 															<div class="col-sm-8">
 																<ul>
-																	<li> &#9830; Ayllu Sikuya.</li>
+																	<li>  &#9830; <?php echo $row['provincia']; ?></li>
 																	
 																</ul>
 															</div>
 														</div>
-														<a href="pages/proyectosDetalles.php?cod_noticia=242&titulo_noticia=CRIANZA DE GANADO CAPRINO DE LA RAZA (Anglo Nubian) EN DISTRITO AYLLU SIKUYA,  MUNICIPIO DE LLALLAGUA" class="btn btn-main">Mas información</a>
+														<a href="../pages/proyectosDetalles.php?id=<?php echo $row['id']?>" class="btn btn-main">Mas información</a>
 														
 													</div>
 												</div>
 											</div>
-										 
-										   <div class="mg-avl-room">
-												<div class="row">
-													<div class="col-sm-5">
-														<a href="#"><img src="" alt="" class="img-responsive"></a>
-													</div>
-													<div class="col-sm-7">
-														<h3 class="mg-avl-room-title"><a href="#">Construcción Muro Perimetral Unidad Educativa Machaya Grande</a> <span>2021-10-09</span></h3>
-														<p>En la comunidad de Machaya Grande, la Unidad Educativa no cuenta con un Muro Perimetral y que la U.E. es una de las más antiguas ; los estudiantes en edad escolar necesitan de una infraestructura que cumpla todas condiciones de resguardo  para los estudiantes y para los bienes muebles y inmuebles, ......</p>
-														<div class="row mg-room-fecilities">
-															<div class="col-sm-4">
-																<ul>
-																	<li> &#9830; Potosi </li>
-																	
-																</ul>
-															</div>
-															<div class="col-sm-8">
-																<ul>
-																	<li> &#9830; Comunidad Machaya Grande</li>
-																	
-																</ul>
-															</div>
-														</div>
-														<a href="pages/proyectosDetalles.php?cod_noticia=243&titulo_noticia=Construcción Muro Perimetral Unidad Educativa Machaya Grande" class="btn btn-main">Mas información</a>
-														
-													</div>
-												</div>
-											</div>
-										 
-										   <div class="mg-avl-room">
-												<div class="row">
-													<div class="col-sm-5">
-														<a href="#"><img src="" alt="" class="img-responsive"></a>
-													</div>
-													<div class="col-sm-7">
-														<h3 class="mg-avl-room-title"><a href="#">Construcción Piscina Arbolitos Ayllu  Sikuya</a> <span>2021-10-09</span></h3>
-														<p>En la comunidad de Villa Arbolitos, para este sector. <BR><BR>
-El presente proyecto beneficiara a todas las familias que habitan en esta comunidad dando mejores oportunidades en lo económico y fomentar el turismo.<BR><BR>
-Mejorar las condiciones de vida con la implementación de del proyecto, que......</p>
-														<div class="row mg-room-fecilities">
-															<div class="col-sm-4">
-																<ul>
-																	<li> &#9830; Potosi </li>
-																	
-																</ul>
-															</div>
-															<div class="col-sm-8">
-																<ul>
-																	<li> &#9830; Ayllu Sikuya, Comunidad Villa Arbolitos</li>
-																	
-																</ul>
-															</div>
-														</div>
-														<a href="pages/proyectosDetalles.php?cod_noticia=244&titulo_noticia=Construcción Piscina Arbolitos Ayllu  Sikuya" class="btn btn-main">Mas información</a>
-														
-													</div>
-												</div>
-											</div>
-											
-											
-											
-										</div>
+        
+          <?php } ?>
+							
+									  </div>
 									</div>
-								
+								</div>
+						 	</div>
 						</div>
 					</div>
 				</div>
