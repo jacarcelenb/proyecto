@@ -298,7 +298,15 @@
 					<div class="col-md-5">
 						<div class="video-responsive">
 				
-                <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3807.738343411652!2d-66.15884513499071!3d-17.376319268472898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d-17.3762729!2d-66.1566042!4m3!3m2!1d-17.376262699999998!2d-66.1566364!5e0!3m2!1ses!2sbo!4v1538431420328" width="500" height="281" frameborder="0" style="border:0" allowfullscreen></iframe> <BR>  <BR>     
+						<div class="mapouter">
+						<div class="gmap_canvas">
+							<iframe width="500" height="281" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Jaime%20Roldos%20y%20S%C3%A1nchez%20y%20Cifuentes&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							<a href="https://www.whatismyip-address.com"></a>
+							<br>
+							<style>.mapouter{position:relative;text-align:right;height:281px;width:500px;}</style>
+							<a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:281px;width:500px;}</style>
+						</div>
+					</div>
                             
 						</div>
 					</div>
