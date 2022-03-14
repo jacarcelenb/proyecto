@@ -23,7 +23,7 @@
 									
 								</header>
 								<div>
-									<p><strong>ASAMBLEA IMBABURA RENACIENTE, </strong> es una organización sin fines de lucro que busca el bien común </p>
+									<p><strong>ASAMBLEA IMBABURA RENACIENTE, </strong> es una organización sin fines de lucro que busca el bien común.</p>
 						
 								
 								</div>
