@@ -33,7 +33,7 @@
 
 
 										
-						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de Life Force Bolivia.</p>----->
+						<!---------<p>Este formulario usted se podrá inscribirse para ser voluntario o miembre de Life Force Boliva y poder ser en un futuro parte nuestra. La información puesta por usted será solo de uso interno de LIFE FORCE.</p>----->
 						<form  method="POST"  action="../dbcontroller/crearqueja.php" >
 							
 							<div class="mg-contact-form-input">

@@ -44,15 +44,15 @@
                     
 					<div class="col-md-6"> 
 							<p>
-									<!-------<strong><i class="fa fa-home"></i> Dirección:</strong> Av. Ayacuho #633, Edificio Arcangel piso 2 of. 201<BR>--->
-									<!---------<strong><i class="fa fa-phone"></i> Telefono:</strong> 591-4-4528646<BR>
-									<strong><i class="fa fa-mobile-phone"></i> Celular:</strong> 591-70798095<BR>
-									<strong><i class="fa fa-whatsapp"></i> WhatsApp:</strong> 591-70798095<BR><BR>------>
+									<!-------<strong><i class="fa fa-home"></i> Dirección:</strong> Av. Jaime Roldos y Sánchez y Cifuentes<BR>--->
+									<!---------<strong><i class="fa fa-phone"></i> Telefono:</strong> 0625580096<BR>
+									<strong><i class="fa fa-mobile-phone"></i> Celular:</strong> 0997693293 - 0986176366<BR>
+									<strong><i class="fa fa-whatsapp"></i> WhatsApp:</strong> 0997693293 - 0986176366<BR><BR>------>
 									Cochabamba - Bolivia
 								</p>
 				
 								<p>
-									<a href="mailto:lifeforce.pando@gmail.com">lifeforce.pando@gmail.com</a>
+									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com   ">asamblea_imbaburarenacientee@hotmail.com   </a>
 								</p>
 					</div>
                     <!------
