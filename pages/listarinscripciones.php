@@ -7,6 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>A-life Imbabura Renaciente</title>
+    <link rel="icon" href="../images/esolog.png">
 		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
@@ -51,10 +52,6 @@
                         <li ><a href="../pages/listarquejas.php">Quejas</a>
 	
 						</li> 
-
-                        <li ><a href="../pages/listarproyectos.php">Proyectos</a>
-                    
-                        </li> 
 
                         <li ><a href="../index.php">Cerrar Sesion</a>
                     
