@@ -93,7 +93,7 @@
 								</ul>
 							</li>
 						   <li ><a href="videos.php">Videos</a></li>
-						<li ><a href="galeria.php?tipo_fotos=Galeria">Galeria</a></li>
+						<li ><a href="galeria.php">Galeria</a></li>
                            <li ><a href="contacto.php">Contacto</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->

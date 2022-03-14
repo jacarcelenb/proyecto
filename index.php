@@ -84,7 +84,7 @@
 								</ul>
 							</li>
 						   <li ><a href="pages/videos.php">Videos</a></li>
-						<li ><a href="pages/galeria.php?tipo_fotos=Galeria">Galeria</a></li>
+						<li ><a href="pages/galeria.php">Galeria</a></li>
                            <li ><a href="pages/contacto.php">Contacto</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -107,7 +107,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item beactive">
-					<img src="images/funda6.png" alt="...">
+					<img src="images/funda8.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Prueba de paternidad en ausencia del padre </h2>
@@ -116,7 +116,7 @@
 				</div>
 				
 				<div class="item">
-					<img src="images/funda5.jpg" alt="..." >
+					<img src="images/funda2.jpg" alt="..." >
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda8.jpg" alt="...">
+					<img src="images/funda4.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda2.jpg" alt="...">
+					<img src="images/funda5.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -140,7 +140,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda3.jpg" alt="...">
+					<img src="images/funda1.jpg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Prueba de paternidad en ausencia del padre </h2>
