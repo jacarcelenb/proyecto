@@ -1,6 +1,6 @@
 <?php
 $enviado = false;
-$destino = "asamblea_imbaburarenacientee@hotmail.com";
+$destino = "carcelenjorge17@gmail.com";
 $nombre =$_POST["nombre"];
 $correo = $_POST["correo"];
 $mensaje =$_POST["mensaje"];
@@ -31,18 +31,7 @@ $enviado = mail($destino,"Contacto",$contenido);
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <?php session_unset(); } else{
-	  } ?>
-
-<?php if ($enviado==false) { ?>
-      <div class="alert alert-danger alert-dismissible fade show" role="alert">
-	  <strong>Respuesta enviada incorrectamente </strong> 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <?php session_unset(); } else{
-	  } ?>
+      <?php session_unset(); }?>
 
 		<div class="mg-page">
 			<div class="container">
