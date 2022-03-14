@@ -443,17 +443,17 @@
 							<div class="widget">
 								
 								<ul class="mg-instagram">
-									<li><img src="images/galeria5.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria7.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria4.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad1.png" alt="" width="350"></li>
+									<li><img src="images/diversidad2.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad3.jpg" alt="" width="350"></li>
 
-									<li><img src="images/galeria1.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria3.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria11.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad4.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad5.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad6.jpg" alt="" width="350"></li>
 									
-									<li><img src="images/galeria8.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria9.jpg" alt="" width="350"></li>
-									<li><img src="images/galeria10.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad7.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad8.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad9.jpg" alt="" width="350"></li>
 									
 								</ul>
 							</div>
