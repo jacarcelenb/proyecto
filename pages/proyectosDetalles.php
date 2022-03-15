@@ -9,6 +9,10 @@ $titulo = "";
 $contenido = "";
 $rutafoto1 = "";
 $rutafoto2 = "";
+$tipofoto1 = "";
+$tipofoto2 = "";
+$fecha = "";
+
 
 if  (isset($_GET['id'])) {
   $id = $_GET['id'];
@@ -23,11 +27,13 @@ if  (isset($_GET['id'])) {
 	$contenido =$row['contenido'];
 	$rutafoto1 = $row['ruta_foto1'];
 	$rutafoto2 = $row['ruta_foto2'];
+	$tipofoto1 = $row['tipoimagen1'];
+    $tipofoto2 = $row['tipoimagen2'];
+    $fecha = $row['fecha'];
   }
 }
 $detalle = "Detalles del Proyecto ".$titulo." EN DISTRITO ".$provincia;
 $titulo_detalle = $titulo." EN DISTRITO ".$provincia;
-$fecha= date("Y-m-d");
 ?>
 
 <?php include('../html_components/header.php'); ?>
@@ -46,7 +52,7 @@ $fecha= date("Y-m-d");
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
-						<a href="#"><img src="<?php echo $rutafoto1 ?>" alt="" class="img-responsive"></a>
+						<a href="#"><img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>"alt="" class="img-responsive"></a>
 					</div>
 					<div class="col-md-5 mg-room-fecilities">
 						<h2 class="mg-sec-left-title"><strong><?php echo $titulo_detalle ?></strong></h2>
@@ -74,10 +80,10 @@ $fecha= date("Y-m-d");
 				<div class="row">
 							<h2 class="mg-sec-left-title">Galeria de Fotos</h2>
 							<figure class="col-md-4 mg-gallery-item" data-groups='["classic"]'>
-								<a href="<?php echo $rutafoto1 ?>" data-lightbox-gallery="rooms"><img src="<?php echo $rutafoto1 ?>" class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+								<a href="#" data-lightbox-gallery="rooms"> <img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>" class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
 							</figure>
 							<figure class="col-md-4 mg-gallery-item" data-groups='["classic"]'>
-								<a href="<?php echo $rutafoto2 ?>" data-lightbox-gallery="rooms"><img src="<?php echo $rutafoto2 ?>" class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+								<a href="#" data-lightbox-gallery="rooms"><img src="data:<?php echo $tipofoto2; ?>;base64,<?php echo  base64_encode($rutafoto2); ?>"class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
 							</figure>
 							
 						</div>
