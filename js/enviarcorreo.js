@@ -8,5 +8,5 @@ botonEnviar.addEventListener('click', function (e) {
     const asunto = document.getElementById("asunto").value;
     const mensaje = document.getElementById("mensaje").value;
     window.location.href = `mailto:asamblea_imbaburarenacientee@hotmail.com?
-    subject=${asunto}&body=Nombre%0A${nombre}Correo%0A${correo}Mensaje%0A${mensaje}`;
+    subject=${asunto}&body=nombre%3A${nombre}%0Acorreo%3A${correo}%0Amensaje%3A${mensaje}%0A`;
 })

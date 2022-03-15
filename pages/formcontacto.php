@@ -36,8 +36,9 @@
 								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="mensaje" rows="5" name="mensaje"></textarea>
 							</div>
-							<input type="submit"  id= "enviar"class="btn btn-dark-main pull-right" value="Enviar">
+							<input type="submit"  id="enviar"class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
+						<script src="../js/enviarcorreo.js"></script>
 					</div>
 
 					

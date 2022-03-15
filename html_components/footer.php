@@ -68,6 +68,5 @@
 		<script src="../js/gmaps.min.js"></script>
 		<script src="../js/jquery.parallax-1.1.3.js"></script>
 		<script src="../js/script.js"></script>
-		<script src="../js/enviarcorreo.js"></script>
 	</body>
 </html>
