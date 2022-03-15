@@ -1,14 +1,4 @@
-<?php
-$destino = "carcelenjorge17@gmail.com";
-$nombre =$_POST["nombre"];
-$correo = $_POST["correo"];
-$mensaje =$_POST["mensaje"];
-$asunto = $_POST["asunto"];
 
-$contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
-mail($destino,"Contacto",$contenido);
-
-?>
 
 <?php include('../html_components/header.php'); ?>
 
@@ -29,7 +19,7 @@ mail($destino,"Contacto",$contenido);
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form  method="POST"  action="formcontacto.php" >
+						<form  method="POST"  action="https://formsubmit.co/carcelenjorge17@gmail.com" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="full-name" name="nombre">
