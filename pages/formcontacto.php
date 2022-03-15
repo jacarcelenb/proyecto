@@ -19,7 +19,7 @@
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form >
+						<form action="https://formsubmit.co/asamblea_imbaburarenacientee@hotmail.com " method="POST">
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="name" name="nombre">
@@ -38,7 +38,6 @@
 							</div>
 							<input type="submit"  id="enviar"class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
-						<script src="../js/enviarcorreo.js"></script>
 					</div>
 
 					
@@ -58,7 +57,7 @@
 								</p>
 				
 								<p>
-									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com   ">asamblea_imbaburarenacientee@hotmail.com   </a>
+									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com">asamblea_imbaburarenacientee@hotmail.com   </a>
 								</p>
 					</div>
                     <!------
