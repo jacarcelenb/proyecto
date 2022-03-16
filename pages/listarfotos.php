@@ -98,7 +98,7 @@
         </thead>
         <tbody>
 		<?php
-          $query = "SELECT * FROM video";
+          $query = "SELECT * FROM foto";
           $result_quejas = mysqli_query($conn, $query);    
 
           while($row = mysqli_fetch_assoc($result_quejas)) { ?>
@@ -106,10 +106,10 @@
             <td><?php echo $row['titulo']; ?></td>
             <td><?php echo $row['descripcion']; ?></td>
             <td>
-              <a href="../dbcontroller/editarvideo.php?id=<?php echo $row['id']?>" class="btn btn-warning">
+              <a href="../dbcontroller/editarfoto.php?id=<?php echo $row['id']?>" class="btn btn-warning">
                 <i class="fa fa-address-book">Editar</i>
               </a>
-			  <a href="../dbcontroller/eliminarvideo.php?id=<?php echo $row['id']?>" class="btn btn-danger">
+			  <a href="../dbcontroller/eliminarfoto.php?id=<?php echo $row['id']?>" class="btn btn-danger">
                 <i class="fa fa-trash-alt">Eliminar</i>
               </a>
             </td>
