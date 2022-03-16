@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Nuevos Videos</h2>
+						<h2>Nuevos Blogs</h2>
 						<p> .</p>
 					</div>
 				</div>
@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="row">
                     <div class="col-lg-9">
-						<h2 class="mg-sec-left-title" >Subir video</h2>
+						<h2 class="mg-sec-left-title" >Ingrese el nuevo blog</h2>
 						
 						<?php if (isset($_SESSION['message'])) { ?>
       <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
@@ -26,7 +26,7 @@
       </div>
       <?php session_unset(); } ?>
 
-                        <form role="form" method="POST" action="../dbcontroller/crearvideo.php" accept-charset="UTF-8" class="form-horizontal"  enctype="multipart/form-data">
+                        <form role="form" method="POST" action="../dbcontroller/crearblog.php" accept-charset="UTF-8" class="form-horizontal"  enctype="multipart/form-data">
 							
 							
 							
@@ -35,22 +35,29 @@
 								<input class="form-control" type="text" name="titulo" required>
                                 
                             </div>
+							<div class="form-group">
+                                <label>Tipo</label>
+								<input class="form-control" type="text" name="tipo" required>
+                            </div>
+							<div class="form-group">
+                                <label>Autor</label>
+								<input class="form-control" type="text" name="autor" required>
+                            </div>
 							
 							<div class="form-group">
                                 <label>Descripcion</label>
-								<textarea class="form-control" rows="10" name="descripcion"  required></textarea>
+								<input class="form-control" type="text" name="descripcion" required>
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
+                            </div>
+							<div class="form-group">
+                                <label>Enlace </label>
+								<input class="form-control" type="text" name="enlace" required>
                             </div>
 									
 							
-							<div class="form-group">
-                                <label>Video</label>
-								<input type="file" name="video1" accept="video/*">
-                                <!---<p class="help-block">Example block-level help text here.</p>-->
-                            </div>
-						
 							
-					        	<button type="submit" value="Ingresar" name="crear_video" class="btn btn-dark-main pull-center">Ingresar</button> 
+							
+					        	<button type="submit" value="Ingresar" name="crear_blog" class="btn btn-dark-main pull-center">Ingresar</button> 
                             
 							
 						</form>

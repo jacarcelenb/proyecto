@@ -121,7 +121,7 @@ if (isset($_POST['update'])) {
   <div class="row">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
-	  <h2>Editar Noticias</h2>
+	  <h2>Editar Fotos</h2>
 
       <form action="../dbcontroller/editarimagen.php?id=<?php echo $_GET['id']; ?>" method="POST">
 

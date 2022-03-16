@@ -111,7 +111,7 @@ if (isset($_POST['update'])) {
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Noticias</h2>
+						<h2>Actividades</h2>
 						<p></p>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 <?php include('../dbcontroller/database.php'); ?>
-<?php include('../html_components/header.php'); ?>
+<?php include('../html_components/headerformscr.php'); ?>
 
 		<div class="mg-page-title parallax">
 			<div class="container">
