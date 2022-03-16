@@ -64,7 +64,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Videos</h2>
+						<h2>Fotos</h2>
 						<p></p>
 					</div>
 				</div>
@@ -83,8 +83,8 @@
 	<div>
 	<br>
 	
-	<a href="../pages/videosNuevos.php" class="btn btn-success">
-                <i class="fa fa-trash-alt">Subir Video</i>
+	<a href="../pages/fotosNuevos.php" class="btn btn-success">
+                <i class="fa fa-trash-alt">Subir Foto</i>
               </a>
 		<br>
 		<br>
@@ -106,7 +106,7 @@
             <td><?php echo $row['titulo']; ?></td>
             <td><?php echo $row['descripcion']; ?></td>
             <td>
-              <a href="../dbcontroller/editarfoto.php?id=<?php echo $row['id']?>" class="btn btn-warning">
+              <a href="../dbcontroller/editarimagen.php?id=<?php echo $row['id']?>" class="btn btn-warning">
                 <i class="fa fa-address-book">Editar</i>
               </a>
 			  <a href="../dbcontroller/eliminarfoto.php?id=<?php echo $row['id']?>" class="btn btn-danger">

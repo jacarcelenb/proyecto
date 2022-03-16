@@ -44,7 +44,7 @@
 									
 							
 							<div class="form-group">
-                                <label>Video</label>
+                                <label>Imagen</label>
 								<input type="file" name="foto1" accept=".jpg, .jpeg, .png">
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>
