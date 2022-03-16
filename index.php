@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="../images/esolog.png">
+		<link rel="icon" href="images/esolog.png">
 		<title>A-Life Imbabura Renaciente</title>
 		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -482,6 +482,7 @@
 						<h2 class="mg-sec-left-title">NUESTROS VIDEOS </h2>
 					</div>
 
+
 </div>
 			
 <div class="mg-page">
@@ -492,12 +493,23 @@
 									<div class="mg-available-rooms">
 										<div class="mg-avl-rooms">
 
-
 												<div class="row">
 													 
-													<div class="col-sm-6">
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/LG3MGjAOCq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><BR><BR>
-													</div>
+													<?php
+					
+					$query = "SELECT * FROM video";
+					$result_proyectos = mysqli_query($conn, $query);    
+		  
+					while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
+					   
+					   <div class="col-md-4">  
+					   <video width="320" height="240" controls>
+  <source src="data:<?php echo $row['tipovideo']; ?>;base64,<?php echo  base64_encode($row['video']); ?> " type="video/mp4">
+  </video>
+							  </div>
+							  
+					<?php } ?>
+												
 																										
 												</div>
 
