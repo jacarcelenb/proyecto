@@ -79,7 +79,7 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="pages/noticias.php?tipo_noticia=Noticias">Noticias</a></li>
+									<li ><a href="pages/noticias.php">Noticias</a></li>
 									<li ><a href="pages/noticiasAc.php">Actividades</a></li>
                                     <li ><a href="pages/noticiasBlog.php">Blogs</a></li>
 								</ul>
