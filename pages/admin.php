@@ -86,6 +86,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		<br>
 		<div class="mg-blog-list">
 			<div class="container">
@@ -107,19 +108,19 @@
 						<h5 class="mg-post-title" align="center">Noticias</h5>
 					</div>
 					<div class="col-md-4">  
-						<img src="../images/videos.png" alt="" class="img-responsive"></a>
+						<img src="../images/videos.png" alt="" class="img-responsive"  witdh="50" heigth="50"></a>
 						<h5 class="mg-post-title" align="center">Videos</h5>
 					</div>
 					<div class="col-md-4">  
-						<img src="../images/fotos.png" alt="" class="img-responsive"></a>
+						<img src="../images/fotos.png" alt="" class="img-responsive" witdh="50" heigth="50"></a>
 						<h5 class="mg-post-title" align="center">Fotos</h5>
 					</div>
 					<div class="col-md-4">  
-						<img src="../images/actividades.png" alt="" class="img-responsive"></a>
+						<img src="../images/actividades.png" alt="" class="img-responsive"  witdh="200" heigth="200"></a>
 						<h5 class="mg-post-title" align="center">Actividades</h5>
 					</div>
 					<div class="col-md-4">  
-						<img src="../images/blog.png" alt="" class="img-responsive"></a>
+						<img src="../images/blog.png" alt="" class="img-responsive" witdh="200" heigth="200"></a>
 						<h5 class="mg-post-title" align="center">Blogs</h5>
 					</div>
 					
