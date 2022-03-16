@@ -2,6 +2,22 @@
 <?php
 include('../dbcontroller/database.php');
 
+if (isset($_SESSION['user1'])) { 
+	echo $_SESSION['user1'];
+
+}if (isset($_SESSION['user2'])) { 
+	echo $_SESSION['user2'];
+
+}if (isset($_SESSION['user3'])) { 
+	echo $_SESSION['user3'];
+	
+}else{
+ if (isset($_SESSION['user3']) == false && isset($_SESSION['user1']) == false && isset($_SESSION['user2']) == false) {
+	$_SESSION['ingreso'] ='Ingreso no valido';
+	header("Location: ../pages/sesion.php");
+ }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

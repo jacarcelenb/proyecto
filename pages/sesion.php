@@ -35,16 +35,19 @@ if (isset($_POST['login'])) {
   }
 
   if ($ingreso && $admin1) {
+	$_SESSION['user1'] ='user1';
     header("Location: ../pages/admin.php");
   }if ($ingreso && $admin2) {
-	$_SESSION['message'] = "Administrador002";
-    header("Location: ../pages/admin2.php");
+	$_SESSION['user2'] ='user2';
+    header("Location: ../pages/admin.php");
   }if ($ingreso && $admin3) {
-    header("Location: ../pages/admin3.php");
+	$_SESSION['user3'] ='user3';
+	header("Location: ../pages/admin.php");
   }
   else{
 	  $loginfallido= true;
   }
+  
   
   
 
@@ -79,6 +82,14 @@ if (isset($_POST['login'])) {
 			<?php if ($loginfallido==true) {
 				include('../html_components/loginfallido.php');
 			 } ?>
+			 <?php if (isset($_SESSION['ingreso'])) { ?>
+      <div class="alert alert-danger  alert-dismissible fade show" role= "alert">
+	  <strong>  <?= $_SESSION['ingreso']?> </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
 				
 						<form  method="POST"  action="../pages/sesion.php" >
 							<div class="mg-contact-form-input">
