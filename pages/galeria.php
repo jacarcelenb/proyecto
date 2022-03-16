@@ -1,3 +1,5 @@
+<?php include('../dbcontroller/database.php');
+?>
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
@@ -13,37 +15,19 @@
 <div class="mg-blog-list">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">  
-						<img src="../images/galeriaf1.jpg" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Parroquia rural Esperanza</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf2.jpg" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Parroquia rural Salinas</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf3.jpg" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Cantón Pimampiro</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf4.jpg" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Cantón Urcuqui</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf5.jpg" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Ciudad de Otavalo</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf6.png" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Ciudad de Cotacachi</h5>
-					</div>
-					<div class="col-md-4">  
-						<img src="../images/galeriaf7.png" alt="" class="img-responsive"></a>
-						<h5 class="mg-post-title" align="center">Ciudad de Ibarra</h5>
+					
+					<?php
+          $query = "SELECT * FROM foto";
+          $result_proyectos = mysqli_query($conn, $query);    
+
+          while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
+         	
+			 <div class="col-md-4">  
+			 <a href="#"><img src="data:<?php echo $row['tipoimagen']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>"alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center"><?php echo $row['titulo']; ?></h5>
 					</div>
 					
-
-										
+          <?php } ?>
 										
 				</div>
 			</div>
