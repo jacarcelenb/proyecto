@@ -1,15 +1,14 @@
 <?php include('../dbcontroller/database.php');
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="../images/esolog.png">
+		<link rel="icon" href="../images/esolog.png">
 		<title>A-life Imbabura Renaciente</title>
-    
-		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -65,68 +64,55 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Inscripciones</h2>
+						<h2>Proyectos</h2>
 						<p></p>
 					</div>
 				</div>
 			</div>
 		</div>
 <div class="container">
-	
 <?php if (isset($_SESSION['message'])) { ?>
       <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
-      <strong> <?= $_SESSION['message']?>  </strong> 
+	  <strong>  <?= $_SESSION['message']?> </strong> 
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <?php session_unset(); } ?>
+      
 	<div>
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Correo</th>
-            <th>Miembro</th>
-            <th>Direccion</th>
-            <th>Telefono</th>
-            <th>Profesion</th>
-            <th>Oficio</th>
             <th>Canton</th>
             <th>Provincia</th>
+            <th>Tipo</th>
+            <th>Titulo</th>
+            <th>Contenido</th>
+			<th>Fecha</th>
             <th> </th>
           </tr>
         </thead>
         <tbody>
 
           <?php
-          $query = "SELECT * FROM inscripciones";
+          $query = "SELECT * FROM proyectos";
           $result_quejas = mysqli_query($conn, $query);    
 
           while($row = mysqli_fetch_assoc($result_quejas)) { ?>
           <tr>
-            <td><?php echo $row['nombre']; ?></td>
-            <td><?php echo $row['apellido']; ?></td>
-            <td><?php echo $row['correo']; ?></td>
-            <td><?php echo $row['tipomiembro']; ?></td>
-            <td><?php echo $row['direccion']; ?></td>
-            <td><?php echo $row['telefono']; ?></td>
-            <td><?php echo $row['profesion']; ?></td>
-            <td><?php echo $row['oficio']; ?></td>
             <td><?php echo $row['departamento']; ?></td>
             <td><?php echo $row['provincia']; ?></td>
+            <td><?php echo $row['tipoproyecto']; ?></td>
+			<td><?php echo $row['titulo']; ?></td>
+			<td><?php echo $row['contenido']; ?></td>
+			<td><?php echo $row['fecha']; ?></td>
             <td>
-              <a href="../dbcontroller/editarinscripcion.php?id=<?php echo $row['id']?>" class="btn btn-warning">
-                <i class="fa fa-address-book">Editar</i>
-              </a>
+              <a href="../dbcontroller/editarproyecto.php?id=<?php echo $row['id']?>" class="btn btn-warning">Editar   <i class="fa fa facebook"></i> </a>
             </td>
-            <td>
-              <a href="../dbcontroller/eliminarinscripcion.php?id=<?php echo $row['id']?>" class="btn btn-danger">
-                <i class="fa fa-trash-alt">Eliminar</i>
-              </a>
+			<td>
+              <a href="../dbcontroller/eliminarproyecto.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar<i class="fa fa trash"></i></a>
             </td>
-            <i class="fa fa-address-book" aria-hidden="true"></i>
             
           </tr>
           <?php } ?>

@@ -49,9 +49,6 @@
 	
 						</li> 
 
-                        <li ><a href="../pages/listarinscripciones.php">Inscripciones</a>
-	
-						</li> 
                         <li ><a href="../index.php">Cerrar Sesion</a>
                     
                         </li> 
@@ -89,7 +86,7 @@
           <tr>
             <th>Nombres</th>
             <th>Es miembro</th>
-            <th>Departamento</th>
+            <th>Canton</th>
             <th>Asunto</th>
             <th>Mensaje</th>
             <th> </th>
