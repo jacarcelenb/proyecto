@@ -35,14 +35,12 @@ if (isset($_POST['login'])) {
   }
 
   if ($ingreso && $admin1) {
-	$_SESSION['message'] = "administrador001";
     header("Location: ../pages/admin.php");
   }if ($ingreso && $admin2) {
 	$_SESSION['message'] = "Administrador002";
-    header("Location: ../pages/admin.php");
+    header("Location: ../pages/admin2.php");
   }if ($ingreso && $admin3) {
-	$_SESSION['message'] = "Administrador003";
-    header("Location: ../pages/admin.php");
+    header("Location: ../pages/admin3.php");
   }
   else{
 	  $loginfallido= true;
