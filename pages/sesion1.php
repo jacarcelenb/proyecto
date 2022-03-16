@@ -52,9 +52,6 @@ if (isset($_POST['login'])) {
 }
 
 ?>
-
-
-
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
