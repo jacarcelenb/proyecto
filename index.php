@@ -349,7 +349,7 @@
 
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Login</h2>
-														<a href="pages/sesion.php" class="btn btn-main">Iniciar Sesion</a>
+														<a href="pages/sesion1.php" class="btn btn-main">Iniciar Sesion</a>
 													</div>
 												</div>
 										</div>

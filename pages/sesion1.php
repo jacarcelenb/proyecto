@@ -5,9 +5,7 @@ include("../dbcontroller/database.php");
 $ingreso = false;
 $useradmin= "";
 $loginfallido = false;
-$admin1= false;
-$admin2=false;
-$admin3=false;
+
 
 if (isset($_POST['login'])) {
   $usuario = $_POST['usuario'];
@@ -20,29 +18,29 @@ if (isset($_POST['login'])) {
      
       if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="administrador001") {
          $ingreso = true;
-		 $admin1=true;
+		 $useradmin = "admin1";
       }
 	  if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="Administrador002") {
 		$ingreso = true;
-		$admin2=true;
+		$useradmin = "admin2";
 	 }
 	 if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="Administrador003") {
 		$ingreso = true;
-		$admin3=true;
+		$useradmin = "admin3";
 	 } 
 	 
       
   }
 
-  if ($ingreso && $admin1) {
-	$_SESSION['user1'] ='user1';
-    header("Location: ../pages/admin.php");
-  }if ($ingreso && $admin2) {
-	$_SESSION['user2'] ='user2';
-    header("Location: ../pages/admin.php");
-  }if ($ingreso && $admin3) {
-	$_SESSION['user3'] ='user3';
-	header("Location: ../pages/admin.php");
+  if ($ingreso && $useradmin=="admin1") {
+    $_SESSION['user'] =$useradmin;
+    header("Location: ../pages/admin1.php");
+  }if ($ingreso && $useradmin=="admin2") {
+    $_SESSION['user'] =$useradmin;
+    header("Location: ../pages/admin1.php");
+  }if ($ingreso && $useradmin=="admin3") {
+    $_SESSION['user'] =$useradmin;
+	header("Location: ../pages/admin1.php");
   }
   else{
 	  $loginfallido= true;
@@ -81,17 +79,8 @@ if (isset($_POST['login'])) {
 		
 			<?php if ($loginfallido==true) {
 				include('../html_components/loginfallido.php');
-			 } ?>
-			 <?php if (isset($_SESSION['ingreso'])) { ?>
-      <div class="alert alert-danger  alert-dismissible fade show" role= "alert">
-	  <strong>  <?= $_SESSION['ingreso']?> </strong> 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <?php session_unset(); } ?>
-				
-						<form  method="POST"  action="../pages/sesion.php" >
+			 } ?>		
+						<form  method="POST"  action="../pages/sesion1.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Usuario</label>
 								<input type="text" class="form-control" id="full-name" name="usuario" required>

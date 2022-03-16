@@ -53,7 +53,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-                        <li ><a href="../index.php" >Cerrar Sesion</a>
+                        <li ><a href="../pages/salir.php" >Cerrar Sesion</a>
                     
                         </li> 
 							
@@ -80,33 +80,28 @@
 		</div>
 		</div>
 		<br>
-		<div class="mg-blog-list">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">  
-					<center><img src="../images/proyectos.png" alt="" class="img-responsive"/>
-					<a href="listarproyectos.php" class="btn btn-success">Proyectos</a>
-				
-				</center>
-						
-					</div>
-					<div class="col-md-4">  
-					<center><img src="../images/quejas.png" alt="" class="img-responsive">
-					<a href="listarquejas.php"  class="btn btn-success">Quejas</a>
-				    </center>
-						
-					</div>
-					<div class="col-md-4">  
-					<center><img src="../images/inscripcion.png" alt="" class="img-responsive">
-					<a href="listarinscripciones.php" class="btn btn-success">Inscripciones</a>
-				</center>
-											
-										
-				</div>
-			</div>
-		</div>
+        <?php
+include('../dbcontroller/database.php');
+$user= "";
 
-		<br>
+if (isset($_SESSION['user'])) { 
+	$user= $_SESSION['user'];
+}
+if ($user=="admin1") {
+	echo "Admin";
+	include("../html_components/menuadmin1.php");
+
+}elseif($user=="admin2") {
+	include("../html_components/menuadmin2.php");
+	
+}elseif($user=="admin3"){
+	include("../html_components/menuadmin3.php");
+
+}else{
+		header("Location: ../pages/sesion1.php");
+}
+
+?>
 	
 <!--Colocar el footer-->
 <br>
