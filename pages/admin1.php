@@ -88,7 +88,6 @@ if (isset($_SESSION['user'])) {
 	$user= $_SESSION['user'];
 }
 if ($user=="admin1") {
-	echo "Admin";
 	include("../html_components/menuadmin1.php");
 
 }elseif($user=="admin2") {
@@ -98,6 +97,7 @@ if ($user=="admin1") {
 	include("../html_components/menuadmin3.php");
 
 }else{
+	$_SESSION['login'] = 'Debe iniciar sesion para acceder';
 		header("Location: ../pages/sesion1.php");
 }
 

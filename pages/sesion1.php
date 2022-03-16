@@ -66,9 +66,7 @@ if (isset($_POST['login'])) {
 		</div>
 <!--    INICIO CONTENIDO     -->		<div class="mg-page">
 			<div class="container">
-				<div class="row">
-					<!----<form class="form-horizontal" method="POST" action="productosInsertando.php" enctype="multipart/form-data">--->
-						
+				<div class="row">		
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
 						<h2 class="mg-sec-left-title" >Iniciar Sesion</h2>
@@ -76,7 +74,19 @@ if (isset($_POST['login'])) {
 		
 			<?php if ($loginfallido==true) {
 				include('../html_components/loginfallido.php');
-			 } ?>		
+			 } ?>
+
+<?php if (isset($_SESSION['login'])) { ?>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+	  <strong>  <?= $_SESSION['login']?> </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
+
+			 
+			 
 						<form  method="POST"  action="../pages/sesion1.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Usuario</label>
