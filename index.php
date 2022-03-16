@@ -22,7 +22,8 @@
 		<link href="css/cs-select.css" rel="stylesheet">
 		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="css/freepik.hotels.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style1.css" rel="stylesheet">
+
 
 		<script src="js/modernizr.custom.min.js"></script>
 	</head>
