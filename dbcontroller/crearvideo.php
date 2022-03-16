@@ -2,27 +2,23 @@
 
 include('database.php');
 
-if (isset($_POST['crear_noticia'])) {
+if (isset($_POST['crear_video'])) {
   $titulo = $_POST['titulo'];
   $descripcion = $_POST['descripcion'];
   
 
   if ($_FILES['video1']) {
     $tipoArchivo1 = $_FILES['video1']['type'];
-    $permitido1=array("video/*");
-    if( in_array($tipoArchivo1,$permitido1) ==false ){
-        die("Archivo no permitido");
-    }
     $nombreArchivo1 = $_FILES['video1']['name'];
-    $tamanoArchivo1 = $_FILES['foto1']['size'];
-    $imagenSubida1 = addslashes(file_get_contents($_FILES['video1']['tmp_name']));
+    $tamanoArchivo1 = $_FILES['video1']['size'];
+    $videoSubido1 = addslashes(file_get_contents($_FILES['video1']['tmp_name']));
 
   }
 
 
    try { 
     $query = "INSERT INTO video(titulo,descripcion,tipovideo ,video) VALUES ('$titulo' 
-    , '$descripcion' ,'$tipoArchivo1' ,'$imagenSubida1')";
+    , '$descripcion' ,'$tipoArchivo1' ,'$videoSubido1')";
     $result = mysqli_query($conn, $query);
     
     if(!$result) {

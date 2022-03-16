@@ -94,7 +94,6 @@
             <th>Titulo</th>
             <th>Descripcion</th>
             <th> </th>
-			<th> </th>
           </tr>
         </thead>
         <tbody>
@@ -110,13 +109,10 @@
               <a href="../dbcontroller/editarvideo.php?id=<?php echo $row['id']?>" class="btn btn-warning">
                 <i class="fa fa-address-book">Editar</i>
               </a>
-            </td>
-            <td>
-              <a href="../dbcontroller/eliminarvideo.php?id=<?php echo $row['id']?>" class="btn btn-danger">
+			  <a href="../dbcontroller/eliminarvideo.php?id=<?php echo $row['id']?>" class="btn btn-danger">
                 <i class="fa fa-trash-alt">Eliminar</i>
               </a>
             </td>
-            <i class="fa fa-address-book" aria-hidden="true"></i>
             
           </tr>
           <?php } ?>

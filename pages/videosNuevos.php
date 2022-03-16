@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Nuevas Noticias</h2>
+						<h2>Nuevos Videos</h2>
 						<p> .</p>
 					</div>
 				</div>
