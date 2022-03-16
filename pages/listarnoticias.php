@@ -81,9 +81,12 @@
       <?php session_unset(); } ?>
       
 	<div>
+	<br>
+	
 	<a href="../pages/noticiasNuevas.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Noticia</i>
               </a>
+		<br>
 		<br>
       <table class="table table-hover">
         <thead> 
@@ -91,10 +94,32 @@
             <th>Titulo</th>
             <th>Descripcion</th>
             <th> </th>
+			<th> </th>
           </tr>
         </thead>
         <tbody>
+		<?php
+          $query = "SELECT * FROM noticia";
+          $result_quejas = mysqli_query($conn, $query);    
 
+          while($row = mysqli_fetch_assoc($result_quejas)) { ?>
+          <tr>
+            <td><?php echo $row['titulo']; ?></td>
+            <td><?php echo $row['descripcion']; ?></td>
+            <td>
+              <a href="../dbcontroller/editarnoticia.php?id=<?php echo $row['id']?>" class="btn btn-warning">
+                <i class="fa fa-address-book">Editar</i>
+              </a>
+            </td>
+            <td>
+              <a href="../dbcontroller/eliminarnoticia.php?id=<?php echo $row['id']?>" class="btn btn-danger">
+                <i class="fa fa-trash-alt">Eliminar</i>
+              </a>
+            </td>
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            
+          </tr>
+          <?php } ?>
         </tbody>
       </table>
   

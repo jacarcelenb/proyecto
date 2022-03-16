@@ -32,7 +32,7 @@ if (isset($_POST['crear_noticia'])) {
     $_SESSION['message'] = 'Noticia ingresada exitosamente';
     $_SESSION['message_type'] = 'success';
     
-     header("Location: ../pages/noticiasNuevas.php");
+     header("Location: ../pages/listarnoticias.php");
 
   } catch (mysqli_sql_exception $e) { 
       var_dump($e);

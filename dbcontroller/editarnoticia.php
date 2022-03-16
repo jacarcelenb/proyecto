@@ -26,7 +26,7 @@ if (isset($_POST['update'])) {
 
 
 
- $query = "UPDATE `noticia` SET titulo ='$titulo',descripcion='$descripcion' WHERE id=$id";
+ $query = "UPDATE `noticia` SET titulo ='$titulo',descripcion='$contenido' WHERE id=$id";
 
  mysqli_query($conn, $query);
   
@@ -121,7 +121,7 @@ if (isset($_POST['update'])) {
   <div class="row">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
-	  <h2>Editar Proyectos</h2>
+	  <h2>Editar Noticias</h2>
 
       <form action="../dbcontroller/editarnoticia.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
@@ -133,9 +133,9 @@ if (isset($_POST['update'])) {
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Descripcion</label>
-								<input type="text" class="form-control" id="full-name" name="descripcion" 
-								value="<?php echo $descripcion; ?>"
-								required>
+								<textarea class="form-control" rows="10" name="descripcion"  required>
+								<?php echo $descripcion; ?>
+								</textarea>
 							</div>
         <button class="btn btn-dark-main pull-right" name="update">
           Editar
