@@ -1,14 +1,50 @@
-<?php include('../dbcontroller/database.php');
-?>
+<?php
+include("database.php");
 
+
+$titulo = " ";
+$descripcion = "";
+
+
+if  (isset($_GET['id'])) {
+  $id = $_GET['id'];
+  $query = "SELECT * FROM noticia WHERE id=$id";
+  $result = mysqli_query($conn, $query);
+  if (mysqli_num_rows($result) == 1) {
+    $row = mysqli_fetch_array($result);
+    $titulo =$row['titulo'];
+    $descripcion =$row['descripcion'];
+
+  }
+}
+
+if (isset($_POST['update'])) {
+  $id = $_GET['id'];
+  $titulo = $_POST['titulo'];
+  $contenido = $_POST['descripcion'];
+
+
+
+
+ $query = "UPDATE `noticia` SET titulo ='$titulo',descripcion='$descripcion' WHERE id=$id";
+
+ mysqli_query($conn, $query);
+  
+  $_SESSION['message'] = 'Noticia actualizada exitosamente';
+  $_SESSION['message_type'] = 'warning';
+
+  header('Location: ../pages/listarnoticias.php');
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head> 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="../images/esolog.png">
 		<title>A-life Imbabura Renaciente</title>
+		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +60,17 @@
 		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
 		<link href="../css/style.css" rel="stylesheet">
        
+
+
+
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+
 		<script src="../js/modernizr.custom.min.js"></script>
 	</head>
 	<body>
@@ -45,9 +92,9 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-						<li ><a href="admin.php">Menu</a>
-	
-						</li> 
+                        <li ><a href="../pages/admin.php">Menu</a>
+                    
+                        </li> 
 
                         <li ><a href="../index.php">Cerrar Sesion</a>
                     
@@ -70,37 +117,33 @@
 				</div>
 			</div>
 		</div>
-<div class="container">
-<?php if (isset($_SESSION['message'])) { ?>
-      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
-	  <strong>  <?= $_SESSION['message']?> </strong> 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card card-body">
+	  <h2>Editar Proyectos</h2>
+
+      <form action="../dbcontroller/editarnoticia.php?id=<?php echo $_GET['id']; ?>" method="POST">
+
+      <div class="mg-contact-form-input">
+								<label for="full-name">Titulo</label>
+								<input type="text" class="form-control" id="full-name" name="titulo" 
+								value="<?php echo $titulo; ?>"
+								required>
+							</div>
+							<div class="mg-contact-form-input">
+								<label for="full-name">Descripcion</label>
+								<input type="text" class="form-control" id="full-name" name="descripcion" 
+								value="<?php echo $descripcion; ?>"
+								required>
+							</div>
+        <button class="btn btn-dark-main pull-right" name="update">
+          Editar
+</button>
+      </form>
       </div>
-      <?php session_unset(); } ?>
-      
-	<div>
-	<a href="../pages/noticiasNuevas.php" class="btn btn-success">
-                <i class="fa fa-trash-alt">Insertar Noticia</i>
-              </a>
-		<br>
-      <table class="table table-hover">
-        <thead> 
-          <tr>
-            <th>Titulo</th>
-            <th>Descripcion</th>
-            <th> </th>
-          </tr>
-        </thead>
-        <tbody>
-
-        </tbody>
-      </table>
-  
+    </div>
   </div>
-  </div>
-
-<!--Colocar el footer-->
-
+</div>
+<br>
 <?php include('../html_components/footer.php'); ?>
