@@ -76,27 +76,60 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Administrador</h2>
+					<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Bienvenido Administrador</strong> 
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
 
 					</div>
 				</div>
 			</div>
 		</div>
 		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<div class="mg-blog-list">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">  
+						<img src="../images/proyectos1.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Proyectos</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/quejas.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Quejas</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/inscripcion.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Inscripciones</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/noticias.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Noticias</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/videos.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Videos</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/fotos.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Fotos</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/actividades.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Actividades</h5>
+					</div>
+					<div class="col-md-4">  
+						<img src="../images/blog.png" alt="" class="img-responsive"></a>
+						<h5 class="mg-post-title" align="center">Blogs</h5>
+					</div>
+					
 
-		<div>
-		<center>
-						<a href="#"><img src="../images/admin2.png" alt="" class="img-responsive"></a>
-		</center>
+										
+										
+				</div>
+			</div>
 		</div>
 
-		<br>
-		<br>
 		<br>
 	
 <!--Colocar el footer-->

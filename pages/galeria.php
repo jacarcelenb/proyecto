@@ -10,7 +10,7 @@
 				</div>
 			</div>
 		</div>
-<!--    INICIO CONTENIDO     --><div class="mg-blog-list">
+<div class="mg-blog-list">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">  
