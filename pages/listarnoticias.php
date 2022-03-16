@@ -64,7 +64,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Proyectos</h2>
+						<h2>Noticias</h2>
 						<p></p>
 					</div>
 				</div>
@@ -84,38 +84,14 @@
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Canton</th>
-            <th>Provincia</th>
-            <th>Tipo</th>
             <th>Titulo</th>
-            <th>Contenido</th>
-			<th>Fecha</th>
+            <th>Descripcion</th>
+            <th>Foto</th>
             <th> </th>
           </tr>
         </thead>
         <tbody>
 
-          <?php
-          $query = "SELECT * FROM proyectos";
-          $result_quejas = mysqli_query($conn, $query);    
-
-          while($row = mysqli_fetch_assoc($result_quejas)) { ?>
-          <tr>
-            <td><?php echo $row['departamento']; ?></td>
-            <td><?php echo $row['provincia']; ?></td>
-            <td><?php echo $row['tipoproyecto']; ?></td>
-			<td><?php echo $row['titulo']; ?></td>
-			<td><?php echo $row['contenido']; ?></td>
-			<td><?php echo $row['fecha']; ?></td>
-            <td>
-              <a href="../dbcontroller/editarproyecto.php?id=<?php echo $row['id']?>" class="btn btn-warning">Editar   <i class="fa fa facebook"></i> </a>
-            </td>
-			<td>
-              <a href="../dbcontroller/eliminarproyecto.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar<i class="fa fa trash"></i></a>
-            </td>
-            
-          </tr>
-          <?php } ?>
         </tbody>
       </table>
   
