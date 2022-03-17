@@ -22,7 +22,7 @@
 		<link href="css/cs-select.css" rel="stylesheet">
 		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="css/freepik.hotels.css" rel="stylesheet">
-		<link href="css/style13.css" rel="stylesheet">
+		<link href="css/style14.css" rel="stylesheet">
 
 
 		<script src="js/modernizr.custom.min.js"></script>
@@ -65,7 +65,7 @@
 								</ul>
 							</li>
                             <li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restauración<span class="caret"></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué restauramos?<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li ><a href="pages/salud.php">Cuidado de la Salud</a></li>
 									<li ><a href="pages/educacion.php">Educación</a></li>
@@ -182,9 +182,10 @@
                      </div>   
                     <div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/gia-Logo.png" alt="img11" class="img-responsive">
+							<img src="images/resta1.png" alt="img11" class="img-responsive">
 							<figcaption>
-								<h2>GIA</h2>
+								<h2 style="color: #258e49;
+    background-color: #CADA2A;">GIA</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>La Agencia de Inteligencia Global fue controlada anteriormente por diferentes entidades y desde entonces ha sido depurada y reestructurada para operar como la Agencia de Aplicación del Repositorio Global. </p>
@@ -194,9 +195,25 @@
 					</div>
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/funda9.jpg" alt="img11" class="img-responsive" witdh="750" height="500">
+							<img src="images/resta2.png" alt="img11" class="img-responsive" witdh="750" height="500">
 							<figcaption>
-								<h2>Asamblea</h2>
+								<h2 
+								style="color: #258e49;
+    background-color: #CADA2A;">LIFE FORCE ECUADOR</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Une personas de honor, con discernimiento, responsabilidad integridad para propiciar el desarrollo armónico de la sociedad</p>
+								<a href="pages/lifeforce.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta3.png" alt="img11" class="img-responsive" witdh="750" height="500">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Asamblea Life Imbabura Renaciente</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>La Asamblea cumple la función de Organizar y velar por el cumplimiento de los mandatos de ASAMBLEA IMBABURA RENACIENTE,  en los respectivos países.</p>
@@ -207,9 +224,11 @@
 					
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/salud.jpg" alt="img11" class="img-responsive">
+							<img src="images/resta4.png" alt="img11" class="img-responsive">
 							<figcaption>
-								<h2>Cuidado de la Salud</h2>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Salud y Bienestar</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>	Atención médica diseñada para enseñar a las personas cómo mantener una salud óptima.</p>
@@ -219,33 +238,11 @@
 					</div>
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/educacion.jpg" alt="img11" class="img-responsive">
+							<img src="images/resta5.jpg" alt="img11" class="img-responsive">
 							<figcaption>
-								<h2>Educación</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
-								<div class="mg-room-price"></div>
-								<p>Nosotros, como seres humanos en este planeta, tenemos la responsabilidad de formar la próxima generación.</p>
-								<a href="pages/educacion.php" class="btn btn-main">Mas información</a>
-							</figcaption>			
-						</figure>
-					</div>
-					<div class="col-sm-4">
-						<figure class="mg-room mg-room-col-2">
-							<img src="images/comunicacion.jpg" alt="img11" class="img-responsive">
-							<figcaption>
-								<h2>Medios de Comunicación</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
-								<div class="mg-room-price"></div>
-								<p>United Network News (noticias de la Red Unida) es la nueva corriente principal y la única verdad en los medios.</p>
-								<a href="pages/comunicacion.php" class="btn btn-main">Mas información</a>
-							</figcaption>			
-						</figure>
-					</div>
-					<div class="col-sm-4">
-						<figure class="mg-room mg-room-col-2">
-							<img src="images/finanza.jpg" alt="img11" class="img-responsive">
-							<figcaption>
-								<h2>Sistema Financiero</h2>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Finanzas</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>El sistema finaciero global ha sido monopolizado y manipulado por menos del 1% de la poblacion durante mucho tiempo.</p>
@@ -255,26 +252,116 @@
 					</div>
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/web.jpg" alt="img11" class="img-responsive">
+							<img src="images/resta6.jpg" alt="img11" class="img-responsive">
 							<figcaption>
-								<h2>Plataforma Web</h2>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Educación</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
-								<p>Esta comunidad está formada por emprendedores que participan en debates inteligentes, proponen soluciones viables.</p>
-								<a href="pages/web.php" class="btn btn-main">Mas información</a>
+								<p>Ante los actuales desafíos principalmente los resultados de la pandemia en la calidad de la educación en nuestros niños y jóvenes.</p>
+								<a href="pages/educacion.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta7.jpg" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Ambiente</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Hoy en día estamos aconteciendo a lo que se denominaría como una crisis ambiental global.</p>
+								<a href="pages/ambiente.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta8.jpg" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Servicios de la familia</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>la familia es una sociedad natural, que existe antes que el Estado o cualquier otra comunidad, y que posee derechos propios e inalienables.</p>
+								<a href="pages/serviciosfamilia.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta9.jpg" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Seguridad</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Este comité actuara cuando exista una emergencia, crisis o desastre de carácter antropogénico o natural.</p>
+								<a href="pages/seguridad.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta10.png" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Comunicaciones</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Los gobiernos han tratado de reprimir la voz de la gente bloqueando a quienes están dispuestos a decir la verdad.</p>
+								<a href="pages/comunicacion.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
 					
 					<div class="col-sm-4">
 						<figure class="mg-room mg-room-col-2">
-							<img src="images/alimentos.jpg" alt="img11" class="img-responsive">
+							<img src="images/resta11.png" alt="img11" class="img-responsive">
 							<figcaption>
-								<h2>Alimentos</h2>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Infraestructura y Obras públicas</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
-								<p>Desarrollar y fortalecer una cadena alimentaria sostenible. Establecer y apoyar una relación sólida con Agricultores.</p>
-								<a href="pages/alimentos.php" class="btn btn-main">Mas información</a>
+								<p>los responsables de formular, implementar y evaluar políticas, regulaciones, planes, programas y proyectos.</p>
+								<a href="pages/infraestructura.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+					
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta12.png" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Gestión de proyectos</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Este comité de gestión de proyectos es el encargado de la planificación, ejecución y seguimiento de un proyecto desde el inicio hasta el fin .</p>
+								<a href="pages/gestion.php" class="btn btn-main">Mas información</a>
+							</figcaption>			
+						</figure>
+					</div>
+
+					<div class="col-sm-4">
+						<figure class="mg-room mg-room-col-2">
+							<img src="images/resta13.jpg" alt="img11" class="img-responsive">
+							<figcaption>
+								<h2
+								style="color: #258e49;
+    background-color: #CADA2A;">Restauración</h2>
+								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
+								<div class="mg-room-price"></div>
+								<p>Es responsable de evaluar las necesidades de las personas y las comunidades en las que viven,</p>
+								<a href="pages/restauracion.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -572,7 +659,7 @@
 						
 						
 						<div class="col-md-6">
-							<p>&copy; 2022 Diseño y Desarrollo de Sistemas Web.</p>
+							<p>&copy; 2022 A life Imbabura Renaciente.</p>
 						</div>
 					</div>
 				</div>
