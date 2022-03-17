@@ -15,7 +15,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mg-widget-area">
-						<?php include("../html_componentes/workarea.php");?>
+						<?php include("../html_components/workarea.php");?>
 						</div>
 					</div>
 					

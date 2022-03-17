@@ -19,7 +19,7 @@
 
 							<article class="mg-post">
 								<header>
-									<a href="#"><img src="../images/asamblea.jpg" width="700" alt="" class="img-responsive"></a>
+									<a href="#"><img src="../images/asambleas.PNG" width="700" alt="" class="img-responsive"></a>
 									<h2 class="mg-post-title">Asamblea Life Imbabura Renaciente</h2>
 									
 								</header> 

@@ -211,7 +211,7 @@
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
 								<p>Une personas de honor, con discernimiento, responsabilidad integridad para propiciar el desarrollo armónico de la sociedad</p>
-								<a href="pages/lifeforce.php" class="btn btn-main">Mas información</a>
+								<a href="pages/alimentos.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>
 					</div>
@@ -428,35 +428,22 @@
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Ecuador</span> </h2>
 														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA LIFE IMBABURA RENACIENTE mantiene reuniones públicas, a las cuales esta cordialmente invitado. </p>
-														<br>
+														
 														<p style="color:white">Fechas de asambleas:</p>
-														<br>
 														<p style="color:white">
-														sábado 22 de enero de 2022, ya realizada
+														sábado 22 de enero de 2022, ya realizada.
+														<br>
+														domingo 06 de febrero de 2022, ya realizada.
+														<br>
+														sábado 19 de febrero, ya realizada.
+														<br>
+														sábado 19 de marzo del 2022.
 			
 													</p>
-													<br>
-													<p style="color:white">
-													
-														domingo 06 de febrero de 2022, ya realizada
-														
-													</p>
-													<br>
-													<p style="color:white">
-												
-														sábado 19 de febrero, ya realizada
-												
-													</p>
-													<br>
-													<p style="color:white">
-					
-														sábado 19 de marzo del 2022.
-													</p>
-													<br>
 														<p style="color:white">Horario de eventos o reuniones: primer sábado de cada mes </p>
-														<br>
+														
 														<p style="color:white">Reunión por Zoom ID de reunión:</p>
-														<br>
+													
 														<p style="color:white">Código de acceso:</p>
 									
 													</div>
@@ -577,7 +564,7 @@
 									
 									<li><img src="images/diversidad7.jpg" alt="" width="350"></li>
 									<li><img src="images/diversidad8.jpg" alt="" width="350"></li>
-									<li><img src="images/diversidad9.jpg" alt="" width="350"></li>
+									<li><img src="images/diversidad9.jpeg" alt="" width="350"></li>
 									
 								</ul>
 							</div>

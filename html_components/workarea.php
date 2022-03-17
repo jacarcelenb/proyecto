@@ -32,7 +32,7 @@
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="web.php">Ambiente</a></h3>
+											<h3><a href="ambiente.php">Ambiente</a></h3>
 											<p>Hoy en día estamos aconteciendo ...</p>
 										</div>
 									</li>
@@ -46,7 +46,7 @@
 									<li>
 										<div class="mg-recnt-post">
 											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="alimentos.php">Alimentos</a></h3>
+											<h3><a href="alimentos.php">Life force Ecuador</a></h3>
 											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
 										</div>
 									</li>
