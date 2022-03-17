@@ -37,10 +37,10 @@ if (isset($_POST['login'])) {
     header("Location: ../pages/admin1.php");
   }if ($ingreso && $useradmin=="admin2") {
     $_SESSION['user'] =$useradmin;
-    header("Location: ../pages/admin1.php");
+    header("Location: ../pages/admin2.php");
   }if ($ingreso && $useradmin=="admin3") {
     $_SESSION['user'] =$useradmin;
-	header("Location: ../pages/admin1.php");
+	header("Location: ../pages/admin3.php");
   }
   else{
 	  $loginfallido= true;

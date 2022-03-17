@@ -82,9 +82,7 @@
 		<br>
         <?php
 
-	include("../html_components/menuadmin1.php");
-
-
+	include("../html_components/menuadmin3.php");
 
 ?>
 	

@@ -1,4 +1,4 @@
-<?php include('../dbcontroller/database.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -88,7 +88,7 @@
                     <div class="col-lg-9">
 						<h2 class="mg-sec-left-title" >Subir Imagen</h2>
 
-                        <form role="form" method="POST" action="../dbcontroller/crearimagen.php" accept-charset="UTF-8" class="form-horizontal"  enctype="multipart/form-data">
+                        <form role="form" method="POST" action="../dbcontroller/crearimagen.php" enctype="multipart/form-data">
 							
 							
 							
@@ -107,7 +107,7 @@
 							
 							<div class="form-group">
                                 <label>Imagen</label>
-								<input type="file" name="foto1" accept=".jpg, .jpeg, .png">
+								<input type="file" name="imagen" accept=".jpg, .jpeg, .png">
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>
 						

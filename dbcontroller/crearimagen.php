@@ -7,23 +7,22 @@ if (isset($_POST['crear_imagen'])) {
   $descripcion = $_POST['descripcion'];
   
 
-  if ($_FILES['foto1']) {
-    $tipoArchivo1 = $_FILES['foto1']['type'];
+  if ($_FILES['imagen']) {
+    $tipoArchivo1 = $_FILES['imagen']['type'];
     $permitido1=array("image/png","image/jpeg" ,"image/jpg");
     if( in_array($tipoArchivo1,$permitido1) ==false ){
         die("Archivo no permitido");
     }
-    $nombreArchivo1 = $_FILES['foto1']['name'];
-    $tamanoArchivo1 = $_FILES['foto1']['size'];
-    $imagenSubida1 = addslashes(file_get_contents($_FILES['foto1']['tmp_name']));
+    $nombreArchivo1 = $_FILES['imagen']['name'];
+    $tamanoArchivo1 = $_FILES['imagen']['size'];
+    $imagenSubida1 = addslashes(file_get_contents($_FILES['imagen']['tmp_name']));
 
   }
 
      echo $tamanoArchivo1;
 
    try { 
-    $query = "INSERT INTO foto(titulo,descripcion,tipoimagen,imagen) VALUES ('$titulo' 
-    , '$descripcion' ,'$tipoArchivo1' ,'$ImagenSubida1')";
+    $query = "INSERT INTO foto (titulo,descripcion,tipoimagen,imagen) VALUES ('$titulo','$descripcion'  ,'$tipoArchivo1' ,'$imagenSubida1')";
     $result = mysqli_query($conn, $query);
     
     if(!$result) {
