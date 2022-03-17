@@ -67,14 +67,22 @@
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué restauramos?<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="pages/salud.php">Cuidado de la Salud</a></li>
+									<li ><a href="pages/salud.php">Salud y Bienestar</a></li>
 									<li ><a href="pages/educacion.php">Educación</a></li>
-                                    <li ><a href="pages/comunicacion.php">Medios de Comunicación</a></li>
-									<li ><a href="pages/finanza.php">Sistema Financiero</a></li>
-									<li ><a href="pages/web.php">Plataforma Web</a></li>
+                                    <li ><a href="pages/comunicacion.php">Comunicaciones</a></li>
+									<li ><a href="pages/finanza.php">Finanzas</a></li>
 									<li ><a href="pages/gia.php">GIA</a></li>
-									<li ><a href="pages/alimentos.php">Alimentos</a></li>
-									<li ><a href="pages/asambleas.php">Asambleas</a></li>
+									<li ><a href="pages/alimentos.php">LIFE FORCE Ecuador</a></li>
+									<li ><a href="pages/asambleas.php">Asamblea Life Imbabura Renaciente</a></li>
+									<li ><a href="pages/ambiente.php">Ambiente</a></li>
+									<li ><a href="pages/serviciosfamilia.php">Servicios de la familia</a></li>
+									<li ><a href="pages/seguridad.php">Seguridad</a></li>
+									<li ><a href="pages/infraestructura.php">Infraestructura y Obras públicas</a></li>
+									<li ><a href="pages/gestion.php">Gestión de proyectos</a></li>
+									<li ><a href="pages/restauracion.php">Restauración</a></li>
+
+
+
 								</ul>
 							</li>
 							<li class="dropdown">
