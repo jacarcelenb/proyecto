@@ -29,7 +29,7 @@
 									<p>En esta fundación , los miembros que componemos dependeremos de los rubros que requiera la región para llevar una eficiente labor en cada área.</p>
 								</div>
 								<p>
-									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com   ">asamblea_imbaburarenacientee@hotmail.com   </a>
+									<a href="mailto:secretaria.lifeir@gmail.com ">secretaria.lifeir@gmail.com </a>
 								</p>
 								<!-----<a href="#"><img src="images/mesaDirectiva2.jpg" alt="" class="img-responsive"></a>-------->
 								

@@ -45,14 +45,14 @@
 					<div class="col-md-6"> 
 							<p>
 									<strong><i class="fa fa-home"></i> Dirección:</strong> Av. Jaime Roldos y Sánchez y Cifuentes<BR>
-									<strong><i class="fa fa-phone"></i> Telefono:</strong> 0625580096<BR>
+									<strong><i class="fa fa-phone"></i> Telefono:</strong> 062558009<BR>
 									<strong><i class="fa fa-mobile-phone"></i> Celular:</strong> 0997693293 - 0986176366<BR>
 									<strong><i class="fa fa-whatsapp"></i> WhatsApp:</strong> 0997693293 - 0986176366<BR><BR>
 									Ibarra - Ecuador
 								</p>
 				
 								<p>
-									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com   ">asamblea_imbaburarenacientee@hotmail.com   </a>
+									<a href="mailto:secretaria.lifeir@gmail.com ">secretaria.lifeir@gmail.com </a>
 								</p>
 					</div>
                     <!------
