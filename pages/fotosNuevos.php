@@ -59,7 +59,7 @@
                     
                         </li> 
 
-                        <li ><a href="../index.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesion</a>
                     
                         </li> 
 							
@@ -87,15 +87,6 @@
 				<div class="row">
                     <div class="col-lg-9">
 						<h2 class="mg-sec-left-title" >Subir Imagen</h2>
-						
-						<?php if (isset($_SESSION['message'])) { ?>
-      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
-	  <strong> <?= $_SESSION['message']?> </strong> 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <?php session_unset(); } ?>
 
                         <form role="form" method="POST" action="../dbcontroller/crearimagen.php" accept-charset="UTF-8" class="form-horizontal"  enctype="multipart/form-data">
 							
@@ -121,7 +112,7 @@
                             </div>
 						
 							
-					        	<button type="submit" value="Ingresar" name="crear_imagen" class="btn btn-dark-main pull-center">Ingresar</button> 
+					        <button type="submit" value="Ingresar" name="crear_imagen" class="btn btn-dark-main pull-center">Ingresar</button> 
                             
 							
 						</form>

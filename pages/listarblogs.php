@@ -51,7 +51,7 @@
 	
 						</li> 
 
-                        <li ><a href="../index.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesion</a>
                     
                         </li> 
 							

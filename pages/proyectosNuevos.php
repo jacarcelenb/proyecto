@@ -31,17 +31,15 @@
 							
 							
 							<div class="form-group">
-                                <label>Departamento </label>
+                                <label>Canton </label>
 								<SELECT name="departamento" required>
-	      							<OPTION SELECTED VALUE="Cochabamba">Cochabamba
-	        						<OPTION VALUE="La Paz">La Paz
+	      							<OPTION SELECTED VALUE="Cotacachi">Cotacachi
+	        						<OPTION VALUE="Otavalo">Otavalo
 	          						<OPTION VALUE="Santa Cruz">Santa Cruz
-									<OPTION VALUE="Beni">Beni 
-									<OPTION VALUE="Pando">Pando 
-									<OPTION VALUE="Tarija">Tarija 
-									<OPTION VALUE="Oruro">Oruro 
-									<OPTION VALUE="Potosi">Potosi 
-									<OPTION VALUE="Chuquisaca">Chuquisaca 
+									<OPTION VALUE="Pimampiro">Pimampiro
+									<OPTION VALUE="Antonio Ante">Antonio Ante
+									<OPTION VALUE="Ibarra">Ibarra 
+									<OPTION VALUE="Urcuqui">Urcuqui 
 	            				</SELECT>
 	                         </div>
 							<div class="form-group">

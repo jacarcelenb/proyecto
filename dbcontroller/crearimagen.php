@@ -19,6 +19,7 @@ if (isset($_POST['crear_imagen'])) {
 
   }
 
+     echo $tamanoArchivo1;
 
    try { 
     $query = "INSERT INTO foto(titulo,descripcion,tipoimagen,imagen) VALUES ('$titulo' 

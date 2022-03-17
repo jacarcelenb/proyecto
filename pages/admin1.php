@@ -96,9 +96,6 @@ if ($user=="admin1") {
 }elseif($user=="admin3"){
 	include("../html_components/menuadmin3.php");
 
-}else{
-	$_SESSION['login'] = 'Debe iniciar sesion para acceder';
-		header("Location: ../pages/sesion1.php");
 }
 
 ?>
