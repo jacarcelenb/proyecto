@@ -83,10 +83,7 @@
         <?php
 
 	include("../html_components/menuadmin1.php");
-
-
-
-?>
+          ?>
 	
 <!--Colocar el footer-->
 <br>

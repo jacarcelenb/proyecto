@@ -3,7 +3,6 @@
 include("../dbcontroller/database.php");
 
 $ingreso = false;
-$useradmin= "";
 $loginfallido = false;
 
 
@@ -16,31 +15,13 @@ if (isset($_POST['login'])) {
 
   while($row = mysqli_fetch_assoc($result_quejas)) {
      
-      if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="administrador001") {
+      if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña) {
          $ingreso = true;
-		 $useradmin = "admin1";
-      }
-	  if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="Administrador002") {
-		$ingreso = true;
-		$useradmin = "admin2";
-	 }
-	 if ($row['nombre_usuario'] == $usuario && $row['clave_usuario']==$contraseña && $row['nombre_usuario'] =="Administrador003") {
-		$ingreso = true;
-		$useradmin = "admin3";
-	 } 
-	 
-      
+      } 
   }
 
-  if ($ingreso && $useradmin=="admin1") {
-    $_SESSION['user'] =$useradmin;
+  if ($ingreso) {
     header("Location: ../pages/admin1.php");
-  }if ($ingreso && $useradmin=="admin2") {
-    $_SESSION['user'] =$useradmin;
-    header("Location: ../pages/admin2.php");
-  }if ($ingreso && $useradmin=="admin3") {
-    $_SESSION['user'] =$useradmin;
-	header("Location: ../pages/admin3.php");
   }
   else{
 	  $loginfallido= true;
