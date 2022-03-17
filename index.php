@@ -129,7 +129,7 @@
 				</div>
 				
 				<div class="item">
-					<img src="images/cfoto2.jpeg" alt="..." >
+					<img src="images/cfoto2.jpg" alt="..." >
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
