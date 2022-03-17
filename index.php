@@ -40,7 +40,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="images/logo1.png" alt="logo"></a>
+						<a class="navbar-brand" href="#"><img src="images/logoone.png" alt="logo"></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -119,7 +119,7 @@
 				</div>
 				
 				<div class="item">
-					<img src="images/funda2.jpg" alt="..." >
+					<img src="images/cfoto2.jpeg" alt="..." >
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -127,7 +127,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda4.jpg" alt="...">
+					<img src="images/cfoto3.jpeg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda5.jpg" alt="...">
+					<img src="images/cfoto4.jpeg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Estudios forenses, (violación, asesinato) </h2>
@@ -143,7 +143,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/funda1.jpg" alt="...">
+					<img src="images/cfoto5.jpeg" alt="...">
 					<div class="carousel-caption">
 						<!----<img src="images/stars.png" alt="">
 						<h2>Prueba de paternidad en ausencia del padre </h2>
@@ -176,7 +176,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title">
-							<h2>Restauración</h2>
+							<h2>¿QUÉ RESTAURAMOS? </h2>
 							<p>"Restaurando los derechos inherentes de los seres humanos" </p>
 						</div>
                      </div>   
