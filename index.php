@@ -22,7 +22,7 @@
 		<link href="css/cs-select.css" rel="stylesheet">
 		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="css/freepik.hotels.css" rel="stylesheet">
-		<link href="css/style1.css" rel="stylesheet">
+		<link href="css/style13.css" rel="stylesheet">
 
 
 		<script src="js/modernizr.custom.min.js"></script>
@@ -332,19 +332,19 @@
 												<div class="row">
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Ecuador</span> </h2>
-														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA IMBABURA RENACIENTE le está invitando a una reunión o evento . </p>
+														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA IMBABURA RENACIENTE le está invitando a una reunión o evento . </p>
 														<br>
-														<p>Horario de eventos o reuniones: primer sábado de cada mes </p>
+														<p style="color:white">Horario de eventos o reuniones: primer sábado de cada mes </p>
 									
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Inscripción  <span class="mg-bn-big">Formulario de Inscripción a nuevos Miembros</span></h2>
-														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede inscribirse , para poder ser miembro de este y participar.</p>
+														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede inscribirse , para poder ser miembro de este y participar.</p>
 														<a href="pages/inscripcion.php" class="btn btn-main">Inscripción</a>
 													</div>
 													<div class="col-md-3">
 														<h2 class="mg-bn-title">Quejas  <span class="mg-bn-big">Formulario de Quejas y Sugerencias</span></h2>
-														<p> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede ingresar alguna queja o sugerencia.</p>
+														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> En este formulario puede ingresar alguna queja o sugerencia.</p>
 														<a href="pages/quejas.php" class="btn btn-main">Formulario</a>
 													</div>
 
