@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="../images/esolog.png">
-		<title>A-life Imbabura Renaciente</title>
+		<link rel="icon" href="images/esolog.png">
+		<title>A-Life Imbabura Renaciente</title>
 		
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
@@ -18,19 +18,8 @@
 		<link href="../css/cs-select.css" rel="stylesheet">
 		<link href="../css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="../css/freepik.hotels.css" rel="stylesheet">
-		<link href="../css/nivo-lightbox.css" rel="stylesheet">
-		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
-		<link href="../css/style13.css" rel="stylesheet">
+		<link href="../css/style14.css" rel="stylesheet">
 
-
-
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="js/html5shiv.min.js"></script>
-		<script src="js/respond.min.js"></script>
-		<![endif]-->
 
 		<script src="../js/modernizr.custom.min.js"></script>
 	</head>
@@ -47,55 +36,63 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="../images/logo1.png" alt="logo"></a>
+						<a class="navbar-brand" href="#"><img src="../images/logoone.png" alt="logo"></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li ><a href="../index.php">Inicio</a>
-						</li> 
+							<li ><a href="index.php">Inicio</a></li> 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="historia.php">Nosotros</a></li>
-									<li ><a href="independencia.php">Independencia</a></li>
-									<li ><a href="misionvision.php">Mision/Vision</a></li>
-                                    <li ><a href="directiva.php">Asamblea</a></li>
-									<li ><a href="acercade.php">Acerca de</a></li>
-									<li ><a href="gobierno.php">Gobierno</a></li>
+									<li ><a href="../pages/historia.php">Nosotros</a></li>
+									<li ><a href="../pages/independencia.php">Independencia</a></li>
+									<li ><a href="../pages/misionvision.php">Mision/Vision</a></li>
+                                    <li ><a href="../pages/directiva.php">Asamblea</a></li>
+									<li ><a href="../pages/acercade.php">Acerca de</a></li>
+									<li ><a href="../pages/gobierno.php">Gobierno</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="proyectos.php">Proyectos</a></li>
-									<li ><a href="proyectosNuevos.php">Ingresar Nuevos Proyectos</a></li>
+									<li ><a href="../pages/proyectos.php">Proyectos</a></li>
+									<li ><a href="../pages/proyectosNuevos.php">Ingresar Nuevos Proyectos</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restauración<span class="caret"></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Qué restauramos?<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="salud.php">Cuidado de la Salud</a></li>
-									<li ><a href="educacion.php">Educación</a></li>
-                                    <li ><a href="comunicacion.php">Medios de Comunicación</a></li>
-									<li ><a href="finanza.php">Sistema Financiero</a></li>
-									<li ><a href="web.php">Plataforma Web</a></li>
-									<li ><a href="gia.php">GIA</a></li>
-									<li ><a href="alimentos.php">Alimentos</a></li>
-									<li ><a href="asambleas.php">Asambleas</a></li>
+									<li ><a href="../pages/salud.php">Salud y Bienestar</a></li>
+									<li ><a href="../pages/educacion.php">Educación</a></li>
+                                    <li ><a href="../pages/comunicacion.php">Comunicaciones</a></li>
+									<li ><a href="../pages/finanza.php">Finanzas</a></li>
+									<li ><a href="../pages/gia.php">GIA</a></li>
+									<li ><a href="../pages/alimentos.php">LIFE FORCE Ecuador</a></li>
+									<li ><a href="../pages/asambleas.php">Asamblea Life Imbabura Renaciente</a></li>
+									<li ><a href="../pages/ambiente.php">Ambiente</a></li>
+									<li ><a href="../pages/serviciosfamilia.php">Servicios de la familia</a></li>
+									<li ><a href="../pages/seguridad.php">Seguridad</a></li>
+									<li ><a href="../pages/infraestructura.php">Infraestructura y Obras públicas</a></li>
+									<li ><a href="../pages/gestion.php">Gestión de proyectos</a></li>
+									<li ><a href="../pages/restauracion.php">Restauración</a></li>
+
+
+
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li ><a href="noticias.php">Noticias</a></li>
-									<li ><a href="noticiasAc.php">Actividades</a></li>
-                                    <li ><a href="noticiasBlog.php">Blogs</a></li>
+									<li ><a href="../pages/noticias.php">Noticias</a></li>
+									<li ><a href="../pages/noticiasAc.php">Actividades</a></li>
+                                    <li ><a href="../pages/noticiasBlog.php">Blogs</a></li>
 								</ul>
 							</li>
-						   <li ><a href="videos.php">Videos</a></li>
-						<li ><a href="galeria.php">Galeria</a></li>
-						<li ><a href="formcontacto.php">Contacto</a></li>
+						   <li ><a href="../pages/videos.php">Videos</a></li>
+						<li ><a href="../pages/galeria.php">Galeria</a></li>
+						<li ><a href="../pages/formcontacto.php">Contacto</a></li>
+                          
 						</ul>
 					</div><!-- /.navbar-collapse -->
 					

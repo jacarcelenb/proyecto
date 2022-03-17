@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>EDUCACIÓN</h2>
+						<h2>INFRAESTRUCTURA Y OBRAS PÚBLICAS</h2>
 						<p> .</p>
 					</div>
 				</div>
@@ -15,67 +15,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mg-widget-area">
-							<aside class="mg-widget">
-								<h2 class="mg-widget-title">Areas de Trabajo</h2>
-								<ul class="mg-recnt-posts">
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="comunicacion.php">Medios de Comunicación</a></h3>
-											<p>Atención médica diseñada para enseñar a las...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="finanza.php">Sistema Financiero</a></h3>
-											<p>El sistema finaciero global ha sido monopolizado...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="web.php">Plataforma Web</a></h3>
-											<p>G-FORCE NETWORK es una plataforma de redes...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="gia.php">GIA</a></h3>
-											<p>La Agencia de Inteligencia Global fue...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="asambleas.php">Asambleas</a></h3>
-											<p>La Asamblea cumple la función de Organizar...</p>
-										</div>
-									</li>
-								</ul>
-							</aside>
+						<?php include("../html_components/workarea.php");?>
 						</div>
 					</div>
 					
@@ -84,13 +24,17 @@
 						<main>
 							<article class="mg-post">
 								<header>
-									<a href="#"><img src="images/educacion.jpg" alt="" class="img-responsive"></a>
-									<h2 class="mg-post-title">Educación</h2>
+									<a href="#"><img src="../images/resta11.png" alt="" class="img-responsive"></a>
+									<h2 class="mg-post-title">Infraestructura y Obras públicas</h2>
 								</header>
 								<div>
 									
 
-								<p><strong>Nosotros, como seres humanos en este planeta,</strong>  tenemos la responsabilidad de formar la próxima  generación. Este es un proceso que comienza en casa y  que debe reflejarse en el aula.</p>
+								<p>
+								Los responsables de formular, implementar y evaluar políticas, regulaciones, planes, programas y proyectos que garantizan una red de transporte seguro y competitivo, minimizando el impacto ambiental y contribuyendo al desarrollo social y económico de los pueblos has desviado los presupuestos dejando al desamparo sectores vulnerables. 
+ Por ello este comité se crea para velar porque los recursos económicos provenientes de LIFE FORCE GLOBAL sean canalizados adecuadamente hacia la construcción de un verdadero bienestar social de la comunidad imbabureña, construyendo obras de infraestructura con tecnología de punta, en un ambiente libre de corrupción, con planteamientos bien marcados de auto sustentabilidad y seguridad comunitaria, aplicando altas normativas del bien vivir con altos valores humanos, pero sobre todo respetando las bases intrínsecas de la madre naturaleza.   
+
+								</p>
 					
 								</div>
 							</article>

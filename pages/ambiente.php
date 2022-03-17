@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>EDUCACIÓN</h2>
+						<h2>AMBIENTE</h2>
 						<p> .</p>
 					</div>
 				</div>
@@ -15,67 +15,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mg-widget-area">
-							<aside class="mg-widget">
-								<h2 class="mg-widget-title">Areas de Trabajo</h2>
-								<ul class="mg-recnt-posts">
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="comunicacion.php">Medios de Comunicación</a></h3>
-											<p>Atención médica diseñada para enseñar a las...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="finanza.php">Sistema Financiero</a></h3>
-											<p>El sistema finaciero global ha sido monopolizado...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="web.php">Plataforma Web</a></h3>
-											<p>G-FORCE NETWORK es una plataforma de redes...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="gia.php">GIA</a></h3>
-											<p>La Agencia de Inteligencia Global fue...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="asambleas.php">Asambleas</a></h3>
-											<p>La Asamblea cumple la función de Organizar...</p>
-										</div>
-									</li>
-								</ul>
-							</aside>
+						<?php include("../html_componentes/workarea.php");?>
 						</div>
 					</div>
 					
@@ -84,13 +24,18 @@
 						<main>
 							<article class="mg-post">
 								<header>
-									<a href="#"><img src="images/educacion.jpg" alt="" class="img-responsive"></a>
-									<h2 class="mg-post-title">Educación</h2>
+									<a href="#"><img src="../images/resta7.jpg" alt="" class="img-responsive"></a>
+									<h2 class="mg-post-title">Ambiente</h2>
 								</header>
 								<div>
 									
 
-								<p><strong>Nosotros, como seres humanos en este planeta,</strong>  tenemos la responsabilidad de formar la próxima  generación. Este es un proceso que comienza en casa y  que debe reflejarse en el aula.</p>
+								<p>
+								Hoy en día estamos aconteciendo a lo que se denominaría como una crisis ambiental global. Es decir, una crisis que afecta al medio ambiente, así como a todas las formas de vida que están asociadas a los ecosistemas que estarían en crisis, y que, además, se caracteriza por tener un carácter global en lugar de poder localizarse de forma determinada en un área geográfica concreta. Sin duda, su origen lo encontramos en la actividad humana, que con su impacto en el medio ambiente pone en serio peligro la propia supervivencia de muchas especies biológicas y ecosistemas en su conjunto. Además, esto tiene consecuencias que van más allá del impacto biológico y ambiental, ya que afectan de forma directa a las sociedades humanas y a sus economías y equilibrios territoriales. 
+								</p>
+								<p>
+								Este comité se ha creado exclusivamente para que todos los proyectos que se viabilicen sean amigables con el medio ambiente, retribuyan la reforestación sin daño a ningún ser vivo. 
+								</p>
 					
 								</div>
 							</article>

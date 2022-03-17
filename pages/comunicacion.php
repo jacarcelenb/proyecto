@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>MEDIOS DE COMUNICACIÓN</h2>
+						<h2>COMUNICACIONES</h2>
 						<p> .</p>
 					</div>
 				</div>
@@ -85,17 +85,15 @@
 						<main>
 							<article class="mg-post">
 								<header>
-									<a href="#"><img src="../images/comunicacion.jpg" alt="" class="img-responsive"></a>
-									<h2 class="mg-post-title">Medios de Comunicación</h2>
+									<a href="#"><img src="../images/resta10.png" alt="" class="img-responsive"></a>
+									<h2 class="mg-post-title">Comunicaciones</h2>
 								</header>
 								<div>
-									<p><strong> United Network News (noticias de la Red Unida) es la nueva corriente principal y la única verdad en los medios.</strong></p>
-						
-				<p>G-FORCE es la primera  plataforma	de redes	sociales  profesionales dedicadas a cambiar el mundo.</p>
-						
-				<p>United Network News, la primera cadena con la autorización para conocer toda la historia que se preocupa lo suficiente como para contarle sobre ella. Seamos	realistas,	hasta	hace	poco,	las	redes	sociales	eran	tan poderosas, si no más, que Main Stream (principales medios de comunicación) . Basado en nuestra actual "cultura de cancelación” donde os gobiernos han tratado de reprimir la voz de la gente bloqueando a quienes están dispuestos a decir la verdad </p>
-				
-				<p>Para abordar esta injusticia y restaurar la voz de la gente, hemos lanzado la RED G-FORCE.	G-FORCE	es	más	que	redes	sociales, son	medios profesionales. Main Stream Media se ha convertido en una máquina de propaganda para una agenda antihumana. <br><br>Latino América contara con medios de comunicación que producirá sus propios materiales a ser vistos en el mundo entero a través de G-FORCE. </p>
+									<p>
+									Los gobiernos han tratado de reprimir la voz de la gente bloqueando a quienes están dispuestos a decir la verdad, para abordar esta injusticia y restaurar la voz de la gente se ha creado el comité de comunicación que más que redes sociales, son medios profesionales para llenar de justicia y verdad al mundo.
+El comité de Comunicación es el órgano encargado que genera y ejecuta directrices comunicacionales tanto interna y externa, bajo los principios de libertad democratización y equilibrio de la información sobre los acontecimientos de los proyectos y su impacto con total transparencia y realidad social territorial, con total respeto a la diversidad de actores y culturas que conforman como sociedad con derechos parte del estado intercultural y plurinacional del Ecuador.
+
+									</p>
 						
 								</div>
 							</article>

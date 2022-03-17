@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>EDUCACIÓN</h2>
+						<h2>SERVICIOS PARA LA FAMILIA</h2>
 						<p> .</p>
 					</div>
 				</div>
@@ -15,67 +15,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mg-widget-area">
-							<aside class="mg-widget">
-								<h2 class="mg-widget-title">Areas de Trabajo</h2>
-								<ul class="mg-recnt-posts">
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="salud.php">Cuidado de la Salud</a></h3>
-											<p>ASAMBLEA IMBABURA RENACIENTE,  es una organización que tiene como...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="educacion.php">Educación </a></h3>
-											<p>Restaurar El Estado Plurinacional De Ecuador...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="comunicacion.php">Medios de Comunicación</a></h3>
-											<p>Atención médica diseñada para enseñar a las...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="finanza.php">Sistema Financiero</a></h3>
-											<p>El sistema finaciero global ha sido monopolizado...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="web.php">Plataforma Web</a></h3>
-											<p>G-FORCE NETWORK es una plataforma de redes...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="gia.php">GIA</a></h3>
-											<p>La Agencia de Inteligencia Global fue...</p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="alimentos.php">Alimentos</a></h3>
-											<p>El objetivo de ASAMBLEA IMBABURA RENACIENTE, </p>
-										</div>
-									</li>
-									<li>
-										<div class="mg-recnt-post">
-											<div class="mg-rp-date"><i class="fa fa-cogs"></i></div>
-											<h3><a href="asambleas.php">Asambleas</a></h3>
-											<p>La Asamblea cumple la función de Organizar...</p>
-										</div>
-									</li>
-								</ul>
-							</aside>
+						<?php include("../html_components/workarea.php");?>
 						</div>
 					</div>
 					
@@ -84,13 +24,18 @@
 						<main>
 							<article class="mg-post">
 								<header>
-									<a href="#"><img src="images/educacion.jpg" alt="" class="img-responsive"></a>
-									<h2 class="mg-post-title">Educación</h2>
+									<a href="#"><img src="../images/resta8.jpg" alt="" class="img-responsive"></a>
+									<h2 class="mg-post-title">Servicios para la familia</h2>
 								</header>
 								<div>
 									
 
-								<p><strong>Nosotros, como seres humanos en este planeta,</strong>  tenemos la responsabilidad de formar la próxima  generación. Este es un proceso que comienza en casa y  que debe reflejarse en el aula.</p>
+								<p>
+								La familia es una sociedad natural, que existe antes que el Estado o cualquier otra comunidad, y que posee derechos propios e inalienables. Por este motivo, constituye la célula básica de la sociedad y se conforma en elemento angular del desarrollo social. La familia, como síntesis de los impulsos humanos más profundos (sociabilidad, afectividad, etc.), no es creación de ninguna época humana, sino patrimonio de todas las edades y civilizaciones. La familia es mucho más que una unidad jurídica, social y económica ya que hablar de familia es hablar de vida, de transmisión de valores, de educación, de solidaridad, de estabilidad, de futuro, en definitiva, de amor.
+								</p><br>
+								<p>
+								Dando la esencial importancia a la familia y a sabiendas que la crisis familiar empieza por las carencias que puede vivir la misma, el comité de A-LIFE IMBABURA RENACIENTE encargado de la familia tiene un imperativo trabajo desarrollando programas que puedan solventar todas sus necesidades íntegramente para salvaguardar el núcleo de la sociedad. 
+								</p>
 					
 								</div>
 							</article>
