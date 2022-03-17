@@ -22,7 +22,7 @@
 		<link href="css/cs-select.css" rel="stylesheet">
 		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="css/freepik.hotels.css" rel="stylesheet">
-		<link href="css/style14.css" rel="stylesheet">
+		<link href="css/style15.css" rel="stylesheet">
 
 
 		<script src="js/modernizr.custom.min.js"></script>
@@ -433,13 +433,13 @@
 														
 														<p style="color:white">Fechas de asambleas:</p>
 														<p style="color:white">
-														sábado 22 de enero de 2022, ya realizada.
+														-Sábado 22 de enero de 2022, ya realizada.
 														<br>
-														domingo 06 de febrero de 2022, ya realizada.
+														-Domingo 06 de febrero de 2022, ya realizada.
 														<br>
-														sábado 19 de febrero, ya realizada.
+														-Sábado 19 de febrero, ya realizada.
 														<br>
-														sábado 19 de marzo del 2022.
+														-Sábado 19 de marzo del 2022.
 			
 													</p>
 														<p style="color:white">Horario de eventos o reuniones: primer sábado de cada mes </p>

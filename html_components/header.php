@@ -18,7 +18,7 @@
 		<link href="../css/cs-select.css" rel="stylesheet">
 		<link href="../css/bootstrap-datepicker3.min.css" rel="stylesheet">
 		<link href="../css/freepik.hotels.css" rel="stylesheet">
-		<link href="../css/style14.css" rel="stylesheet">
+		<link href="../css/style15.css" rel="stylesheet">
 
 
 		<script src="../js/modernizr.custom.min.js"></script>

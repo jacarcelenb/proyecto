@@ -79,7 +79,7 @@ if (isset($_POST['update'])) {
 		<link href="../css/freepik.hotels.css" rel="stylesheet">
 		<link href="../css/nivo-lightbox.css" rel="stylesheet">
 		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
-		<link href="../css/style13.css" rel="stylesheet">
+		<link href="../css/style15.css" rel="stylesheet">
        
 
 

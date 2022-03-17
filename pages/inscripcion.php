@@ -33,7 +33,7 @@
 						<form  method="POST"  action="../dbcontroller/crearinscripcion.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
-								<input type="text" class="form-control" id="full-name" name="nombre" required>
+								<input type="text" pattern="[A-Za]" class="form-control" id="full-name" name="nombre" required>
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Apellido</label>
