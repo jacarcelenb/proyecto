@@ -709,7 +709,7 @@
 		<script src="js/jquery.parallax-1.1.3.js"></script>
 		<script src="js/script.js"></script>
 
-		<!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){

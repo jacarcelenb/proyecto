@@ -1,4 +1,7 @@
-<?php include('../html_components/header.php'); ?>
+
+<?php 
+include('../dbcontroller/database.php');
+include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
 			<div class="container">
@@ -10,6 +13,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+<?php if (isset($_SESSION['message'])) { ?>
+      <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
+	  <strong>  <?= $_SESSION['message']?> </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
+      
+	<div>
 				<div class="mg-page">
 			<div class="container">
 				<div class="row">
@@ -33,7 +47,7 @@
 								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
-							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
+							<input type="button" class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
 					</div>
                     <div class="col-md-7">
