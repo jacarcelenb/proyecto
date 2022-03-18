@@ -47,7 +47,7 @@ include('../html_components/header.php'); ?>
 								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
-							<input type="button" class="btn btn-dark-main pull-right" value="Enviar">
+							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
 					</div>
                     <div class="col-md-7">
