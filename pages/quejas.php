@@ -50,7 +50,7 @@
     					        </select>
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="subject">Departamento o Provincia/Region en que Reside?</label>
+								<label for="subject">Canton en  el que Reside?</label>
 								<input type="text" class="form-control" id="subject" name="departamento" 
 								required>
 							</div>

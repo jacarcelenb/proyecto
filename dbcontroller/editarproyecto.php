@@ -135,7 +135,7 @@ if (isset($_POST['update'])) {
       <form action="../dbcontroller/editarproyecto.php?id=<?php echo $_GET['id']; ?>" method="POST">
 
       <div class="mg-contact-form-input">
-								<label for="full-name">Canton</label>
+								<label for="full-name">Cantón</label>
 								<input type="text" class="form-control" id="full-name" name="departamento" 
 								value="<?php echo $departamento; ?>"
 								required>

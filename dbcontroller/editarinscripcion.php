@@ -217,7 +217,7 @@ if (isset($_POST['update'])) {
 							</div>
 							
 							<div class="mg-contact-form-input">
-								<label for="subject">Departamento en que Reside?</label>
+								<label for="subject">Cantón en que Reside?</label>
 								<input type="text" class="form-control" id="full-name" name="departamento" 
 								value="<?php echo $departamento; ?>"
 								required>
