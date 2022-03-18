@@ -52,7 +52,7 @@
 								</p>
 				
 								<p>
-									<a href="mailto:secretaria.lifeir@gmail.com ">secretaria.lifeir@gmail.com </a>
+									<a href="mailto:secretaria.lifeir@gmail.com " style="color:darkgreen">secretaria.lifeir@gmail.com </a>
 								</p>
 					</div>
                     <!------
