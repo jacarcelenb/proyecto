@@ -30,7 +30,7 @@ include('../html_components/header.php'); ?>
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form method="POST"  action="../pages/formcontacto.php" >
+						<form method="POST"  action="https://formsubmit.co/secretaria.lifeir@gmail.com" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Su Nombre</label>
 								<input type="text" class="form-control" id="full-name" name="nombre">
