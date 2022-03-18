@@ -1,5 +1,18 @@
 
+<?php 
+$destino="secretaria.lifeir@gmail.com";
+$nombre =$_POST["nombre"];
+$correo =$_POST["correo"];
+$asunto =$_POST["asunto"];
+$mensaje =$_POST["mensaje"];
+$contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
+mail($destino,"Contacto",$contenido);
 
+header("Location: ../index.php");
+
+
+
+?>
 <?php include('../html_components/header.php'); ?>
 
 		<div class="mg-page-title parallax">
@@ -19,7 +32,7 @@
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form action="https://formsubmit.co/asamblea_imbaburarenacientee@hotmail.com " method="POST">
+						<form action="../pages/formcontacto.php" method="POST">
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="name" name="nombre">

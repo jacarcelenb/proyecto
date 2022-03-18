@@ -111,8 +111,12 @@
 								<textarea class="form-control" rows="10" name="descripcion"  required></textarea>
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>
-									
-							
+							<div class="alert alert-danger alert-dismissible fade show" role="alert">
+	  <strong> Tamaño  máximo de imagen 16 MB</strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 							<div class="form-group">
                                 <label>Foto de la Actividad</label>
 								<input type="file" name="foto1" accept=".jpg, .jpeg, .png">

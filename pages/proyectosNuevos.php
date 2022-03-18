@@ -69,12 +69,23 @@
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>
 									
-							
+							<div class="alert alert-danger alert-dismissible fade show" role="alert">
+	  <strong> Tamaño  máximo de foto 16 MB </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 							<div class="form-group">
                                 <label>Foto de 1 </label>
 								<input type="file" name="foto1" accept=".jpg, .jpeg, .png">
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>
+							<div class="alert alert-danger alert-dismissible fade show" role="alert">
+							<strong> Tamaño  máximo de foto 16 MB </strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 							<div class="form-group">
                                 <label>Foto de 2 </label>
 								<input type="file" name="foto2" accept=".jpg, .jpeg, .png">
