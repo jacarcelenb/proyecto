@@ -14,7 +14,7 @@
 									Ibarra -Ecuador
 								</p>
 								
-									<a href="mailto:asamblea_imbaburarenacientee@hotmail.com">secretaria.lifeir@gmail.com </a>
+									<a href="mailto:secretaria.lifeir@gmail.com">secretaria.lifeir@gmail.com </a>
 								</p>
 							</div> 
 						</div>
@@ -23,7 +23,7 @@
 							<div class="widget">
 								<h2 class="mg-widget-title">Suscribete</h2>
 								<p>Suscribete a nuestro formulario de contacto para que te mandemos novedades.</p>
-								<form class="clearfix" method="POST"  action="formcontacto.php" >
+								<form  action="formcontacto.php" >
 									<input type="submit" class="btn btn-main" value="Suscribe">
 								</form>
 							</div>

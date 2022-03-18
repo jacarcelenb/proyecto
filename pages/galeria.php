@@ -23,7 +23,7 @@
           while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
          	
 			 <div class="col-md-4">  
-			 <a href="#"><img src="data:<?php echo $row['tipoimagen']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>"alt="" class="img-responsive"></a>
+			 <a href="#"><img src="data:<?php echo $row['tipoimagen']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>"alt="" width="320" height="240"  class="img-responsive"></a>
 						<h5 class="mg-post-title" align="center"><?php echo $row['titulo']; ?></h5>
 					</div>
 					

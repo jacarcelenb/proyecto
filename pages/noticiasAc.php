@@ -33,7 +33,7 @@
             <div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-5">
-														<a href="#"><img src="data:<?php echo $row['tipoimagen']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>"alt="" class="img-responsive"></a>
+														<a href="#"><img src="data:<?php echo $row['tipoimagen']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>"alt="" class="img-responsive" width="320" height="240" ></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#"><?php echo $row['titulo']; ?></a> <span><?php echo date("Y-m-d"); ?></span></h3>

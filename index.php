@@ -98,7 +98,7 @@
 							</li>
 						   <li ><a href="pages/videos.php">Videos</a></li>
 						<li ><a href="pages/galeria.php">Galeria</a></li>
-						<li ><a href="pages/formcontacto.php">Contacto</a></li>
+						<li ><a href="pages/contacto.php">Contacto</a></li>
                           
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -496,7 +496,7 @@
             <div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-5">
-														<a href="#"> <img src="data:<?php echo $row['tipoimagen1']; ?>;base64,<?php echo  base64_encode($row['ruta_foto1']); ?>" alt="" class="img-responsive"></a>
+														<a href="#"> <img src="data:<?php echo $row['tipoimagen1']; ?>;base64,<?php echo  base64_encode($row['ruta_foto1']); ?>" alt="" class="img-responsive" width="320" height="240" ></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#"><?php echo $row['titulo']; ?></a> <span><?php echo $row['fecha']; ?></span></h3>
@@ -661,7 +661,7 @@
 							<div class="widget">
 								<h2 class="mg-widget-title">Suscribete</h2>
 								<p>Suscribete a nuestro formulario de contacto para que te mandemos novedades.</p>
-								<form class="clearfix" method="POST"  action="pages/formcontacto.php" >
+								<form   action="pages/contacto.php" >
 									<input type="submit" class="btn btn-main" value="Suscribe">
 								</form>
 							</div>

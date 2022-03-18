@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>contacto</h2>
+						<h2>Contacto</h2>
 						<p></p>
 					</div>
 				</div>
@@ -16,22 +16,22 @@
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form class="clearfix" method="POST"  action="../pages/formcontacto.php" >
+						<form method="POST"  action="../pages/formcontacto.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Su Nombre</label>
-								<input type="text" class="form-control" id="full-name">
+								<input type="text" class="form-control" id="full-name" name="nombre">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">E-mail</label>
-								<input type="text" class="form-control" id="email">
+								<input type="text" class="form-control" id="email" name="correo">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto</label>
-								<input type="text" class="form-control" id="subject">
+								<input type="text" class="form-control" id="subject" name="asunto">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5"></textarea>
+								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
 							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
 						</form>
