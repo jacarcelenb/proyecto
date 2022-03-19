@@ -58,7 +58,7 @@
 								<ul class="dropdown-menu">
 									<li ><a href="../pages/proyectos.php">Proyectos</a></li>
 									<li ><a href="../pages/proyectosNuevos.php">Ingresar Nuevos Proyectos</a></li>
-									<li ><a href="../pages/formatoproyecto.php">Formato para Proyectos</a></li>
+									<li ><a href="../pages/formatoproyecto.php">Formulario para Proyectos</a></li>
 								</ul>
 							</li>
                             <li class="dropdown">
