@@ -23,7 +23,7 @@
 							<div class="widget">
 								<h2 class="mg-widget-title">Suscribete</h2>
 								<p>Suscribete a nuestro formulario de contacto para que te mandemos novedades.</p>
-								<form  action="formcontacto.php" >
+								<form  action="contacto.php" >
 									<input type="submit" class="btn btn-main" value="Suscribe">
 								</form>
 							</div>

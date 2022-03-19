@@ -53,10 +53,11 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-                        <li ><a href="../pages/salir.php" >Cerrar Sesion</a>
-                    
-                        </li> 
-							
+                       <div class="container">
+					   <li ><a href="../pages/salir.php" class="btn btn-main">Cerrar Sesion</a>
+					   </div>
+					
+                      
                           
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -81,9 +82,30 @@
 		</div>
 		<br>
         <?php
+    include("../dbcontroller/database.php");
 
+	$valor =''; 
+	$ingreso="";
+	$valor= $_SESSION['user'];
+	if (isset($_SESSION['ingreso'])) {
+		$ingreso = $_SESSION['ingreso'];
+	}
+	
+
+if ($valor =="admin1" || $ingreso =="admin1") {
 	include("../html_components/menuadmin1.php");
-          ?>
+}if ($valor =="admin2" || $ingreso =="admin2") {
+	include("../html_components/menuadmin2.php");
+}if ($valor =="admin3" || $ingreso =="admin3") {
+	include("../html_components/menuadmin3.php");
+}
+else{
+if (empty($valor)) {
+	$_SESSION['login'] ='Debe inciar sesion para acceder';
+	header("Location: sesion1.php");
+}
+  }
+ ?>
 	
 <!--Colocar el footer-->
 <br>
