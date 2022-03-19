@@ -16,7 +16,17 @@ include('../html_components/header.php');
 			</div>
 			</div>
 				<div class="mg-page">
+					
 			<div class="container">
+			<?php if (isset($_SESSION['enviado'])) { ?>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Correo enviado exitosamente</strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <?php session_unset(); } ?>
+	<div>
 				<div class="row">
 					
 					<div class="col-md-5">

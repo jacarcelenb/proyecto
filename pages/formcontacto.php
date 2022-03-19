@@ -1,5 +1,6 @@
 
 <?php 
+include('../dbcontroller/database.php');
 if ($_POST['enviar']) {
     $nombre = $_POST['nombre'];
     $correo = $_POST['correo'];
@@ -12,6 +13,7 @@ if ($_POST['enviar']) {
     $mail = mail($correo,$asunto,$mensaje,$header);
 
     if ($mail) {
+    $_SESSION['enviado'] ='enviado';
     header('contacto.php');
     }
 
