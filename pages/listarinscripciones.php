@@ -1,4 +1,20 @@
 <?php include('../dbcontroller/database.php');
+
+$valor =''; 
+
+if ($_SESSION['user']) {
+$valor= $_SESSION['user'];
+}
+if ($valor =='user') {
+	$data ="Sesion exitosa";
+}else{
+  $data ="Sesion fallida";
+  if ($data =="Sesion fallida") {
+	  $_SESSION['login'] ='Debe inciar sesion para acceder';
+	  header("Location: sesion1.php");
+  }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -95,7 +111,7 @@
             <th>Oficio</th>
             <th>Canton</th>
             <th>Provincia</th>
-            <th> </th>
+            <th><?php echo $valor; ?></th>
           </tr>
         </thead>
         <tbody>

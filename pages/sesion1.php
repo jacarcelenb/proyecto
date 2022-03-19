@@ -4,6 +4,7 @@ include("../dbcontroller/database.php");
 
 $ingreso = false;
 $loginfallido = false;
+$acceso ='false';
 
 
 if (isset($_POST['login'])) {
@@ -21,6 +22,7 @@ if (isset($_POST['login'])) {
   }
 
   if ($ingreso) {
+	$_SESSION['user']='user';  
     header("Location: ../pages/admin1.php");
   }
   else{
