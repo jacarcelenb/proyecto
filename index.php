@@ -709,17 +709,6 @@
 		<script src="js/jquery.parallax-1.1.3.js"></script>
 		<script src="js/script.js"></script>
 		<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/62347e7da34c2456412bb0ba/1fuegs6oj';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+		<script src="//code.tidio.co/jhuuwsjnqzc9notqy4j3zifzwtpq4q99.js" async></script>
 	</body>
 </html>
