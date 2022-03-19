@@ -2,20 +2,20 @@
 <?php 
 include('../dbcontroller/database.php');
 if ($_POST['enviar']) {
+    $destino = "carcelenjorge17@gmail.com";
     $nombre = $_POST['nombre'];
     $correo = $_POST['correo'];
     $asunto = $_POST['asunto'];
     $mensaje = $_POST['mensaje'];
-    $header="From: carcelenjorge17@gmail.com"."\r\n";
-    $header.="Reply-To: carcelenjorge17@gmail.com"."\r\n";
-    $header.="X-Mailer: PHP/".phpversion();
+    $contenido = "Nombre: ".$nombre."\nCorreo: ".$correo."\nAsunto: ".$asunto."\nMensaje: ".$mensaje;
 
-    $mail = mail($correo,$asunto,$mensaje,$header);
+    $mail= mail($destino,"Contacto",$contenido);
 
     if ($mail) {
-    $_SESSION['enviado'] ='enviado';
-    header('contacto.php');
+        $_SESSION['enviado'] = 'enviado';
+        header("Location: contacto.php");
     }
 
 }
 ?>
+
