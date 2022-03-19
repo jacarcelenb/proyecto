@@ -1,11 +1,24 @@
 
 <?php 
-include('../dbcontroller/database.php');
-$destino="secretaria.lifeir@gmail.com";
+if ($_POST['enviar']) {
+    $nombre = $_POST['nombre'];
+    $correo = $_POST['correo'];
+    $asunto = $_POST['asunto'];
+    $mensaje = $_POST['mensaje'];
+    $header="From: secretaria.lifeir@gmail.com"."\r\n";
+    $header.="Reply-To: secretaria.lifeir@gmail.com"."\r\n";
+    $header.="X-Mailer: PHP/".phpversion();
 
-$_SESSION['message'] = 'Correo enviado exitosamente';
-$_SESSION['message_type'] = 'success';
+    $mail = mail($correo,$asunto,$mensaje,$header);
 
-header("contacto.php");
+    if ($mail) {
+     include('../html_components/ms_crearinscrip.php');
+    }
+
+}
+
+
+
+
 
 ?>

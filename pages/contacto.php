@@ -1,7 +1,9 @@
 
 <?php 
 include('../dbcontroller/database.php');
-include('../html_components/header.php'); ?>
+include('../html_components/header.php');
+
+ ?>
 
 		<div class="mg-page-title parallax">
 			<div class="container">
@@ -19,13 +21,13 @@ include('../html_components/header.php'); ?>
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form method="POST"  action="https://formsubmit.co/secretaria.lifeir@gmail.com" >
+						<form method="POST" >
 							<div class="mg-contact-form-input">
-								<label for="full-name">Su Nombre</label>
+								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="full-name" name="nombre">
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="email">E-mail</label>
+								<label for="email">Correo</label>
 								<input type="text" class="form-control" id="email" name="correo">
 							</div>
 							<div class="mg-contact-form-input">
@@ -36,8 +38,11 @@ include('../html_components/header.php'); ?>
 								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="subject" rows="5" name="mensaje"></textarea>
 							</div>
-							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar">
+							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar" name="enviar">
 						</form>
+						<?php 
+						include('contacto.php');
+						?>
 					</div>
                     <div class="col-md-7">
 						<h2 class="mg-sec-left-title">Telefonos y Direcciones</h2>
