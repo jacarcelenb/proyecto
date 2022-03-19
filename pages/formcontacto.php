@@ -1,6 +1,6 @@
 
 <?php 
-include('../dbcontroller/database.php');
+
 if ($_POST['enviar']) {
     $destino = "carcelenjorge17@gmail.com";
     $nombre = $_POST['nombre'];
@@ -11,11 +11,7 @@ if ($_POST['enviar']) {
 
     $mail= mail($destino,"Contacto",$contenido);
 
-    if ($mail) {
-        $_SESSION['enviado'] = 'enviado';
-        header("Location: contacto.php");
-    }
+     header("Location: contacto.php");
 
 }
 ?>
-
