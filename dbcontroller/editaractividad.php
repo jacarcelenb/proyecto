@@ -35,7 +35,6 @@ if (isset($_POST['update'])) {
 
   header('Location: ../pages/listaractividades.php');
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
