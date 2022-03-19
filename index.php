@@ -704,8 +704,6 @@
 		<script src="js/starrr.min.js"></script>
 		<script src="js/nivo-lightbox.min.js"></script>
 		<script src="js/jquery.shuffle.min.js"></script>
-		<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="js/gmaps.min.js"></script>
 		<script src="js/jquery.parallax-1.1.3.js"></script>
 		<script src="js/script.js"></script>
 		<!--Start of Tawk.to Script-->
