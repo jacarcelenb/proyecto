@@ -12,13 +12,8 @@ if ($_POST['enviar']) {
     $mail = mail($correo,$asunto,$mensaje,$header);
 
     if ($mail) {
-     include('../html_components/ms_crearinscrip.php');
+    header('contacto.php');
     }
 
 }
-
-
-
-
-
 ?>

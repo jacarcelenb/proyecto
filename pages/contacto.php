@@ -21,7 +21,7 @@ include('../html_components/header.php');
 					
 					<div class="col-md-5">
 						<h2 class="mg-sec-left-title" >Envie un mensaje</h2>
-						<form method="POST" >
+						<form method="POST" action="formcontacto.php">
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="full-name" name="nombre">
@@ -40,9 +40,7 @@ include('../html_components/header.php');
 							</div>
 							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar" name="enviar">
 						</form>
-						<?php 
-						include('contacto.php');
-						?>
+					
 					</div>
                     <div class="col-md-7">
 						<h2 class="mg-sec-left-title">Telefonos y Direcciones</h2>
