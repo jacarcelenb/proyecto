@@ -25,7 +25,7 @@
 											<div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-3">
-														<a href="#"><img src="images/pdf.png" alt="" class="img-responsive"></a>
+														<a href="#"><img src="../images/pdf.png" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#">Estado Plurinacional de Ecuador</a></h3>
@@ -39,7 +39,7 @@
 											<div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-3">
-														<a href="#"><img src="images/pdf.png" alt="" class="img-responsive"></a>
+														<a href="#"><img src="../images/pdf.png" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#">Estado Plurinacional de Ecuador</a></h3>

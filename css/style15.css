@@ -12,49 +12,23 @@ sup {
   font-size: 60%;
 }
 
-.thead-dark th {
-  color: rgb(255, 255, 255);
-  background-color: #000000;
-  border-color: #0b0c0c;
-}
-
-.table th {
-  padding: .75rem;
-  vertical-align: top;
-  border-top: 1px solid #0b0c0c;
-}
-
-.table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #020202;
-}
-
-.table {
-  width: 80%;
-  margin: 10%;
-  margin-bottom: 1rem;
-  color: #212529;
-}
-
-table {
-  border-collapse: collapse;
-}
 
 
 
-input:invalid {
+
+input[type=text]:invalid {
   background-color: #ffdddd;
 }
 
-input:required:invalid {
+input[type=text]:required:invalid {
   border-color: #c00000;
 }
 
-input:valid {
+input[type=text]:valid {
   background-color: #ddffdd;
 }
 
-input:required {
+input[type=text]:required {
   border-color: #800000;
   border-width: 3px;
 }
