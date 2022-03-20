@@ -1,4 +1,12 @@
 <?php include('../dbcontroller/database.php');
+$page = (isset($_GET['page']) ? $_GET['page'] : 1);
+$perPage = (isset($_GET['per-page']) && ($_GET['per-page']) <= 50 ? $_GET['per-page'] : 5);
+$start = ($page > 1) ? ($page * $perPage) - $perPage : 0;
+
+$sql = "select * from inscripciones limit ".$start." , ".$perPage." ";
+$total = $conn->query("select * from inscripciones")->num_rows;
+$pages = ceil($total / $perPage);
+$rows = $conn->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -101,10 +109,8 @@
         <tbody>
 
           <?php
-          $query = "SELECT * FROM inscripciones";
-          $result_quejas = mysqli_query($conn, $query);    
-
-          while($row = mysqli_fetch_assoc($result_quejas)) { ?>
+        
+          while($row = $rows->fetch_assoc()) { ?>
           <tr>
             <td><?php echo $row['nombre']; ?></td>
             <td><?php echo $row['apellido']; ?></td>
@@ -132,6 +138,15 @@
           <?php } ?>
         </tbody>
       </table>
+      <center>
+				<ul class="pagination">
+				<?php for($i = 1 ; $i <= $pages; $i++): ?>
+				<li><a href="?page=<?php echo $i;?>&per-page=<?php echo $perPage;?>"><?php echo $i; ?></a></li>
+
+			<?php endfor; ?>
+				</ul>
+	 </center>
+  
   
   </div>
   </div>
