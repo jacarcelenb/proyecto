@@ -15,7 +15,7 @@
 	<div class="mg-page">
 			<div class="container">
 				<div class="row">
-                    <div class="col-lg-9">
+                    <div class="col-lg-7">
 						<h2 class="mg-sec-left-title" >Ingrese nuevo proyecto</h2>
 						
 						<?php if (isset($_SESSION['message'])) { ?>
@@ -45,8 +45,7 @@
 	                         </div>
 							<div class="form-group">
                                 <label>Provincia</label>
-								<input class="form-control" placeholder="Ejemplo: Cercado"  name="provincia" required
-								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
+								<input class="form-control" placeholder="Ejemplo: Cercado"  name="provincia" required>
                                 
                             </div>
 							
