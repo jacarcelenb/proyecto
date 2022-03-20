@@ -19,25 +19,31 @@ if (isset($_POST['crear_imagen'])) {
 
   }
 
-     echo $tamanoArchivo1;
+  if ($tamanoArchivo1 < 16000000) {
+    try { 
+      $query = "INSERT INTO foto (titulo,descripcion,tipoimagen,imagen) VALUES ('$titulo','$descripcion'  ,'$tipoArchivo1' ,'$imagenSubida1')";
+      $result = mysqli_query($conn, $query);
+      
+      if(!$result) {
+        die("Query Failed.");
+      }
+      
+      $_SESSION['message'] = 'Foto subida exitosamente';
+      $_SESSION['message_type'] = 'success';
+      
+      header("Location: ../pages/listarfotos.php");
+  
+    } catch (mysqli_sql_exception $e) { 
+        var_dump($e);
+        exit; 
+     } 
+  }else{
+    $_SESSION['message'] = 'No se puede subir el tamaño de la imagen es mayor a 16 MB';
+    $_SESSION['message_type'] = 'danger';
 
-   try { 
-    $query = "INSERT INTO foto (titulo,descripcion,tipoimagen,imagen) VALUES ('$titulo','$descripcion'  ,'$tipoArchivo1' ,'$imagenSubida1')";
-    $result = mysqli_query($conn, $query);
-    
-    if(!$result) {
-      die("Query Failed.");
-    }
-    
-    $_SESSION['message'] = 'Foto subida exitosamente';
-    $_SESSION['message_type'] = 'success';
-    
-     header("Location: ../pages/listarfotos.php");
+  }
 
-  } catch (mysqli_sql_exception $e) { 
-      var_dump($e);
-      exit; 
-   } 
+  
 
 
 }

@@ -1,4 +1,6 @@
-<?php include('../dbcontroller/database.php');?>
+<?php include('../dbcontroller/database.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head> 

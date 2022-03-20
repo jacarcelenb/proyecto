@@ -341,7 +341,7 @@
     background-color: #CADA2A;">Infraestructura y Obras públicas</h2>
 								<div class="mg-room-rating"><i class="fa fa-star"></i></div>
 								<div class="mg-room-price"></div>
-								<p>los responsables de formular, implementar y evaluar políticas, regulaciones, planes, programas y proyectos.</p>
+								<p>Los responsables de formular, implementar y evaluar políticas, regulaciones, planes, programas y proyectos.</p>
 								<a href="pages/infraestructura.php" class="btn btn-main">Mas información</a>
 							</figcaption>			
 						</figure>

@@ -35,26 +35,33 @@ if (isset($_POST['crear_proyecto'])) {
 
    $fecha= date("Y-m-d");
 
-   try { 
-    $query = "INSERT INTO proyectos(departamento, provincia ,tipoproyecto ,titulo ,contenido,ruta_foto1 , ruta_foto2 ,tipoimagen1 , tipoimagen2 ,fecha) VALUES ('$departamento' 
-    , '$provincia' ,'$tipoproyecto' ,'$titulo' ,'$contenido' ,'$imagenSubida1' ,'$imagenSubida2' ,
-    '$tipoArchivo1' ,'$tipoArchivo2' ,'$fecha')";
-    $result = mysqli_query($conn, $query);
-    
-    if(!$result) {
-      die("Query Failed.");
-    }
-    
-    $_SESSION['message'] = 'Proyecto ingresado exitosamente';
-    $_SESSION['message_type'] = 'success';
-    
-     header("Location: ../pages/proyectosNuevos.php");
+   if ($tamañoArchivo1 < 16000000 &&  $tamanoArchivo2 < 16000000) {
+    try { 
+      $query = "INSERT INTO proyectos(departamento, provincia ,tipoproyecto ,titulo ,contenido,ruta_foto1 , ruta_foto2 ,tipoimagen1 , tipoimagen2 ,fecha) VALUES ('$departamento' 
+      , '$provincia' ,'$tipoproyecto' ,'$titulo' ,'$contenido' ,'$imagenSubida1' ,'$imagenSubida2' ,
+      '$tipoArchivo1' ,'$tipoArchivo2' ,'$fecha')";
+      $result = mysqli_query($conn, $query);
+      
+      if(!$result) {
+        die("Query Failed.");
+      }
+      
+      $_SESSION['message'] = 'Proyecto ingresado exitosamente';
+      $_SESSION['message_type'] = 'success';
+      
+       header("Location: ../pages/proyectosNuevos.php");
+  
+    } catch (mysqli_sql_exception $e) { 
+        var_dump($e);
+        exit; 
+     } 
+  
+   }else{
+    $_SESSION['message'] = 'No se puede subir el tamaño de la imagen es mayor a 16 MB';
+    $_SESSION['message_type'] = 'danger';
+   }
 
-  } catch (mysqli_sql_exception $e) { 
-      var_dump($e);
-      exit; 
-   } 
-
+   
 
 }
 
