@@ -96,7 +96,15 @@
                                     <li ><a href="pages/noticiasBlog.php">Blogs</a></li>
 								</ul>
 							</li>
-						   <li ><a href="pages/videos.php">Videos</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Videos<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								    <li ><a href="pages/videos.php">Videos Subidos</a></li>
+									<li ><a href="pages/videoslinks.php">Videos - Enlace</a></li>
+								
+								</ul>
+							</li>
+						 
 						<li ><a href="pages/galeria.php">Galeria</a></li>
 						<li ><a href="pages/contacto.php">Contacto</a></li>
                           
@@ -611,14 +619,14 @@
 													 
 													<?php
 					
-					$query = "SELECT * FROM video";
+					$query = "SELECT * FROM videoenlace";
 					$result_proyectos = mysqli_query($conn, $query);    
 		  
 					while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
 					   
 					   <div class="col-md-4">  
 					   <video width="320" height="240" controls>
-  <source src="data:<?php echo $row['tipovideo']; ?>;base64,<?php echo  base64_encode($row['video']); ?> " type="video/mp4">
+  <source src="<?php echo $row['enlace']; ?>" >
   </video>
 							  </div>
 							  

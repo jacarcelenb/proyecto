@@ -90,7 +90,14 @@
                                     <li ><a href="../pages/noticiasBlog.php">Blogs</a></li>
 								</ul>
 							</li>
-						   <li ><a href="../pages/videos.php">Videos</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Videos<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								    <li ><a href="../pages/videos.php">Videos Subidos</a></li>
+									<li ><a href="../pages/videoslinks.php">Videos - Enlace</a></li>
+								
+								</ul>
+							</li>
 						<li ><a href="../pages/galeria.php">Galeria</a></li>
 						<li ><a href="../pages/contacto.php">Contacto</a></li>
                           
