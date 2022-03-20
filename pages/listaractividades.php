@@ -35,6 +35,8 @@ $rows = $conn->query($sql);
 		<link href="../css/nivo-lightbox.css" rel="stylesheet">
 		<link href="../css/nivo-lightbox-theme.css" rel="stylesheet">
 		<link href="../css/style15.css" rel="stylesheet">
+		<link href="../css/Encabezado.css" rel="stylesheet">
+		<link href="../css/Tabla.css" rel="stylesheet">
        
 		<script src="../js/modernizr.custom.min.js"></script>
 	</head>
@@ -98,10 +100,9 @@ $rows = $conn->query($sql);
 	<a href="../pages/actividadesNuevas.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Actividad</i>
               </a>
-		<br>
-		<br>
+
       <table class="table table-hover">
-        <thead> 
+        <thead class="thead-dark"> 
           <tr>
             <th>Titulo</th>
             <th>Descripcion</th>
