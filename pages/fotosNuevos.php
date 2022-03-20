@@ -1,12 +1,4 @@
-<?php include('../dbcontroller/database.php');
 
-    $valor =''; 
-	$valor= $_SESSION['user'];
-
-if (empty($valor)) {
-	$_SESSION['login'] ='Debe inciar sesion para acceder';
-	header("Location: sesion1.php");
-}?>
 
 
 <!DOCTYPE html>

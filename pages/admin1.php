@@ -86,17 +86,22 @@
 
 	$valor =''; 
 	$ingreso="";
+	$opcion="";
 	$valor= $_SESSION['user'];
 	if (isset($_SESSION['ingreso'])) {
 		$ingreso = $_SESSION['ingreso'];
 	}
+
+	if (isset($_SESSION['tarea'])) {
+		$opcion = $_SESSION['tarea'];
+	}
 	
 
-if ($valor =="admin1" || $ingreso =="admin1") {
+if ($valor =="admin1" || $ingreso =="admin1"  || $opcion =="admin1") {
 	include("../html_components/menuadmin1.php");
-}if ($valor =="admin2" || $ingreso =="admin2") {
+}if ($valor =="admin2" || $ingreso =="admin2" || $opcion =="admin2") {
 	include("../html_components/menuadmin2.php");
-}if ($valor =="admin3" || $ingreso =="admin3") {
+}if ($valor =="admin3" || $ingreso =="admin3" || $opcion =="admin3") {
 	include("../html_components/menuadmin3.php");
 }
 else{
