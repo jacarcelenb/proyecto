@@ -451,7 +451,7 @@
 														-Sábado 19 de marzo del 2022 , ya realizada.
 			
 													</p>
-														<p style="color:#CADA2A;font-weight: bold">Horario de eventos o reuniones: primer sábado de cada mes </p>
+														<p style="color:#CADA2A;font-weight: bold">Horario de eventos o reuniones: primer sábado de cada mes.</p>
 														
 														<p style="color:white">Reunión por Zoom ID de reunión:</p>
 													

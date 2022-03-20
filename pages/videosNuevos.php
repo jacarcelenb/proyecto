@@ -113,7 +113,7 @@
 									
 										
 							<div class="alert alert-danger alert-dismissible fade show" role="alert">
-	  <strong> Tamaño de videos máximo 40 MB </strong> 
+	  <strong> Tamaño de videos máximo 16 MB </strong> 
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

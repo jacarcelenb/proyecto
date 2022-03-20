@@ -86,6 +86,8 @@
                 <i class="fa fa-trash-alt">Subir Video</i>
               </a>
 
+			  <br>
+			  <br>
       <table class="table table-hover">
         <thead> 
           <tr>
