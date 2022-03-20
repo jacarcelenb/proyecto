@@ -121,7 +121,7 @@
                             </div>
 							<div class="form-group">
                                 <label>Enlace </label>
-								<input class="form-control" type="text" name="enlace" required>
+								<input class="form-control" type="url" name="enlace" required  pattern="https?://.+">
                             </div>
 									
 							

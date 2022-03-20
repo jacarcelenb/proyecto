@@ -53,9 +53,9 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-                       <div class="container">
-					   <li ><a href="../pages/salir.php" class="btn btn-main">Cerrar Sesion</a>
-					   </div>
+                       
+					   <li ><a href="../pages/salir.php">Cerrar Sesion</a>
+					  
 					
                       
                           
