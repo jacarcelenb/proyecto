@@ -497,7 +497,7 @@
 										<div class="mg-avl-rooms">
 										 
 										<?php
-          $query = "SELECT * FROM proyectos";
+          $query = "SELECT * FROM proyectos LIMIT 2";
           $result_proyectos = mysqli_query($conn, $query);    
 
           while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
@@ -619,14 +619,13 @@
 													 
 													<?php
 					
-					$query = "SELECT * FROM videoenlace";
+					$query = "SELECT * FROM videoenlace LIMIT 2";
 					$result_proyectos = mysqli_query($conn, $query);    
 		  
 					while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
 					   
 					   <div class="col-md-4">  
-					   <iframe src="<?php echo $row['enlace']; ?>" width="320" height="240">
-					</iframe>
+					   <iframe width="560" height="315" src="<?php echo $row['enlace']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 							  </div>
 							  
 					<?php } ?>
