@@ -1,13 +1,4 @@
-<?php include('../dbcontroller/database.php');
-$page = (isset($_GET['page']) ? $_GET['page'] : 1);
-$perPage = (isset($_GET['per-page']) && ($_GET['per-page']) <= 50 ? $_GET['per-page'] : 5);
-$start = ($page > 1) ? ($page * $perPage) - $perPage : 0;
-
-$sql = "select * from video limit ".$start." , ".$perPage." ";
-$total = $conn->query("select * from video")->num_rows;
-$pages = ceil($total / $perPage);
-$rows = $conn->query($sql);
-?>
+<?php include('../dbcontroller/database.php');?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -105,8 +96,10 @@ $rows = $conn->query($sql);
         </thead>
         <tbody>
 		<?php
-          
-          while($row = $rows->fetch_assoc()) { ?>
+		  $query = "SELECT * FROM video";
+          $result_proyectos = mysqli_query($conn, $query);    
+
+          while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
           <tr>
             <td><?php echo $row['titulo']; ?></td>
             <td><?php echo $row['descripcion']; ?></td>
@@ -123,14 +116,6 @@ $rows = $conn->query($sql);
           <?php } ?>
         </tbody>
       </table>
-	  <center>
-				<ul class="pagination">
-				<?php for($i = 1 ; $i <= $pages; $i++): ?>
-				<li><a href="?page=<?php echo $i;?>&per-page=<?php echo $perPage;?>"><?php echo $i; ?></a></li>
-
-			<?php endfor; ?>
-				</ul>
-	 </center>
   
   
   </div>

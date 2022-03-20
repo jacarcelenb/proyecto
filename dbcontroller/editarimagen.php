@@ -133,9 +133,7 @@ if (isset($_POST['update'])) {
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Descripción</label>
-								<textarea class="form-control" rows="10" name="descripcion"  required>
-								<?php echo $descripcion; ?>
-								</textarea>
+								<textarea class="form-control" rows="10" name="descripcion"  required><?php echo $descripcion; ?></textarea>
 							</div>
         <button class="btn btn-dark-main pull-right" name="update">
           Editar
