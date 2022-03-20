@@ -150,17 +150,17 @@ if (isset($_POST['update'])) {
 								<label for="full-name">Nombre</label>
 								<input type="text" class="form-control" id="full-name" name="nombre" 
 								value="<?php echo $nombre; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Apellido</label>
 								<input type="text" class="form-control" id="full-name" name="apellido" 
 								value="<?php echo $apellido; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">E-mail</label>
-								<input type="text" class="form-control" id="email" name="correo" 
+								<input type="email" class="form-control" id="email" name="correo" 
 								value="<?php echo $correo; ?>"
 								required >
 							</div>
@@ -207,27 +207,27 @@ if (isset($_POST['update'])) {
 								<label for="full-name">Profesión</label>
 								<input type="text" class="form-control" id="full-name" name="profesion" 
 								value="<?php echo $profesion; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Oficio</label>
 								<input type="text" class="form-control" id="full-name" name="oficio" 
 								value="<?php echo $oficio; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							
 							<div class="mg-contact-form-input">
 								<label for="subject">Cantón en que Reside?</label>
 								<input type="text" class="form-control" id="full-name" name="departamento" 
 								value="<?php echo $departamento; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Provincia o Comunidad en que Reside?</label>
 								<input type="text" class="form-control" id="subject" name="provincia" 
 								value="<?php echo $provincia; ?>"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
         <button class="btn btn-dark-main pull-right" name="update">
           Editar

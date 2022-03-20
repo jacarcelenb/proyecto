@@ -33,15 +33,17 @@
 						<form  method="POST"  action="../dbcontroller/crearinscripcion.php" >
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre</label>
-								<input type="text"  class="form-control" id="full-name" name="nombre" required>
+								<input type="text"  class="form-control" id="full-name" name="nombre" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Apellido</label>
-								<input type="text" class="form-control" id="full-name" name="apellido" required>
+								<input type="text" class="form-control" id="full-name" name="apellido" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">E-mail</label>
-								<input type="text" class="form-control" id="email" name="correo" required >
+								<input type="email" class="form-control" id="email" name="correo" required >
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">Quiere ser?</label>
@@ -60,7 +62,8 @@
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Profesión</label>
-								<input type="text" class="form-control" id="full-name" name="profesion" required>
+								<input type="text" class="form-control" id="full-name" name="profesion" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Oficio</label>
@@ -69,12 +72,14 @@
 							
 							<div class="mg-contact-form-input">
 								<label for="subject">Cantón</label>
-								<input type="text" class="form-control" id="full-name" name="departamento" required>
+								<input type="text" class="form-control" id="full-name" name="departamento" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Provincia</label>
-								<input type="text" class="form-control" id="subject" name="provincia" required>
+								<input type="text" class="form-control" id="subject" name="provincia" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<input type="submit" class="btn btn-dark-main pull-right" value="Enviar" name="guardar_inscripcion">
 						</form>

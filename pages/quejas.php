@@ -38,7 +38,7 @@
 							<div class="mg-contact-form-input">
 								<label for="full-name">Nombre completo</label>
 								<input type="text" class="form-control" id="full-name" name="nombrecompleto"
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							
 							
@@ -52,7 +52,7 @@
 							<div class="mg-contact-form-input">
 								<label for="subject">Canton en  el que Reside?</label>
 								<input type="text" class="form-control" id="subject" name="departamento" 
-								required>
+								required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Asunto?</label>

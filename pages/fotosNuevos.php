@@ -108,7 +108,7 @@ include("../dbcontroller/database.php");
 							
 							<div class="form-group">
                                 <label>Titulo</label>
-								<input class="form-control" type="text" name="titulo" required>
+								<input class="form-control" type="text" name="titulo" required >
                                 
                             </div>
 							

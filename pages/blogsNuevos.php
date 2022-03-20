@@ -84,7 +84,7 @@
 	<div class="mg-page">
 			<div class="container">
 				<div class="row">
-                    <div class="col-lg-9">
+                    <div class="col-lg-7">
 						<h2 class="mg-sec-left-title" >Ingrese el nuevo blog</h2>
 						
 						<?php if (isset($_SESSION['message'])) { ?>
@@ -102,16 +102,16 @@
 							
 							<div class="form-group">
                                 <label>Titulo</label>
-								<input class="form-control" type="text" name="titulo" required>
+								<input class="form-control" type="text" name="titulo" required >
                                 
                             </div>
 							<div class="form-group">
                                 <label>Tipo</label>
-								<input class="form-control" type="text" name="tipo" required>
+								<input class="form-control" type="text" name="tipo" required >
                             </div>
 							<div class="form-group">
                                 <label>Autor</label>
-								<input class="form-control" type="text" name="autor" required>
+								<input class="form-control" type="text" name="autor" required >
                             </div>
 							
 							<div class="form-group">

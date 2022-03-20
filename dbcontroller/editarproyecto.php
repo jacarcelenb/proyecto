@@ -138,13 +138,15 @@ if (isset($_POST['update'])) {
 								<label for="full-name">Cantón</label>
 								<input type="text" class="form-control" id="full-name" name="departamento" 
 								value="<?php echo $departamento; ?>"
-								required>
+								required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="full-name">Provincia</label>
 								<input type="text" class="form-control" id="full-name" name="provincia" 
 								value="<?php echo $provincia; ?>"
-								required>
+								required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							<div class="mg-contact-form-input">
 								<label for="email">Tipo de proyecto</label>

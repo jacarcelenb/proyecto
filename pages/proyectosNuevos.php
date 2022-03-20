@@ -45,7 +45,8 @@
 	                         </div>
 							<div class="form-group">
                                 <label>Provincia</label>
-								<input class="form-control" placeholder="Ejemplo: Cercado"  name="provincia" required>
+								<input class="form-control" placeholder="Ejemplo: Cercado"  name="provincia" required
+								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
                                 
                             </div>
 							
