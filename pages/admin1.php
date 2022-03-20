@@ -82,35 +82,10 @@
 		</div>
 		<br>
         <?php
-    include("../dbcontroller/database.php");
 
-	$valor =''; 
-	$ingreso="";
-	$opcion="";
-	$valor= $_SESSION['user'];
-	if (isset($_SESSION['ingreso'])) {
-		$ingreso = $_SESSION['ingreso'];
-	}
+include("../html_components/menuadmin1.php");
 
-	if (isset($_SESSION['tarea'])) {
-		$opcion = $_SESSION['tarea'];
-	}
-	
-
-if ($valor =="admin1" || $ingreso =="admin1"  || $opcion =="admin1") {
-	include("../html_components/menuadmin1.php");
-}if ($valor =="admin2" || $ingreso =="admin2" || $opcion =="admin2") {
-	include("../html_components/menuadmin2.php");
-}if ($valor =="admin3" || $ingreso =="admin3" || $opcion =="admin3") {
-	include("../html_components/menuadmin3.php");
-}
-else{
-if (empty($valor)) {
-	$_SESSION['login'] ='Debe inciar sesion para acceder';
-	header("Location: sesion1.php");
-}
-  }
- ?>
+?>
 	
 <!--Colocar el footer-->
 <br>
