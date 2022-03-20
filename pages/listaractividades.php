@@ -102,10 +102,10 @@ $rows = $conn->query($sql);
       <table class="table table-hover">
         <thead class="thead-dark"> 
           <tr>
-            <th>Titulo</th>
-            <th>Descripcion</th>
-            <th> </th>
-			<th> </th>
+            <th style="background-color:black;color:white">Titulo</th>
+            <th style="background-color:black;color:white">Descripcion</th>
+            <th  style="background-color:black;color:white"> </th>
+			<th  style="background-color:black;color:white"> </th>
           </tr>
         </thead>
         <tbody>

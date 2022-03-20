@@ -96,12 +96,12 @@ $rows = $conn->query($sql);
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Nombres</th>
-            <th>Es miembro</th>
-            <th>Canton</th>
-            <th>Asunto</th>
-            <th>Mensaje</th>
-            <th> </th>
+            <th  style="background-color:black;color:white">Nombres</th>
+            <th  style="background-color:black;color:white">Es miembro</th>
+            <th  style="background-color:black;color:white">Canton</th>
+            <th  style="background-color:black;color:white">Asunto</th>
+            <th style="background-color:black;color:white">Mensaje</th>
+            <th style="background-color:black;color:white"> </th>
           </tr>
         </thead>
         <tbody>

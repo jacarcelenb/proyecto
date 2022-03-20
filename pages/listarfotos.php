@@ -96,14 +96,12 @@ $rows = $conn->query($sql);
 	<a href="../pages/fotosNuevos.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Subir Foto</i>
               </a>
-		<br>
-		<br>
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Titulo</th>
-            <th>Descripcion</th>
-            <th> </th>
+            <th style="background-color:black;color:white">Titulo</th>
+            <th  style="background-color:black;color:white">Descripcion</th>
+            <th  style="background-color:black;color:white"> </th>
           </tr>
         </thead>
         <tbody>

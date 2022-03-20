@@ -92,15 +92,16 @@ $rows = $conn->query($sql);
       
 	<div>
       <table class="table table-hover">
-        <thead> 
+        <thead style="background-color:black"> 
           <tr>
-            <th>Canton</th>
-            <th>Provincia</th>
-            <th>Tipo</th>
-            <th>Titulo</th>
-            <th>Contenido</th>
-			<th>Fecha</th>
-            <th></th>
+            <th style="background-color:black;color:white">Canton</th>
+            <th style="background-color:black;color:white">Provincia</th>
+            <th style="background-color:black;color:white">Tipo</th>
+            <th style="background-color:black;color:white">Titulo</th>
+            <th style="background-color:black;color:white">Contenido</th>
+			<th style="background-color:black;color:white">Fecha</th>
+            <th style="background-color:black;color:white"></th>
+			<th style="background-color:black;color:white"></th>
           </tr>
         </thead>
         <tbody>

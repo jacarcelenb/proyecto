@@ -93,17 +93,18 @@ $rows = $conn->query($sql);
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Correo</th>
-            <th>Miembro</th>
-            <th>Direccion</th>
-            <th>Telefono</th>
-            <th>Profesion</th>
-            <th>Oficio</th>
-            <th>Canton</th>
-            <th>Provincia</th>
-            <th><?php echo $valor; ?></th>
+            <th  style="background-color:black;color:white">Nombre</th>
+            <th  style="background-color:black;color:white">Apellido</th>
+            <th  style="background-color:black;color:white">Correo</th>
+            <th  style="background-color:black;color:white">Miembro</th>
+            <th  style="background-color:black;color:white">Direccion</th>
+            <th  style="background-color:black;color:white">Telefono</th>
+            <th  style="background-color:black;color:white">Profesion</th>
+            <th  style="background-color:black;color:white">Oficio</th>
+            <th  style="background-color:black;color:white">Canton</th>
+            <th  style="background-color:black;color:white">Provincia</th>
+            <th  style="background-color:black;color:white"></th>
+            <th  style="background-color:black;color:white"></th>
           </tr>
         </thead>
         <tbody>

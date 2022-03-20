@@ -96,17 +96,16 @@ $rows = $conn->query($sql);
 	<a href="../pages/blogsNuevos.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Blog</i>
               </a>
-		<br>
-		<br>
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Titulo</th>
-            <th>Descripcion</th>
-            <th>Tipo de Blog</th>
-			<th>Autor</th>
-			<th>Enlace</th>
-			<th> </th>
+            <th  style="background-color:black;color:white">Titulo</th>
+            <th style="background-color:black;color:white">Descripcion</th>
+            <th  style="background-color:black;color:white">Tipo de Blog</th>
+			<th  style="background-color:black;color:white">Autor</th>
+			<th  style="background-color:black;color:white">Enlace</th>
+			<th style="background-color:black;color:white"> </th>
+			<th style="background-color:black;color:white"> </th>
           </tr>
         </thead>
         <tbody>

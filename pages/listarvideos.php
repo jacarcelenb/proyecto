@@ -3,7 +3,7 @@ $page = (isset($_GET['page']) ? $_GET['page'] : 1);
 $perPage = (isset($_GET['per-page']) && ($_GET['per-page']) <= 50 ? $_GET['per-page'] : 5);
 $start = ($page > 1) ? ($page * $perPage) - $perPage : 0;
 
-$sql = "select * from foto video ".$start." , ".$perPage." ";
+$sql = "select * from video limit ".$start." , ".$perPage." ";
 $total = $conn->query("select * from video")->num_rows;
 $pages = ceil($total / $perPage);
 $rows = $conn->query($sql);
@@ -94,14 +94,13 @@ $rows = $conn->query($sql);
 	<a href="../pages/videosNuevos.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Subir Video</i>
               </a>
-		<br>
-		<br>
+
       <table class="table table-hover">
         <thead> 
           <tr>
-            <th>Titulo</th>
-            <th>Descripcion</th>
-            <th> </th>
+            <th  style="background-color:black;color:white">Titulo</th>
+            <th  style="background-color:black;color:white">Descripcion</th>
+            <th  style="background-color:black;color:white"> </th>
           </tr>
         </thead>
         <tbody>
