@@ -23,9 +23,8 @@
           while($row = mysqli_fetch_assoc($result_proyectos)) { ?>
          	
 			 <div class="col-md-4">  
-			 <video width="320" height="240" controls>
-  <source src="<?php echo $row['enlace'];?>">
-  </video>
+			 <iframe src="<?php echo $row['enlace']; ?>" width="320" height="240">
+					</iframe>
 			 
 						<h5 class="mg-post-title" align="center"><?php echo $row['titulo']; ?></h5>
 					</div>

@@ -43,7 +43,7 @@
 					</div>
 					</div>
 					<div class="col-md-4">  
-					<center><img src="../images/videos-enlace.jpg" alt="" class="img-responsive">
+					<center><img src="../images/video-enlace.jpg" alt="" class="img-responsive">
 					<a href="listarvideosenlace.php" class="btn btn-success">Videos-Enlace</a>
 				</center>
 					</div>
