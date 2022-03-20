@@ -41,6 +41,12 @@
 					<a href="listarfotos.php" class="btn btn-success">Fotos</a>
 				</center>
 					</div>
+					</div>
+					<div class="col-md-4">  
+					<center><img src="../images/videos-enlace.jpg" alt="" class="img-responsive">
+					<a href="listarvideosenlace.php" class="btn btn-success">Videos-Enlace</a>
+				</center>
+					</div>
 					<div class="col-md-4">  
 					<center><img src="../images/actividades.png" alt="" class="img-responsive">
 					<a href="listaractividades.php"class="btn btn-success">Actividades</a>

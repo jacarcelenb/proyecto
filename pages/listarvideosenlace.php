@@ -93,7 +93,7 @@ $rows = $conn->query($sql);
 	<div>
 	<br>
 	
-	<a href="../pages/blogsNuevos.php" class="btn btn-success">
+	<a href="../pages/videoenlace.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Video</i>
               </a>
 		<br>
