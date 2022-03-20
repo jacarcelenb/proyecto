@@ -533,9 +533,9 @@ ul.styled-list.list-star li:before {
   border-color: #CADA2A;
 }
 .btn-main:hover {
-  background-color: whitesmoke;
+  background-color: rgb(15, 80, 24);
   border-color: darkgreen;
-  color: darkgreen;
+  color: #CADA2A;
 }
 .btn-dark-main {
   color: #FFF;

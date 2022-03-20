@@ -440,7 +440,7 @@
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Ecuador</span> </h2>
 														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA LIFE IMBABURA RENACIENTE mantiene reuniones públicas, a las cuales esta cordialmente invitado. </p>
 														
-														<p style="color:white">Fechas de asambleas:</p>
+														<p style="color:#CADA2A">Fechas de asambleas:</p>
 														<p style="color:white">
 														-Sábado 22 de enero de 2022, ya realizada.
 														<br>
@@ -448,10 +448,10 @@
 														<br>
 														-Sábado 19 de febrero, ya realizada.
 														<br>
-														-Sábado 19 de marzo del 2022.
+														-Sábado 19 de marzo del 2022 , ya realizada.
 			
 													</p>
-														<p style="color:white">Horario de eventos o reuniones: primer sábado de cada mes </p>
+														<p style="color:#CADA2A">Horario de eventos o reuniones: primer sábado de cada mes </p>
 														
 														<p style="color:white">Reunión por Zoom ID de reunión:</p>
 													
