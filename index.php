@@ -440,7 +440,7 @@
 														<h2 class="mg-bn-title">Asambleas <span class="mg-bn-big">Reuniones de Asambleas de Ecuador</span> </h2>
 														<p style="color:white"> <strong>ASAMBLEA IMBABURA RENACIENTE, </strong> ASAMBLEA LIFE IMBABURA RENACIENTE mantiene reuniones públicas, a las cuales esta cordialmente invitado. </p>
 														
-														<p style="color:#CADA2A">Fechas de asambleas:</p>
+														<p style="color:#CADA2A;font-weight: bold">Fechas de asambleas:</p>
 														<p style="color:white">
 														-Sábado 22 de enero de 2022, ya realizada.
 														<br>
@@ -451,7 +451,7 @@
 														-Sábado 19 de marzo del 2022 , ya realizada.
 			
 													</p>
-														<p style="color:#CADA2A">Horario de eventos o reuniones: primer sábado de cada mes </p>
+														<p style="color:#CADA2A;font-weight: bold">Horario de eventos o reuniones: primer sábado de cada mes </p>
 														
 														<p style="color:white">Reunión por Zoom ID de reunión:</p>
 													
@@ -493,7 +493,7 @@
 
 									
 									<div class="mg-available-rooms">
-										<h2 class="mg-sec-left-title">Nuestros Proyectos</h2>
+										<h2 class="mg-sec-left-title">NUESTROS PROYECTOS</h2>
 										<div class="mg-avl-rooms">
 										 
 										<?php
@@ -653,7 +653,7 @@
 								<h2 class="mg-widget-title">Contactenos</h2>
 								<p>
 									<strong><i class="fa fa-home"></i> Dirección:</strong> Av. Jaime Roldos y Sánchez y Cifuentes<BR>
-									<strong><i class="fa fa-phone"></i> Telefono:</strong> 062558009<BR>
+									<strong><i class="fa fa-phone"></i> Teléfono:</strong> 062558009<BR>
 									<strong><i class="fa fa-mobile-phone"></i> Celular:</strong> 0997693293 - 0986176366<BR>
 									Ibarra -Ecuador 
 								</p>

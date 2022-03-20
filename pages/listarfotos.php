@@ -59,7 +59,7 @@ $rows = $conn->query($sql);
 	
 						</li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							

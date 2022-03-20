@@ -92,11 +92,11 @@ if (isset($_POST['update'])) {
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-                        <li ><a href="../pages/admin1.php">Menu</a>
+                        <li ><a href="../pages/admin1.php">Menú</a>
                     
                         </li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							
@@ -131,7 +131,7 @@ if (isset($_POST['update'])) {
 								required>
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="full-name">Descripcion</label>
+								<label for="full-name">Descripción</label>
 								<textarea class="form-control" rows="10" name="descripcion"  required>
 								<?php echo $descripcion; ?>
 								</textarea>

@@ -53,15 +53,15 @@ include('../html_components/header.php');
 					
 					</div>
                     <div class="col-md-7">
-						<h2 class="mg-sec-left-title">Telefonos y Direcciones</h2>
-						<p>Puede comunicarse en las siguientes Telefonos y Celulares.</p>
+						<h2 class="mg-sec-left-title">Teléfonos y Direcciones</h2>
+						<p>Puede comunicarse en las siguientes Teléfonos y Celulares.</p>
 						
 					</div>
                     
 					<div class="col-md-6"> 
 							<p>
 									<strong><i class="fa fa-home"></i> Dirección:</strong> Av. Jaime Roldos y Sánchez y Cifuentes<BR>
-									<strong><i class="fa fa-phone"></i> Telefono:</strong> 062558009<BR>
+									<strong><i class="fa fa-phone"></i>Teléfono:</strong> 062558009<BR>
 									<strong><i class="fa fa-mobile-phone"></i> Celular:</strong> 0997693293 - 0986176366<BR>
 									<strong><i class="fa fa-whatsapp"></i> WhatsApp:</strong> 0997693293 - 0986176366<BR><BR>
 									Ibarra - Ecuador

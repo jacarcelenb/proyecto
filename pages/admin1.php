@@ -54,7 +54,7 @@
 						<ul class="nav navbar-nav navbar-right">
 
                        
-					   <li ><a href="../pages/salir.php">Cerrar Sesion</a>
+					   <li ><a href="../pages/salir.php">Cerrar Sesión</a>
 					  
 					
                       

@@ -57,11 +57,11 @@ $rows = $conn->query($sql);
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-						<li ><a href="admin1.php">Menu</a>
+						<li ><a href="admin1.php">Menú</a>
 	
 						</li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							
@@ -98,7 +98,7 @@ $rows = $conn->query($sql);
           <tr>
             <th  style="background-color:black;color:white">Nombres</th>
             <th  style="background-color:black;color:white">Es miembro</th>
-            <th  style="background-color:black;color:white">Canton</th>
+            <th  style="background-color:black;color:white">Cantón</th>
             <th  style="background-color:black;color:white">Asunto</th>
             <th style="background-color:black;color:white">Mensaje</th>
             <th style="background-color:black;color:white"> </th>

@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Formato de proyectos</h2>
+						<h2>Formulario para proyectos</h2>
 						<p></p>
 					</div>
 				</div>

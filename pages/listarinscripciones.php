@@ -58,7 +58,7 @@ $rows = $conn->query($sql);
 	
 						</li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							
@@ -101,7 +101,7 @@ $rows = $conn->query($sql);
             <th  style="background-color:black;color:white">Telefono</th>
             <th  style="background-color:black;color:white">Profesion</th>
             <th  style="background-color:black;color:white">Oficio</th>
-            <th  style="background-color:black;color:white">Canton</th>
+            <th  style="background-color:black;color:white">Cantón</th>
             <th  style="background-color:black;color:white">Provincia</th>
             <th  style="background-color:black;color:white"></th>
             <th  style="background-color:black;color:white"></th>

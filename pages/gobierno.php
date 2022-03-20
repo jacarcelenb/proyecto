@@ -25,13 +25,13 @@
 											<div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-3">
-														<a href="https://repositorio.cepal.org/bitstream/handle/11362/36629/1/S2014195_es.pdf"><img src="images/pdf.png" alt="" class="img-responsive"></a>
+														<a href="#"><img src="images/pdf.png" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#">Estado Plurinacional de Ecuador</a></h3>
 														<p>Estado Plurinacional de Ecuador: acerca de las transformaciones del Estado y la gestión del desarrollo ...</p>
 														
-														<a href="https://repositorio.cepal.org/bitstream/handle/11362/36629/1/S2014195_es.pdf" class="btn btn-main">Bajar información</a>
+														<a href="#" class="btn btn-main">Bajar información</a>
 														
 													</div>
 												</div>
@@ -39,13 +39,13 @@
 											<div class="mg-avl-room">
 												<div class="row">
 													<div class="col-sm-3">
-														<a href="http://biblioteca.clacso.edu.ar/clacso/coediciones/20130214112018/ElnacimientodelEstadoPlurinacional.pdf"><img src="images/pdf.png" alt="" class="img-responsive"></a>
+														<a href="#"><img src="images/pdf.png" alt="" class="img-responsive"></a>
 													</div>
 													<div class="col-sm-7">
 														<h3 class="mg-avl-room-title"><a href="#">Estado Plurinacional de Ecuador</a></h3>
 														<p>Estado Plurinacional de Ecuador: acerca de las transformaciones del Estado y la gestión del desarrollo ...</p>
 														
-														<a href="http://biblioteca.clacso.edu.ar/clacso/coediciones/20130214112018/ElnacimientodelEstadoPlurinacional.pdf" class="btn btn-main">Bajar información</a>
+														<a href="#" class="btn btn-main">Bajar información</a>
 														
 													</div>
 												</div>

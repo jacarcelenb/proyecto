@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Inscripcion</h2>
+						<h2>Inscripción</h2>
 						<p></p>
 					</div>
 				</div>
@@ -18,7 +18,7 @@
 						
 					<div class="col-md-2"></div>
 					<div class="col-md-7">
-						<h2 class="mg-sec-left-title" >Formulario de inscripcion</h2>
+						<h2 class="mg-sec-left-title" >Formulario de inscripción</h2>
 
 						
 						<?php if (isset($_SESSION['message'])) { ?>
@@ -57,7 +57,7 @@
 								<input type="text" class="form-control" id="full-name" name="direccion" required>
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="full-name">Numero de Celular</label>
+								<label for="full-name">Número de Celular</label>
 								<input type="text" class="form-control" id="full-name" name="telefono" required>
 							</div>
 							<div class="mg-contact-form-input">

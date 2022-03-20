@@ -39,7 +39,7 @@ if (isset($_POST['login'])) {
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Incio de sesion</title>
+    <title>Incio de  Sesión</title>
     <link rel="stylesheet" href="../css/estiloslogin.css">
   </head>
   <body>

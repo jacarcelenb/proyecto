@@ -19,17 +19,17 @@
 							<article class="mg-post">
 								<header>
 									<a href="#"><img src="images/mision.jpg" alt="" class="img-responsive"></a>
-									<h2 class="mg-post-title">MISION/VISION</h2>
+									<h2 class="mg-post-title">Misión / Visión</h2>
 									
 								</header>
 								<div>
-									<p><strong>MISION</strong> 
+									<p><strong>Misión</strong> 
 									ASAMBLEA IMBABURA RENACIENTE, tiene como misión ejecutar todas las actividades que contribuyan al logro de los objetivos; participar en la construcción y en el desarrollo de programas y proyectos en el ámbito de nuestra competencia, velar porque dichos objetivos estén concorde a la visión y se pongan en práctica para el libre ejercicio de los derechos de los seres vivos.
 </p>
 						
 						<p></p>
 						
-						<p><strong>VISION</strong> 
+						<p><strong>Visión</strong> 
 						Buscamos el bien común de los seres humanos de manera global, desarrollando iniciativas y proyectos que busquen el desarrollo integral de los ciudadanos buscando la inclusión de las personas más vulnerables en procesos económicos y sociales que mejoren no sólo su calidad de vida, sino sobre todo la valoración de la dignidad como seres humanos, encaminados a conseguir el desarrollo humano y la integridad social, en especial de los sectores más vulnerables y excluidos de los procesos económicos y sociales, respetando el medio ambiente y a todo ser vivo.
 </p>
 						

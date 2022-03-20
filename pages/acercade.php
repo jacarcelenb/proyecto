@@ -25,7 +25,7 @@
 								<div>
 									<p><strong>LIFE FORCE</strong> 
 <strong>LIFE FORCE</strong> es una organización que tiene como misión <strong>LA RESTAURACION DE NUESTRO PLANETA, DEVOLVIENDO A LOS SERES HUMANOS EL DERECHO A UNA VIDA DIGNA Y PLENA</strong>, erradicando el hambre, la esclavitud en todas sus formas, el abuso de poder, y cualquier forma de daño o degradación. <strong>FOMENTANDO LA UNIDAD PARA </strong> vivir en armonía y ASI erradicar las diferencias sociales, o cualquier otro comportamiento que haya sido creado para dividir y enfrentar a los seres humanos.<br><br>
-<strong>TODO GRAN CAMBIO COLECTIVO INICIA CON UN CAMBIO INDIVIDUAL, CULTIVANDO  LA CONECCION CON EL ESPIRITU DIVINO QUE SOMOS Y DE ESA MANERA LOGRAR LA ELEVACION DE LA CONCIENCIA Y DE NUESTRA ENERGIA.</strong><br><br>
+<strong>TODO GRAN CAMBIO COLECTIVO INICIA CON UN CAMBIO INDIVIDUAL, CULTIVANDO  LA CONEXIÓN CON EL ESPIRITU DIVINO QUE SOMOS Y DE ESA MANERA LOGRAR LA ELEVACION DE LA CONCIENCIA Y DE NUESTRA ENERGIA.</strong><br><br>
 <strong>EN EL ORDEN DE LA MATERIA</strong>, se distribuirán las riquezas que durante muchos siglos estuvieron administradas y acaparadas por un grupo REDUCIDO de personas, las CUALES IMPIDIERON LA DISTRIBUCION igualitaria de esa riqueza, manteniéndonos en condiciones que en muchos lugares era infrahumana.
 </p>
 					

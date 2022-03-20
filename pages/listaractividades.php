@@ -61,7 +61,7 @@ $rows = $conn->query($sql);
 	
 						</li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							
@@ -103,7 +103,7 @@ $rows = $conn->query($sql);
         <thead class="thead-dark"> 
           <tr>
             <th style="background-color:black;color:white">Titulo</th>
-            <th style="background-color:black;color:white">Descripcion</th>
+            <th style="background-color:black;color:white">Descripción</th>
             <th  style="background-color:black;color:white"> </th>
 			<th  style="background-color:black;color:white"> </th>
           </tr>

@@ -54,11 +54,11 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 
-                        <li ><a href="../pages/admin1.php">Menu</a>
+                        <li ><a href="../pages/admin1.php">Menú</a>
                     
                         </li> 
 
-                        <li ><a href="salir.php">Cerrar Sesion</a>
+                        <li ><a href="salir.php">Cerrar Sesión</a>
                     
                         </li> 
 							
@@ -115,7 +115,7 @@
                             </div>
 							
 							<div class="form-group">
-                                <label>Descripcion</label>
+                                <label>Descripción</label>
 								<input class="form-control" type="text" name="descripcion" required>
                                 <!---<p class="help-block">Example block-level help text here.</p>-->
                             </div>

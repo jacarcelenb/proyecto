@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Galeria de Fotos - Galeria</h2>
+						<h2>Galería  de Fotos - Galería</h2>
 						<p></p>
 					</div>
 				</div>
