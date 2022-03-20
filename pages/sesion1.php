@@ -34,28 +34,18 @@ if (isset($_POST['login'])) {
 
 }
 
-?>
-<?php include('../html_components/header.php'); ?>
-
-		<div class="mg-page-title parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Iniciar Sesion</h2>
-						<p></p>
-					</div>
-				</div>
-			</div>
-		</div>
-<!--    INICIO CONTENIDO     -->		<div class="mg-page">
-			<div class="container">
-				<div class="row">		
-					<div class="col-md-2"></div>
-					<div class="col-md-7">
-						<h2 class="mg-sec-left-title" >Iniciar Sesion</h2>
-						<br>
-		
-			<?php if ($loginfallido==true) {
+?>		 
+	  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Incio de sesion</title>
+    <link rel="stylesheet" href="../css/estiloslogin.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Incio de Sesión</h1>
+	  <?php if ($loginfallido==true) {
 				include('../html_components/loginfallido.php');
 			 } ?>
 
@@ -68,28 +58,24 @@ if (isset($_POST['login'])) {
       </div>
       <?php session_unset(); } ?>
 
-			 
-			 
-						<form  method="POST"  action="../pages/sesion1.php" >
-							<div class="mg-contact-form-input">
-								<label for="full-name">Usuario</label>
-								<input type="text" class="form-control" id="full-name" name="usuario" required>
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="full-name">Contraseña</label>
-								<input type="password" class="form-control" id="full-name" name="contraseña" required >
-							</div>
-							
-							<input type="submit" class="btn btn-dark-main pull-right" value="Iniciar Sesion" name="login">
-						</form>
-					</div>
-                    
-				</div>
-			
-			</div>
-			
-			
-		</div>
-<BR><BR>        
-<!--    FIN CONTENIDO     -->
-<?php include('../html_components/footer.php'); ?>
+      <form  method="POST"  action="../pages/sesion1.php">
+        <div class="txt_field">
+          <input type="text" id="full-name" name="usuario" required>
+          <span></span>
+          <label>Usuario</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="full-name" name="contraseña" required>
+          <span></span>
+          <label>Contraseña</label>
+        </div>
+        <input type="submit"  value="Iniciar Sesion" name="login">
+        <div class="signup_link">
+       <a href="../index.php">Ir al Inicio</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
+
