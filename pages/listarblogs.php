@@ -96,6 +96,8 @@ $rows = $conn->query($sql);
 	<a href="../pages/blogsNuevos.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Blog</i>
               </a>
+		<br>
+		<br>
       <table class="table table-hover">
         <thead> 
           <tr>

@@ -78,12 +78,12 @@ $titulo_detalle = $titulo." EN DISTRITO ".$provincia;
 				</div>
 				
 				<div class="row">
-							<h2 class="mg-sec-left-title">Galería  de Fotos</h2>
+							<h2 class="mg-sec-left-title"> Galeria de Fotos</h2>
 							<figure class="col-md-4 mg-gallery-item" data-groups='["classic"]'>
-								<a href="#" data-lightbox-gallery="rooms"> <img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>" class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+								<a href="#" data-lightbox-gallery="rooms"> <img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>" class="img-responsive" alt="" width="250" height="250" /></a>
 							</figure>
 							<figure class="col-md-4 mg-gallery-item" data-groups='["classic"]'>
-								<a href="#" data-lightbox-gallery="rooms"><img src="data:<?php echo $tipofoto2; ?>;base64,<?php echo  base64_encode($rutafoto2); ?>"class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+								<a href="#" data-lightbox-gallery="rooms"><img src="data:<?php echo $tipofoto2; ?>;base64,<?php echo  base64_encode($rutafoto2); ?>"class="img-responsive" alt="" width="250" height="250" /></a>
 							</figure>
 							
 						</div>

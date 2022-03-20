@@ -96,6 +96,8 @@ $rows = $conn->query($sql);
 	<a href="../pages/fotosNuevos.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Subir Foto</i>
               </a>
+	 <br>
+	 <br>
       <table class="table table-hover">
         <thead> 
           <tr>

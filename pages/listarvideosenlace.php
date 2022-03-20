@@ -96,6 +96,8 @@ $rows = $conn->query($sql);
 	<a href="../pages/videoenlace.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Video</i>
               </a>
+		<br>
+		<br>
       <table class="table table-hover">
         <thead> 
           <tr>

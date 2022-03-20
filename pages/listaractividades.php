@@ -98,7 +98,8 @@ $rows = $conn->query($sql);
 	<a href="../pages/actividadesNuevas.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Actividad</i>
               </a>
-
+        <br>
+		<br>
       <table class="table table-hover">
         <thead class="thead-dark"> 
           <tr>

@@ -57,7 +57,7 @@ $detalle = "Detalles de la actividad ".$titulo;
 				<div class="row">
 							<h2 class="mg-sec-left-title">Galería  de Fotos</h2>
 							<figure class="col-md-4 mg-gallery-item" data-groups='["classic"]'>
-								<a href="#" data-lightbox-gallery="rooms"> <img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>" class="img-responsive" alt="" width="250" height="250" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+								<a href="#" data-lightbox-gallery="rooms"> <img src="data:<?php echo $tipofoto1; ?>;base64,<?php echo  base64_encode($rutafoto1); ?>" class="img-responsive" alt="" width="250" height="250" /></a>
 							</figure>
 							
 						</div>

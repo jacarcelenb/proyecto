@@ -95,6 +95,7 @@ $rows = $conn->query($sql);
 	<a href="../pages/noticiasNuevas.php" class="btn btn-success">
                 <i class="fa fa-trash-alt">Insertar Noticia</i>
               </a>
+	<br>
       <table class="table table-hover">
         <thead> 
           <tr>

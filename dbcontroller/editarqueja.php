@@ -29,6 +29,7 @@ if (isset($_POST['update'])) {
   $asunto = $_POST['asunto'];
   $mensaje = $_POST['mensaje'];
 
+  
   if ($miembro=="SI") {
 	$miembro = 1;
   } else {
@@ -36,15 +37,17 @@ if (isset($_POST['update'])) {
 	
   }
 
-  $query = "UPDATE queja set nombres = '$nombre', esmiembro = '$miembro' ,
+  $query = "UPDATE queja set nombres = '$nombre',
   departamento = '$departamento' , asunto='$asunto' ,mensaje ='$mensaje' WHERE id=$id";
   mysqli_query($conn, $query);
 
   
   $_SESSION['message'] = 'Queja actualizada exitosamente';
   $_SESSION['message_type'] = 'warning';
-
+  
   header('Location: ../pages/listarquejas.php');
+
+ 
 }
 
 ?>
@@ -143,35 +146,6 @@ if (isset($_POST['update'])) {
 								pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,100}">
 							</div>
 							
-							
-							<div class="mg-contact-form-input">
-								<label for="subject">Es miembro?</label>
-								<select  class="form-control"  name="miembro" 
-                                required>
-					                <option value="<?php
-								if ($miembro==true) {
-									echo true;
-								} else {
-									echo $miembro;
-								} ?>"><?php
-								if ($miembro==true) {
-									echo "SI";
-								} else {
-									echo "NO";
-								} ?></option>
-									<option value="<?php
-								if ($miembro==true) {
-									echo false;
-								} else {
-									echo $miembro;
-								} ?>"><?php
-								if ($miembro==true) {
-									echo "NO";
-								} else {
-									echo "SI";
-								} ?></option>
-    					        </select>
-							</div>
 							<div class="mg-contact-form-input">
 								<label for="subject">Cantón en el que Reside?</label>
 								<input type="text" class="form-control" id="subject" name="departamento"
