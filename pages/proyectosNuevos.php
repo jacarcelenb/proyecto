@@ -36,7 +36,6 @@
 								<SELECT name="departamento" required>
 	      							<OPTION SELECTED VALUE="Cotacachi">Cotacachi
 	        						<OPTION VALUE="Otavalo">Otavalo
-	          						<OPTION VALUE="Santa Cruz">Santa Cruz
 									<OPTION VALUE="Pimampiro">Pimampiro
 									<OPTION VALUE="Antonio Ante">Antonio Ante
 									<OPTION VALUE="Ibarra">Ibarra 
