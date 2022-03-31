@@ -15,7 +15,7 @@
 				<div class="row">
 					
 					<div class="col-md-12">
-						<iframe src="../recursos/declaracion.pdf" marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="0" 
+						<iframe src="../recursos/declaracion.pdf" title="declaracion" marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="0" 
 frameborder="0" width="900" height="900">
 						</iframe> 
 					</div>

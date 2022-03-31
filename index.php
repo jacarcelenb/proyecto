@@ -679,6 +679,8 @@
 								<ul class="mg-footer-social">
 									<li><a href="https://www.facebook.com/A-Life-Imbabura-Renaciente-102675249036356/?notif_id=1646186639351565&notif_t=page_invite_accept&ref=notif"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="https://instagram.com/a.lifeimbaburarenaciente?utm_medium=copy_link "><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://mobile.twitter.com/CarlaBriseo4"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/life-administrativo-imbabura-renaciente-59b441233"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</div>
 						</div>
